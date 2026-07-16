@@ -251,6 +251,30 @@ export default function AdminProductsPage() {
     setExpandedSeries(prev => ({ ...prev, [seriesName]: !prev[seriesName] }));
   }
 
+  function downloadNoteText(e: React.MouseEvent, seriesName: string, seriesProducts: Product[]) {
+    e.stopPropagation(); // アコーディオンの開閉を防ぐ
+    
+    const textContent = seriesProducts.map(p => {
+      const name = p.nameJa || p.name;
+      const imageUrl = p.image || '';
+      const suzuriUrl = p.suzuriUrl || '';
+      const price = p.price || 0;
+      const altText = p.imageAlt || p.name;
+      
+      return `${name}\n${imageUrl}\n${suzuriUrl}\n${price}\n${altText}`;
+    }).join('\n\n');
+
+    const blob = new Blob([textContent], { type: 'text/plain;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `${seriesName}.txt`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+
   return (
     <div className={styles.page}>
       <div className={styles.pageHeader}>
@@ -275,13 +299,22 @@ export default function AdminProductsPage() {
         ) : (
           Object.entries(groupedProducts).map(([seriesName, seriesProducts]) => (
             <div key={seriesName} className={styles.seriesGroup}>
-              <button 
-                className={styles.seriesHeader} 
-                onClick={() => toggleSeries(seriesName)}
-              >
-                <h2 className={styles.seriesTitle}>{seriesName} <span className={styles.seriesCount}>({seriesProducts.length})</span></h2>
-                <span className={styles.seriesIcon}>{expandedSeries[seriesName] ? '▼' : '▶'}</span>
-              </button>
+              <div className={styles.seriesHeaderWrapper}>
+                <button 
+                  className={styles.seriesHeader} 
+                  onClick={() => toggleSeries(seriesName)}
+                >
+                  <h2 className={styles.seriesTitle}>{seriesName} <span className={styles.seriesCount}>({seriesProducts.length})</span></h2>
+                  <span className={styles.seriesIcon}>{expandedSeries[seriesName] ? '▼' : '▶'}</span>
+                </button>
+                <button 
+                  className={styles.downloadTxtBtn}
+                  onClick={(e) => downloadNoteText(e, seriesName, seriesProducts)}
+                  title="note用のテキスト(.txt)をダウンロード"
+                >
+                  📄 note用txt
+                </button>
+              </div>
               
               {expandedSeries[seriesName] && (
                 <div className={styles.seriesContent}>
