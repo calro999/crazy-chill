@@ -62,7 +62,6 @@ export default function AdminProductsPage() {
   const [saving, setSaving] = useState(false);
   const [message, setMessage] = useState('');
   const [uploading, setUploading] = useState(false);
-  const [insights, setInsights] = useState<Record<string, number>>({});
   const [expandedSeries, setExpandedSeries] = useState<Record<string, boolean>>({});
   const fileInputRef = useRef<HTMLInputElement>(null);
 
@@ -76,11 +75,6 @@ export default function AdminProductsPage() {
       if (res.ok) {
         const data = await res.json();
         setProducts(data.products || []);
-      }
-      const insRes = await fetch('/api/admin/insights');
-      if (insRes.ok) {
-        const insData = await insRes.json();
-        setInsights(insData.clicks || {});
       }
     } catch (e) {
       console.error(e);
@@ -305,9 +299,6 @@ export default function AdminProductsPage() {
                         <div className={styles.rowMeta}>
                           <span className={styles.rowCategory}>{product.category}</span>
                           <span className={styles.rowPrice}>¥{product.price.toLocaleString()}</span>
-                          <span className={styles.rowInsights}>
-                            SUZURI遷移: {insights[product.id] || 0}回
-                          </span>
                           <span className={`${styles.rowStatus} ${product.published ? styles.published : styles.draft}`}>
                             {product.published ? '公開中' : '下書き'}
                           </span>

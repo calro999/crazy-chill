@@ -6,6 +6,28 @@ import { updateGitHubFile } from '@/lib/github';
 const DATA_FILE = path.join(process.cwd(), 'data', 'products.json');
 
 async function readProducts() {
+  if (process.env.GITHUB_TOKEN) {
+    const token = process.env.GITHUB_TOKEN;
+    const owner = process.env.GITHUB_OWNER;
+    const repo = process.env.GITHUB_REPO;
+    const branch = process.env.GITHUB_BRANCH || 'main';
+    const url = `https://api.github.com/repos/${owner}/${repo}/contents/data/products.json?ref=${branch}`;
+    
+    const res = await fetch(url, {
+      headers: {
+        Authorization: `Bearer ${token}`,
+        Accept: 'application/vnd.github.v3+json',
+      },
+      cache: 'no-store'
+    });
+    
+    if (res.ok) {
+      const data = await res.json();
+      const content = Buffer.from(data.content, 'base64').toString('utf-8');
+      return JSON.parse(content);
+    }
+  }
+
   const raw = await readFile(DATA_FILE, 'utf-8');
   return JSON.parse(raw);
 }

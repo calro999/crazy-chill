@@ -10,14 +10,6 @@ interface SuzuriButtonProps {
 }
 
 export default function SuzuriButton({ productId, suzuriUrl, className, children }: SuzuriButtonProps) {
-  const handleClick = () => {
-    fetch('/api/insights/click', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ productId }),
-    }).catch(err => console.error('Click tracking failed', err));
-  };
-
   return (
     <a
       href={suzuriUrl}
@@ -25,7 +17,6 @@ export default function SuzuriButton({ productId, suzuriUrl, className, children
       rel="noopener noreferrer"
       className={className}
       id={`product-detail-suzuri-${productId}`}
-      onClick={handleClick}
     >
       {children}
     </a>
