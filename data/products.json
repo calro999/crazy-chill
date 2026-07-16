@@ -549,6 +549,37 @@
       "published": true,
       "createdAt": "2026-07-16",
       "sortOrder": 19
+    },
+    {
+      "id": "the-monochrome-bloom-sandals-mrno3r6x",
+      "name": "THE MONOCHROME BLOOM // SANDALS",
+      "nameJa": "THE MONOCHROME BLOOM // サンダル",
+      "category": "misc",
+      "series": "HANA",
+      "tags": [
+        "CRAZYCHILL",
+        "クレチル",
+        "モノクロ",
+        "薔薇",
+        "フラワーTシャツ",
+        "ストリートファッション",
+        "メンヘラ",
+        "地雷系",
+        "アングラ",
+        "サンダル"
+      ],
+      "price": 3720,
+      "currency": "JPY",
+      "image": "https://lens.suzuri.jp/v3/500x500/sandal/m/black/front/20405836/1784128363-2000x2000.jpg.1.299+0.0+0.0.webp?h=e6b50d0c9b37186930b3c77f5b33161141598093&printed=false&rightFoot=20405836%2F1784128363-2000x2000.jpg.1.299%2B0.0%2B0.0&leftFoot=20405836%2F1784128363-2000x2000.jpg.1.299%2B0.0%2B0.0",
+      "imageAlt": "バラをモチーフにしたサンダルです。",
+      "suzuriUrl": "https://suzuri.jp/CRAZYCHILL/20405836/sandal/m/black",
+      "description": "光と影が交差する、静かなる衝動。\n鮮やかな色を削ぎ落とし、圧倒的なコントラストでその存在感を主張するモノクロの花。暗闇を切り裂くようなソリッドな視覚的熱量と、ただ静かにそこに咲き誇る圧倒的な脱力感（CHILL）をグラフィックに落とし込みました。\nモノトーンの気高さをストリートに纏わせる、「CRAZY CHILL」がお届けするニュースタンダードなアパレルです。\n#CRAZYCHILL #クレチル #モノクロ #薔薇 #フラワーTシャツ #ストリートファッション #メンヘラ #地雷系 #アングラ #サンダル",
+      "descriptionEn": "A quiet impulse where light and shadow intersect.\nA monochrome flower that strips away vibrant colors and asserts its presence with overwhelming contrast.The solid visual heat that rips through the darkness and the overwhelming feeling of weakness (chill) that just quietly blooms there are dropped into the graphic.\nA new standard of apparel delivered by \"crazy chill\" that brings the nobility of monotone to the street.\n# CRAZYCHILL # Kretchil # Monochrome # Rose # Flower T-shirt # Street Fashion # Menhera # Mine # Angra # Sandals",
+      "featured": false,
+      "isNew": false,
+      "published": true,
+      "createdAt": "2026-07-16",
+      "sortOrder": 20
     }
   ]
 }
