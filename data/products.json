@@ -309,6 +309,36 @@
       "published": true,
       "createdAt": "2026-07-16",
       "sortOrder": 11
+    },
+    {
+      "id": "the-noise-petal-sticker-mrnn0kyr",
+      "name": "THE NOISE PETAL // sticker",
+      "nameJa": "THE NOISE PETAL // ステッカー",
+      "category": "t-shirts",
+      "series": "HANA",
+      "tags": [
+        "CRAZYCHILL",
+        "クレチル",
+        "モノクロ",
+        "薔薇",
+        "フラワーTシャツ",
+        "ストリートファッション",
+        "メンヘラ",
+        "地雷系",
+        "アングラ"
+      ],
+      "price": 842,
+      "currency": "JPY",
+      "image": "https://lens.suzuri.jp/v3/500x500/sticker/m/white/20407085/1784164545-2000x2000.jpg.webp?h=5d6a407cae5cc87c06fbb94ab4afe5d2272040ec&printed=true",
+      "imageAlt": "バラをモチーフにしたステッカー",
+      "suzuriUrl": "https://suzuri.jp/CRAZYCHILL/20407085/sticker/m/white",
+      "description": "歪んだ美学、モノクロームのノイズ。\n美しさの中にどこかざらついた質感を宿し、ストリートの日常に静かに佇む一輪の花。退廃的でありながら強烈な印象を残すオルタナティブな熱量と、すべてを無に帰すような冷ややかな脱力感（CHILL）をグラフィックに落とし込みました。\n日常のコーディネートに深い陰影とニュアンスを与える、「CRAZY CHILL」がお届けするニュースタンダードなアパレルです。\n\n#CRAZYCHILL #クレチル #モノクロ #薔薇 #フラワーTシャツ #ストリートファッション #メンヘラ #地雷系 #アングラ",
+      "descriptionEn": "Distorted aesthetics, monochrome noise.\nA flower stands quietly in the daily life of the street, with some rough texture in the beauty.We took the decadent yet intense alternative heat and the cold weakness (chill) that brings it all to nothing, and dropped it into the graphic.\nA new standard of apparel delivered by \"crazy chill\" that gives a deep shade and nuance to everyday coordination.\n\n# CRAZYCHILL # Krechl # Monochrome # Rose # Flower T-shirt # Street Fashion # Menhera # Mine # Angra",
+      "featured": false,
+      "isNew": false,
+      "published": true,
+      "createdAt": "2026-07-16",
+      "sortOrder": 12
     }
   ]
 }
