@@ -61,6 +61,7 @@ export default function AdminProductsPage() {
   const [message, setMessage] = useState('');
   const [uploading, setUploading] = useState(false);
   const [insights, setInsights] = useState<Record<string, number>>({});
+  const [expandedSeries, setExpandedSeries] = useState<Record<string, boolean>>({});
   const fileInputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
@@ -242,6 +243,17 @@ export default function AdminProductsPage() {
 
   const formOpen = isNew || editingProduct !== null;
 
+  const groupedProducts = products.reduce((acc, product) => {
+    const s = product.series || 'その他 (Series Unassigned)';
+    if (!acc[s]) acc[s] = [];
+    acc[s].push(product);
+    return acc;
+  }, {} as Record<string, Product[]>);
+
+  function toggleSeries(seriesName: string) {
+    setExpandedSeries(prev => ({ ...prev, [seriesName]: !prev[seriesName] }));
+  }
+
   return (
     <div className={styles.page}>
       <div className={styles.pageHeader}>
@@ -264,44 +276,60 @@ export default function AdminProductsPage() {
             <p>商品がまだありません。「新しい商品を追加」から登録してください。</p>
           </div>
         ) : (
-          products.map(product => (
-            <div key={product.id} className={styles.productRow}>
-              <div className={styles.productImage}>
-                {product.image ? (
-                  <Image src={product.image} alt={product.name} fill className={styles.rowImage} />
-                ) : (
-                  <div className={styles.noImg}>✦</div>
-                )}
-              </div>
-              <div className={styles.productInfo}>
-                <div className={styles.rowName}>{product.nameJa || product.name}</div>
-                <div className={styles.rowMeta}>
-                  <span className={styles.rowCategory}>{product.category}</span>
-                  <span className={styles.rowPrice}>¥{product.price.toLocaleString()}</span>
-                  <span className={styles.rowInsights}>
-                    SUZURI遷移: {insights[product.id] || 0}回
-                  </span>
-                  <span className={`${styles.rowStatus} ${product.published ? styles.published : styles.draft}`}>
-                    {product.published ? '公開中' : '下書き'}
-                  </span>
+          Object.entries(groupedProducts).map(([seriesName, seriesProducts]) => (
+            <div key={seriesName} className={styles.seriesGroup}>
+              <button 
+                className={styles.seriesHeader} 
+                onClick={() => toggleSeries(seriesName)}
+              >
+                <h2 className={styles.seriesTitle}>{seriesName} <span className={styles.seriesCount}>({seriesProducts.length})</span></h2>
+                <span className={styles.seriesIcon}>{expandedSeries[seriesName] ? '▼' : '▶'}</span>
+              </button>
+              
+              {expandedSeries[seriesName] && (
+                <div className={styles.seriesContent}>
+                  {seriesProducts.map(product => (
+                    <div key={product.id} className={styles.productRow}>
+                      <div className={styles.productImage}>
+                        {product.image ? (
+                          <Image src={product.image} alt={product.name} fill className={styles.rowImage} />
+                        ) : (
+                          <div className={styles.noImg}>✦</div>
+                        )}
+                      </div>
+                      <div className={styles.productInfo}>
+                        <div className={styles.rowName}>{product.nameJa || product.name}</div>
+                        <div className={styles.rowMeta}>
+                          <span className={styles.rowCategory}>{product.category}</span>
+                          <span className={styles.rowPrice}>¥{product.price.toLocaleString()}</span>
+                          <span className={styles.rowInsights}>
+                            SUZURI遷移: {insights[product.id] || 0}回
+                          </span>
+                          <span className={`${styles.rowStatus} ${product.published ? styles.published : styles.draft}`}>
+                            {product.published ? '公開中' : '下書き'}
+                          </span>
+                        </div>
+                      </div>
+                      <div className={styles.productActions}>
+                        <button
+                          onClick={() => openEdit(product)}
+                          className={styles.editBtn}
+                          id={`edit-product-${product.id}`}
+                        >
+                          編集
+                        </button>
+                        <button
+                          onClick={() => handleDelete(product.id)}
+                          className={styles.deleteBtn}
+                          id={`delete-product-${product.id}`}
+                        >
+                          削除
+                        </button>
+                      </div>
+                    </div>
+                  ))}
                 </div>
-              </div>
-              <div className={styles.productActions}>
-                <button
-                  onClick={() => openEdit(product)}
-                  className={styles.editBtn}
-                  id={`edit-product-${product.id}`}
-                >
-                  編集
-                </button>
-                <button
-                  onClick={() => handleDelete(product.id)}
-                  className={styles.deleteBtn}
-                  id={`delete-product-${product.id}`}
-                >
-                  削除
-                </button>
-              </div>
+              )}
             </div>
           ))
         )}
