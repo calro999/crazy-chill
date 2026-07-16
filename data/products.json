@@ -399,6 +399,36 @@
       "published": true,
       "createdAt": "2026-07-16",
       "sortOrder": 14
+    },
+    {
+      "id": "the-noise-petal-bag-mrnne1ab",
+      "name": "THE NOISE PETAL // bag",
+      "nameJa": "THE NOISE PETAL // トートバック",
+      "category": "misc",
+      "series": "HANA",
+      "tags": [
+        "CRAZYCHILL",
+        "クレチル",
+        "モノクロ",
+        "薔薇",
+        "フラワーTシャツ",
+        "ストリートファッション",
+        "メンヘラ",
+        "地雷系",
+        "アングラ"
+      ],
+      "price": 3190,
+      "currency": "JPY",
+      "image": "https://lens2.suzuri.jp/render/tote-bag?angle=front&color=black&image_size=500x500&size=m&token=eyJhbGciOiJIUzI1NiJ9.eyJsYXlvdXQiOnsic2hvdCI6eyJpdGVtIjoidG90ZS1iYWciLCJjb2xvciI6ImJsYWNrIiwic2l6ZSI6Im0iLCJhbmdsZSI6ImZyb250IiwiZGlhZ3JhbSI6ZmFsc2V9LCJhZGp1c3RtZW50Ijp7InNjYWxlIjoxLCJvZmZzZXRfeCI6MCwib2Zmc2V0X3kiOjB9LCJvcmlnaW5hbF9zaXplIjp7IndpZHRoIjoyMDAwLCJoZWlnaHQiOjIwMDB9LCJvdXRwdXRfc2l6ZSI6eyJ3aWR0aCI6NTAwLCJoZWlnaHQiOjUwMH19LCJzb3VyY2VfcGF0aCI6Im1hdGVyaWFscy90ZXh0dXJlcy8yMDQwNzA4NS8xNzg0MTY0NTQ1LTIwMDB4MjAwMC5qcGciLCJzb3VyY2VfdmVyc2lvbiI6MTc4NDE2NDU0NSwidmlvbGF0aW9uIjpmYWxzZSwib3V0cHV0X2Zvcm1hdCI6ImpwZyJ9.qdOxuG4Yw1m7wjQLkN8-PJq0veEXEu09-ZH1p3oCaD8",
+      "imageAlt": "バラをモチーフにしたトートバックです。",
+      "suzuriUrl": "https://suzuri.jp/CRAZYCHILL/20407085/tote-bag/m/black",
+      "description": "歪んだ美学、モノクロームのノイズ。\n美しさの中にどこかざらついた質感を宿し、ストリートの日常に静かに佇む一輪の花。退廃的でありながら強烈な印象を残すオルタナティブな熱量と、すべてを無に帰すような冷ややかな脱力感（CHILL）をグラフィックに落とし込みました。\n日常のコーディネートに深い陰影とニュアンスを与える、「CRAZY CHILL」がお届けするニュースタンダードなアパレルです。\n\n#CRAZYCHILL #クレチル #モノクロ #薔薇 #フラワーTシャツ #ストリートファッション #メンヘラ #地雷系 #アングラ",
+      "descriptionEn": "Distorted aesthetics, monochrome noise.\nA flower stands quietly in the daily life of the street, with some rough texture in the beauty.We took the decadent yet intense alternative heat and the cold weakness (chill) that brings it all to nothing, and dropped it into the graphic.\nA new standard of apparel delivered by \"crazy chill\" that gives a deep shade and nuance to everyday coordination.\n\n# CRAZYCHILL # Krechl # Monochrome # Rose # Flower T-shirt # Street Fashion # Menhera # Mine # Angra",
+      "featured": false,
+      "isNew": false,
+      "published": true,
+      "createdAt": "2026-07-16",
+      "sortOrder": 15
     }
   ]
 }
