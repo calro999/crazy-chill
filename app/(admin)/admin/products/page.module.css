@@ -83,8 +83,8 @@
 .productRow {
   display: flex;
   align-items: center;
-  gap: 16px;
-  padding: 14px 20px;
+  gap: 20px;
+  padding: 20px 24px;
   border-bottom: 1px solid var(--color-border);
   transition: background var(--transition-fast);
 }
@@ -99,8 +99,8 @@
 
 .productImage {
   position: relative;
-  width: 56px;
-  height: 56px;
+  width: 96px;
+  height: 96px;
   flex-shrink: 0;
   background: var(--color-surface-2);
   border: 1px solid var(--color-border);
@@ -128,8 +128,8 @@
 }
 
 .rowName {
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 700;
   color: var(--color-text);
   font-family: var(--font-heading);
   margin-bottom: 4px;
@@ -145,18 +145,28 @@
 }
 
 .rowCategory {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--color-text-subtle);
   font-family: var(--font-heading);
   background: var(--color-surface-2);
-  padding: 2px 6px;
+  padding: 4px 8px;
   border-radius: var(--radius-sm);
 }
 
 .rowPrice {
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 700;
   color: var(--color-accent-2);
+  font-family: var(--font-heading);
+}
+
+.rowInsights {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-accent);
+  background: rgba(212, 175, 55, 0.1);
+  padding: 4px 8px;
+  border-radius: var(--radius-sm);
   font-family: var(--font-heading);
 }
 

@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { getProductById, getAllProducts, formatPrice } from '@/lib/data';
 import { getDictionary } from '@/dictionaries';
+import SuzuriButton from '@/components/SuzuriButton/SuzuriButton';
 import styles from './page.module.css';
 
 interface Props {
@@ -126,12 +127,10 @@ export default async function ProductDetailPage({ params }: Props) {
             </div>
 
             <div className={styles.ctas}>
-              <a
-                href={product.suzuriUrl}
-                target="_blank"
-                rel="noopener noreferrer"
+              <SuzuriButton
+                productId={product.id}
+                suzuriUrl={product.suzuriUrl}
                 className={styles.ctaPrimary}
-                id={`product-detail-suzuri-${product.id}`}
               >
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
@@ -139,7 +138,7 @@ export default async function ProductDetailPage({ params }: Props) {
                   <line x1="10" y1="14" x2="21" y2="3"/>
                 </svg>
                 {dict.topbar.buy}
-              </a>
+              </SuzuriButton>
               <Link href={`/${lang}/catalog`} className={styles.ctaSecondary}>
                 {dict.hero.catalogBtn}
               </Link>
