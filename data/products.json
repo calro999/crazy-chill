@@ -580,6 +580,36 @@
       "published": true,
       "createdAt": "2026-07-16",
       "sortOrder": 20
+    },
+    {
+      "id": "the-monochrome-bloom-sox-mrno6wd6",
+      "name": "THE MONOCHROME BLOOM // SOX",
+      "nameJa": "THE MONOCHROME BLOOM // くるぶしSOX",
+      "category": "misc",
+      "series": "HANA",
+      "tags": [
+        "CRAZYCHILL",
+        "クレチル",
+        "モノクロ",
+        "薔薇",
+        "フラワーTシャツ",
+        "ストリートファッション",
+        "メンヘラ",
+        "地雷系",
+        "アングラ"
+      ],
+      "price": 2915,
+      "currency": "JPY",
+      "image": "https://lens.suzuri.jp/v3/500x500/ankle-socks/25-27cm/white/20405836/1784128363-2000x2000.jpg.webp?h=e55afbeee8d40ac6a2177193b8ebabd59b68af9a&printed=true",
+      "imageAlt": "バラをモチーフにしたくるぶし靴下です。",
+      "suzuriUrl": "https://suzuri.jp/CRAZYCHILL/20405836/ankle-socks/25-27cm/white",
+      "description": "光と影が交差する、静かなる衝動。\n鮮やかな色を削ぎ落とし、圧倒的なコントラストでその存在感を主張するモノクロの花。暗闇を切り裂くようなソリッドな視覚的熱量と、ただ静かにそこに咲き誇る圧倒的な脱力感（CHILL）をグラフィックに落とし込みました。\nモノトーンの気高さをストリートに纏わせる、「CRAZY CHILL」がお届けするニュースタンダードなアパレルです。\n#CRAZYCHILL #クレチル #モノクロ #薔薇 #フラワーTシャツ #ストリートファッション #メンヘラ #地雷系 #アングラ",
+      "descriptionEn": "A quiet impulse where light and shadow intersect.\nA monochrome flower that strips away vibrant colors and asserts its presence with overwhelming contrast.The solid visual heat that rips through the darkness and the overwhelming feeling of weakness (chill) that just quietly blooms there are dropped into the graphic.\nA new standard of apparel delivered by \"crazy chill\" that brings the nobility of monotone to the street.\n# CRAZYCHILL # Krechl # Monochrome # Rose # Flower T-shirt # Street Fashion # Menhera # Mine # Angra",
+      "featured": false,
+      "isNew": false,
+      "published": true,
+      "createdAt": "2026-07-16",
+      "sortOrder": 21
     }
   ]
 }
