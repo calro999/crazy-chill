@@ -13,6 +13,11 @@ const nextConfig: NextConfig = {
         hostname: '*.suzuri.jp',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: '*.public.blob.vercel-storage.com',
+        pathname: '/**',
+      },
     ],
   },
   // For Vercel deployment

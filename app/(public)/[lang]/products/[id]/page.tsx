@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: `${name} | CRAZY CHILL`,
       description: description,
-      images: product.image ? [{ url: product.image, width: 1024, height: 1024 }] : [],
+      images: product.image ? [{ url: product.image, alt: product.imageAlt || name, width: 1024, height: 1024 }] : [],
     },
   };
 }
@@ -92,7 +92,7 @@ export default async function ProductDetailPage({ params }: Props) {
               {product.image ? (
                 <Image
                   src={product.image}
-                  alt={product.nameJa || product.name}
+                  alt={product.imageAlt || (product.nameJa || product.name)}
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className={styles.image}

@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { readFile, writeFile } from 'fs/promises';
 import path from 'path';
+import { updateGitHubFile } from '@/lib/github';
 
 const DATA_FILE = path.join(process.cwd(), 'data', 'products.json');
 
@@ -10,7 +11,13 @@ async function readProducts() {
 }
 
 async function saveProducts(data: unknown) {
-  await writeFile(DATA_FILE, JSON.stringify(data, null, 2), 'utf-8');
+  const jsonContent = JSON.stringify(data, null, 2);
+  
+  if (process.env.GITHUB_TOKEN) {
+    await updateGitHubFile('data/products.json', jsonContent, 'Update products via Admin Panel');
+  } else {
+    await writeFile(DATA_FILE, jsonContent, 'utf-8');
+  }
 }
 
 interface Params {

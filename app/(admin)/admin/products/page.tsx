@@ -14,6 +14,7 @@ interface Product {
   price: number;
   currency: string;
   image: string;
+  imageAlt?: string;
   suzuriUrl: string;
   description: string;
   descriptionEn: string;
@@ -43,6 +44,7 @@ const EMPTY_PRODUCT: Omit<Product, 'id' | 'createdAt' | 'sortOrder'> = {
   price: 3850,
   currency: 'JPY',
   image: '',
+  imageAlt: '',
   suzuriUrl: 'https://suzuri.jp/CRAZYCHILL',
   description: '',
   descriptionEn: '',
@@ -104,6 +106,7 @@ export default function AdminProductsPage() {
       price: product.price,
       currency: product.currency,
       image: product.image,
+      imageAlt: product.imageAlt || '',
       suzuriUrl: product.suzuriUrl,
       description: product.description,
       descriptionEn: product.descriptionEn || '',
@@ -292,7 +295,7 @@ export default function AdminProductsPage() {
                     <div key={product.id} className={styles.productRow}>
                       <div className={styles.productImage}>
                         {product.image ? (
-                          <Image src={product.image} alt={product.name} fill className={styles.rowImage} />
+                          <Image src={product.image} alt={product.imageAlt || product.name} fill className={styles.rowImage} />
                         ) : (
                           <div className={styles.noImg}>✦</div>
                         )}
@@ -465,7 +468,20 @@ export default function AdminProductsPage() {
                     />
                   </div>
                 </div>
-                <p className={styles.fieldHint}>SUZURI商品画像（1024×1024）をそのままアップロード可能</p>
+                <p className={styles.fieldHint}>SUZURIの商品画像のURLを直接貼り付けることも可能です</p>
+              </div>
+
+              {/* Image Alt */}
+              <div className={`${styles.formField} ${styles.fullWidth}`}>
+                <label className={styles.fieldLabel}>画像の代替テキスト（alt属性）</label>
+                <input
+                  type="text"
+                  value={form.imageAlt || ''}
+                  onChange={e => setForm(f => ({ ...f, imageAlt: e.target.value }))}
+                  className={styles.fieldInput}
+                  placeholder="例: 白いTシャツを着たモデルの前面写真"
+                  id="field-image-alt"
+                />
               </div>
 
               {/* Description */}
