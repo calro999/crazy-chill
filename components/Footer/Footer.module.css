@@ -1,0 +1,148 @@
+.footer {
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  margin-top: auto;
+}
+
+.glowLine {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--color-accent), var(--color-accent-2), transparent);
+  opacity: 0.3;
+}
+
+.inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px 32px 32px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr 1fr;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+/* Brand column */
+.brand {}
+
+.brandName {
+  font-family: var(--font-display);
+  font-size: 28px;
+  letter-spacing: 0.1em;
+  background: linear-gradient(135deg, #e8e8f4, #d4af37);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 2px;
+}
+
+.brandKana {
+  font-size: 11px;
+  color: var(--color-accent-2);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+}
+
+.concept {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+
+.suzuriLink {
+  display: inline-block;
+  font-size: 13px;
+  color: var(--color-text-accent);
+  font-weight: 600;
+  font-family: var(--font-heading);
+  transition: all var(--transition-fast);
+  border-bottom: 1px solid rgba(167, 139, 250, 0.3);
+  padding-bottom: 2px;
+}
+
+.suzuriLink:hover {
+  color: var(--color-accent);
+  border-bottom-color: var(--color-accent);
+}
+
+/* Columns */
+.col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.colTitle {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-text-subtle);
+  font-family: var(--font-heading);
+  margin-bottom: 4px;
+}
+
+.colLink {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  font-family: var(--font-heading);
+  transition: color var(--transition-fast);
+  line-height: 1.5;
+}
+
+.colLink:hover {
+  color: var(--color-text);
+}
+
+/* Bottom */
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  border-top: 1px solid var(--color-border);
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.copyright {
+  font-size: 12px;
+  color: var(--color-text-subtle);
+  font-family: var(--font-heading);
+}
+
+.poweredBy {
+  font-size: 12px;
+  color: var(--color-text-subtle);
+  font-family: var(--font-heading);
+}
+
+.poweredBy a {
+  color: var(--color-text-muted);
+  transition: color var(--transition-fast);
+}
+
+.poweredBy a:hover {
+  color: var(--color-text-accent);
+}
+
+@media (max-width: 768px) {
+  .inner {
+    padding: 32px 20px 24px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+
+  .bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+}

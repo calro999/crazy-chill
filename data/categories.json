@@ -1,0 +1,12 @@
+{
+  "categories": [
+    { "id": "all", "slug": "all", "name": "すべて", "nameEn": "All", "icon": "✦", "description": "CRAZY CHILLの全商品一覧" },
+    { "id": "t-shirts", "slug": "t-shirts", "name": "Tシャツ", "nameEn": "T-Shirts", "icon": "👕", "description": "ダークパンクなグラフィックTシャツ" },
+    { "id": "hoodies", "slug": "hoodies", "name": "パーカー", "nameEn": "Hoodies", "icon": "🧥", "description": "オーバーサイズパーカー・スウェット" },
+    { "id": "caps", "slug": "caps", "name": "キャップ", "nameEn": "Caps", "icon": "🧢", "description": "ローキャップ・バケットハット" },
+    { "id": "stickers", "slug": "stickers", "name": "ステッカー", "nameEn": "Stickers", "icon": "🔖", "description": "防水ステッカー・ワッペン" },
+    { "id": "glasses", "slug": "glasses", "name": "グラス", "nameEn": "Glasses", "icon": "🥂", "description": "タンブラー・グラス・マグカップ" },
+    { "id": "accessories", "slug": "accessories", "name": "アクセサリー", "nameEn": "Accessories", "icon": "💀", "description": "トートバッグ・スマホケースなど" },
+    { "id": "misc", "slug": "misc", "name": "雑貨・小物", "nameEn": "Misc", "icon": "✨", "description": "その他オリジナルグッズ" }
+  ]
+}

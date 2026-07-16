@@ -1,0 +1,30 @@
+{
+  "topbar": {
+    "home": "Home",
+    "catalog": "Catalog",
+    "designs": "Designs",
+    "blog": "Blog",
+    "about": "About",
+    "buy": "Buy on SUZURI"
+  },
+  "hero": {
+    "concept": "Insanely Chill",
+    "desc1": "Dark, yet somehow effortlessly relaxed.",
+    "desc2": "Original apparel wearing that contradictory aesthetic.",
+    "catalogBtn": "View Catalog"
+  },
+  "sections": {
+    "newItems": "New Arrivals",
+    "allItems": "All Items",
+    "viewAll": "View All →",
+    "suzuriBannerTitle": "All items are available on SUZURI",
+    "suzuriBannerDesc": "All original CRAZY CHILL items are available on SUZURI. Delivered in a wide variety of options.",
+    "suzuriBtn": "Visit SUZURI Shop"
+  },
+  "footer": {
+    "desc": "A dark punk brand that is insanely chill.",
+    "links": "Links",
+    "categories": "Categories",
+    "copyright": "CRAZY CHILL. All rights reserved."
+  }
+}

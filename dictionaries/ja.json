@@ -1,0 +1,30 @@
+{
+  "topbar": {
+    "home": "ホーム",
+    "catalog": "カタログ",
+    "designs": "デザインリスト",
+    "blog": "ブログ",
+    "about": "CRAZY CHILLとは",
+    "buy": "SUZURIで購入"
+  },
+  "hero": {
+    "concept": "狂気的なまでに脱力",
+    "desc1": "ダークでありながら、どこか力が抜けている。",
+    "desc2": "そんな矛盾した美学をまとったオリジナルアパレル。",
+    "catalogBtn": "カタログを見る"
+  },
+  "sections": {
+    "newItems": "新着アイテム",
+    "allItems": "アイテム一覧",
+    "viewAll": "すべて見る →",
+    "suzuriBannerTitle": "全アイテムはSUZURIで購入できます",
+    "suzuriBannerDesc": "CRAZY CHILLのオリジナルアイテムはすべてSUZURIにて取り扱い中。多数のバリエーションでお届けします。",
+    "suzuriBtn": "SUZURIショップを見る"
+  },
+  "footer": {
+    "desc": "狂気的なまでに脱力するダークパンクブランド。",
+    "links": "リンク",
+    "categories": "カテゴリー",
+    "copyright": "CRAZY CHILL. All rights reserved."
+  }
+}
