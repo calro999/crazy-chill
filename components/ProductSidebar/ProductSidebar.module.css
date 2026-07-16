@@ -1,0 +1,104 @@
+.sidebar {
+  position: sticky;
+  top: 100px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.sidebarTitle {
+  font-family: var(--font-heading);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0;
+  text-align: center;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.sidebarGrid {
+  display: grid;
+  grid-template-columns: 1fr; /* 縦1列に変更 */
+  gap: 20px;
+}
+
+.sideCard {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-surface-2);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  text-decoration: none;
+  transition: transform var(--transition-fast), background var(--transition-fast);
+}
+
+.sideCard:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.sideCardImg {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  background: var(--color-border);
+}
+
+.noImg {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-subtle);
+  font-size: 20px;
+}
+
+.sideCardInfo {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sideCardName {
+  font-size: 13px; /* 少し大きく */
+  color: var(--color-text);
+  font-weight: 600;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.sideCardPrice {
+  font-size: 14px; /* 少し大きく */
+  color: var(--color-accent-2);
+  font-weight: 700;
+  font-family: var(--font-heading);
+}
+
+@media (max-width: 900px) {
+  .sidebar {
+    position: static;
+    width: 100%;
+  }
+  
+  .sidebarGrid {
+    grid-template-columns: 1fr 1fr; /* スマホ・タブレット時は横並びで見やすく */
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebarGrid {
+    grid-template-columns: 1fr;
+  }
+}
