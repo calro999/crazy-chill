@@ -218,7 +218,7 @@ export default function AdminProductsPage() {
 
       if (res.ok) {
         setMessage(isNew ? '商品を追加しました ✓' : '商品を更新しました ✓');
-        await fetchProducts();
+        await loadProducts();
         closeForm();
       } else {
         const err = await res.json();
@@ -236,7 +236,7 @@ export default function AdminProductsPage() {
     const res = await fetch(`/api/admin/products/${id}`, { method: 'DELETE' });
     if (res.ok) {
       setMessage('商品を削除しました');
-      await fetchProducts();
+      await loadProducts();
     }
   }
 
