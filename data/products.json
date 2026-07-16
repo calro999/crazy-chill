@@ -519,6 +519,36 @@
       "published": true,
       "createdAt": "2026-07-16",
       "sortOrder": 18
+    },
+    {
+      "id": "the-noise-petal-t-shirt-mrnnzz3w",
+      "name": "THE NOISE PETAL // T-shirt",
+      "nameJa": "THE NOISE PETAL // Tシャツ",
+      "category": "t-shirts",
+      "series": "HANA",
+      "tags": [
+        "CRAZYCHILL",
+        "クレチル",
+        "モノクロ",
+        "薔薇",
+        "フラワーTシャツ",
+        "ストリートファッション",
+        "メンヘラ",
+        "地雷系",
+        "アングラ"
+      ],
+      "price": 4158,
+      "currency": "JPY",
+      "image": "https://lens.suzuri.jp/v3/500x500/t-shirt/s/black/front/20407085/1784164545-2000x2000.jpg.1.2433+0.0+0.0869.webp?h=6530d032e298402517f807f6c59ca724bf0cf48a&printed=true",
+      "imageAlt": "バラをモチーフにしたTシャツ",
+      "suzuriUrl": "https://suzuri.jp/CRAZYCHILL/20407085/t-shirt/s/black",
+      "description": "歪んだ美学、モノクロームのノイズ。\n美しさの中にどこかざらついた質感を宿し、ストリートの日常に静かに佇む一輪の花。退廃的でありながら強烈な印象を残すオルタナティブな熱量と、すべてを無に帰すような冷ややかな脱力感（CHILL）をグラフィックに落とし込みました。\n日常のコーディネートに深い陰影とニュアンスを与える、「CRAZY CHILL」がお届けするニュースタンダードなアパレルです。\n\n#CRAZYCHILL #クレチル #モノクロ #薔薇 #フラワーTシャツ #ストリートファッション #メンヘラ #地雷系 #アングラ",
+      "descriptionEn": "Distorted aesthetics, monochrome noise.\nA flower stands quietly in the daily life of the street, with some rough texture in the beauty.We took the decadent yet intense alternative heat and the cold weakness (chill) that brings it all to nothing, and dropped it into the graphic.\nA new standard of apparel delivered by \"crazy chill\" that gives a deep shade and nuance to everyday coordination.\n\n# CRAZYCHILL # Krechl # Monochrome # Rose # Flower T-shirt # Street Fashion # Menhera # Mine # Angra",
+      "featured": false,
+      "isNew": false,
+      "published": true,
+      "createdAt": "2026-07-16",
+      "sortOrder": 19
     }
   ]
 }
