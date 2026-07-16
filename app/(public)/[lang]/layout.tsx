@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import './globals.css';
+import '@/app/globals.css';
 import TopBar from '@/components/TopBar/TopBar';
 import Footer from '@/components/Footer/Footer';
 import Sidebar from '@/components/Sidebar/Sidebar';
@@ -41,28 +41,51 @@ export const metadata: Metadata = {
   },
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
+  params,
 }: {
   children: React.ReactNode;
+  params: Promise<{ lang: string }>;
 }) {
+  const { lang } = await params;
   const categories = getAllCategories();
 
   return (
-    <html lang="ja">
+    <html lang={lang}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
       <body>
-        <TopBar />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              '@context': 'https://schema.org',
+              '@type': 'WebSite',
+              name: 'CRAZY CHILL',
+              url: 'https://crazy-chill.vercel.app',
+              description: '狂気的なまでに脱力するダークパンクアパレルブランド',
+              publisher: {
+                '@type': 'Organization',
+                name: 'CRAZY CHILL',
+                logo: {
+                  '@type': 'ImageObject',
+                  url: 'https://crazy-chill.vercel.app/images/logo.png'
+                }
+              }
+            })
+          }}
+        />
+        <TopBar lang={lang as 'ja' | 'en'} />
         <div className={styles.appShell}>
-          <Sidebar categories={categories} />
+          <Sidebar categories={categories} lang={lang as 'ja' | 'en'} />
           <div className={styles.mainWrapper}>
             <main className={styles.main} id="main-content">
               {children}
             </main>
-            <Footer />
+            <Footer lang={lang as 'ja' | 'en'} />
           </div>
         </div>
       </body>

@@ -3,23 +3,28 @@ import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getProductById, getAllProducts, formatPrice } from '@/lib/data';
+import { getDictionary } from '@/dictionaries';
 import styles from './page.module.css';
 
 interface Props {
-  params: Promise<{ id: string }>;
+  params: Promise<{ id: string; lang: 'ja' | 'en' }>;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { id } = await params;
+  const { id, lang } = await params;
   const product = getProductById(id);
-  if (!product) return { title: '商品が見つかりません' };
+  const dict = await getDictionary(lang);
+  if (!product) return { title: 'Not Found' };
+
+  const name = lang === 'en' ? product.name : (product.nameJa || product.name);
+  const description = lang === 'en' && product.descriptionEn ? product.descriptionEn : product.description;
 
   return {
-    title: product.nameJa || product.name,
-    description: product.description,
+    title: name,
+    description: description,
     openGraph: {
-      title: `${product.nameJa || product.name} | CRAZY CHILL`,
-      description: product.description,
+      title: `${name} | CRAZY CHILL`,
+      description: description,
       images: product.image ? [{ url: product.image, width: 1024, height: 1024 }] : [],
     },
   };
@@ -31,7 +36,8 @@ export async function generateStaticParams() {
 }
 
 export default async function ProductDetailPage({ params }: Props) {
-  const { id } = await params;
+  const { id, lang } = await params;
+  const dict = await getDictionary(lang);
   const product = getProductById(id);
   if (!product) notFound();
 
@@ -40,11 +46,14 @@ export default async function ProductDetailPage({ params }: Props) {
     .filter(p => p.category === product.category && p.id !== product.id)
     .slice(0, 4);
 
+  const name = lang === 'en' ? product.name : (product.nameJa || product.name);
+  const description = lang === 'en' && product.descriptionEn ? product.descriptionEn : product.description;
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    name: product.nameJa || product.name,
-    description: product.description,
+    name: name,
+    description: description,
     image: product.image,
     offers: {
       '@type': 'Offer',
@@ -68,11 +77,11 @@ export default async function ProductDetailPage({ params }: Props) {
       <div className={styles.page}>
         {/* Breadcrumb */}
         <nav className={styles.breadcrumb} aria-label="パンくずリスト">
-          <Link href="/" className={styles.breadcrumbLink}>HOME</Link>
+          <Link href={`/${lang}`} className={styles.breadcrumbLink}>{dict.topbar.home}</Link>
           <span className={styles.breadcrumbSep}>›</span>
-          <Link href="/products" className={styles.breadcrumbLink}>商品一覧</Link>
+          <Link href={`/${lang}/products`} className={styles.breadcrumbLink}>{dict.sections.allItems}</Link>
           <span className={styles.breadcrumbSep}>›</span>
-          <span className={styles.breadcrumbCurrent}>{product.name}</span>
+          <span className={styles.breadcrumbCurrent}>{name}</span>
         </nav>
 
         <div className={styles.detail}>
@@ -101,8 +110,8 @@ export default async function ProductDetailPage({ params }: Props) {
           {/* Info */}
           <div className={styles.infoSection}>
             <div className={styles.category}>{product.category}</div>
-            <h1 className={styles.name}>{product.nameJa || product.name}</h1>
-            <p className={styles.nameEn}>{product.name}</p>
+            <h1 className={styles.name}>{name}</h1>
+            {lang === 'ja' && <p className={styles.nameEn}>{product.name}</p>}
             <div className={styles.price}>{formatPrice(product.price)}</div>
 
             <div className={styles.tags}>
@@ -112,8 +121,8 @@ export default async function ProductDetailPage({ params }: Props) {
             </div>
 
             <div className={styles.description}>
-              <h2 className={styles.descTitle}>商品説明</h2>
-              <p className={styles.descText}>{product.description}</p>
+              <h2 className={styles.descTitle}>Description</h2>
+              <p className={styles.descText}>{description}</p>
             </div>
 
             <div className={styles.ctas}>
@@ -129,32 +138,44 @@ export default async function ProductDetailPage({ params }: Props) {
                   <polyline points="15 3 21 3 21 9"/>
                   <line x1="10" y1="14" x2="21" y2="3"/>
                 </svg>
-                SUZURIで購入する
+                {dict.topbar.buy}
               </a>
-              <Link href="/catalog" className={styles.ctaSecondary}>
-                カタログで見る
+              <Link href={`/${lang}/catalog`} className={styles.ctaSecondary}>
+                {dict.hero.catalogBtn}
               </Link>
             </div>
 
             <p className={styles.notice}>
-              ※ 購入はSUZURIのショップにて承っております。
+              ※ 購入はSUZURIのショップにて承っております。<br />
               ブランドサイトでは販売を行っておりません。
             </p>
+
+            {lang === 'en' && (
+              <div style={{ marginTop: '24px', padding: '16px', background: 'rgba(255,255,255,0.05)', borderRadius: '8px', border: '1px solid rgba(255,255,255,0.1)' }}>
+                <h3 style={{ fontSize: '14px', marginBottom: '8px', color: 'var(--color-accent-2)' }}>🌍 Available for Worldwide Shipping!</h3>
+                <p style={{ fontSize: '12px', color: 'var(--color-text-subtle)', marginBottom: '12px', lineHeight: 1.5 }}>
+                  You can purchase our items from anywhere in the world using the integrated WorldShopping service on SUZURI.
+                </p>
+                <Link href="/en/blog/overseas-shipping-guide" style={{ fontSize: '13px', color: 'var(--color-text)', textDecoration: 'underline' }}>
+                  Read the Overseas Purchase Guide →
+                </Link>
+              </div>
+            )}
           </div>
         </div>
 
         {/* Related */}
         {related.length > 0 && (
           <section className={styles.related}>
-            <h2 className={styles.relatedTitle}>関連アイテム</h2>
+            <h2 className={styles.relatedTitle}>Related Items</h2>
             <div className={styles.relatedGrid}>
               {related.map(p => (
-                <Link key={p.id} href={`/products/${p.id}`} className={styles.relatedCard}>
+                <Link key={p.id} href={`/${lang}/products/${p.id}`} className={styles.relatedCard}>
                   <div className={styles.relatedImage}>
                     {p.image && (
                       <Image
                         src={p.image}
-                        alt={p.nameJa || p.name}
+                        alt={lang === 'en' ? p.name : (p.nameJa || p.name)}
                         fill
                         sizes="200px"
                         className={styles.image}
@@ -162,7 +183,7 @@ export default async function ProductDetailPage({ params }: Props) {
                     )}
                   </div>
                   <div className={styles.relatedInfo}>
-                    <p className={styles.relatedName}>{p.nameJa || p.name}</p>
+                    <p className={styles.relatedName}>{lang === 'en' ? p.name : (p.nameJa || p.name)}</p>
                     <p className={styles.relatedPrice}>{formatPrice(p.price)}</p>
                   </div>
                 </Link>

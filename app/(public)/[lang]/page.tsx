@@ -2,8 +2,15 @@ import Link from 'next/link';
 import { getAllProducts, getRecentPosts, formatPrice, formatDate } from '@/lib/data';
 import ProductCard from '@/components/ProductCard/ProductCard';
 import styles from './page.module.css';
+import { getDictionary } from '@/dictionaries';
 
-export default function HomePage() {
+interface Props {
+  params: Promise<{ lang: 'ja' | 'en' }>;
+}
+
+export default async function HomePage({ params }: Props) {
+  const { lang } = await params;
+  const dict = await getDictionary(lang);
   const products = getAllProducts();
   const recentPosts = getRecentPosts(3);
   const featuredProducts = products.filter(p => p.featured).slice(0, 6);
@@ -22,10 +29,10 @@ export default function HomePage() {
             <span className={styles.heroTitleMain}>CRAZY</span>
             <span className={styles.heroTitleSub}>CHILL</span>
           </h1>
-          <p className={styles.heroConcept}>狂気的なまでに脱力</p>
+          <p className={styles.heroConcept}>{dict.hero.concept}</p>
           <p className={styles.heroDesc}>
-            ダークでありながら、どこか力が抜けている。<br />
-            そんな矛盾した美学をまとったオリジナルアパレル。
+            {dict.hero.desc1}<br />
+            {dict.hero.desc2}
           </p>
           <div className={styles.heroCtas}>
             <a
@@ -35,15 +42,15 @@ export default function HomePage() {
               className={styles.ctaPrimary}
               id="hero-suzuri-btn"
             >
-              SUZURIで購入する
+              {dict.topbar.buy}
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"/>
                 <polyline points="15 3 21 3 21 9"/>
                 <line x1="10" y1="14" x2="21" y2="3"/>
               </svg>
             </a>
-            <Link href="/catalog" className={styles.ctaSecondary} id="hero-catalog-btn">
-              カタログを見る
+            <Link href={`/${lang}/catalog`} className={styles.ctaSecondary} id="hero-catalog-btn">
+              {dict.hero.catalogBtn}
             </Link>
           </div>
         </div>
@@ -90,10 +97,10 @@ export default function HomePage() {
         <div className={styles.sectionHeader}>
           <div className={styles.sectionLabel}>ITEMS</div>
           <h2 className={styles.sectionTitle}>
-            {newProducts.length > 0 ? '新着アイテム' : 'アイテム一覧'}
+            {newProducts.length > 0 ? dict.sections.newItems : dict.sections.allItems}
           </h2>
-          <Link href="/products" className={styles.sectionMore}>
-            すべて見る →
+          <Link href={`/${lang}/products`} className={styles.sectionMore}>
+            {dict.sections.viewAll}
           </Link>
         </div>
 
@@ -123,11 +130,10 @@ export default function HomePage() {
       <section className={styles.bannerSection} aria-label="SUZURIへのリンク">
         <div className={styles.bannerInner}>
           <div className={styles.bannerText}>
-            <div className={styles.bannerLabel}>SUZURI公式ショップ</div>
-            <h2 className={styles.bannerTitle}>全アイテムはSUZURIで購入できます</h2>
+            <div className={styles.bannerLabel}>SUZURI OFFICIAL SHOP</div>
+            <h2 className={styles.bannerTitle}>{dict.sections.suzuriBannerTitle}</h2>
             <p className={styles.bannerDesc}>
-              CRAZY CHILLのオリジナルアイテムはすべてSUZURIにて取り扱い中。<br />
-              多数のバリエーションでお届けします。
+              {dict.sections.suzuriBannerDesc}
             </p>
           </div>
           <a
@@ -137,7 +143,7 @@ export default function HomePage() {
             className={styles.bannerBtn}
             id="cta-section-suzuri-btn"
           >
-            SUZURIショップを見る
+            {dict.sections.suzuriBtn}
           </a>
         </div>
       </section>

@@ -108,6 +108,47 @@ export default function AdminProductsPage() {
     setIsNew(false);
   }
 
+  async function handleTranslate() {
+    if (!form.description && !form.nameJa) {
+      setMessage('翻訳するテキストがありません');
+      return;
+    }
+    setSaving(true);
+    try {
+      let newName = form.name;
+      let newDescEn = form.descriptionEn;
+
+      if (form.nameJa && !form.name) {
+        const res = await fetch('/api/admin/translate', {
+          method: 'POST',
+          body: JSON.stringify({ text: form.nameJa })
+        });
+        if (res.ok) {
+          const { translatedText } = await res.json();
+          newName = translatedText;
+        }
+      }
+
+      if (form.description && !form.descriptionEn) {
+        const res = await fetch('/api/admin/translate', {
+          method: 'POST',
+          body: JSON.stringify({ text: form.description })
+        });
+        if (res.ok) {
+          const { translatedText } = await res.json();
+          newDescEn = translatedText;
+        }
+      }
+
+      setForm(f => ({ ...f, name: newName, descriptionEn: newDescEn }));
+      setMessage('自動翻訳が完了しました（内容を確認してください）');
+    } catch (e) {
+      setMessage('翻訳に失敗しました');
+    } finally {
+      setSaving(false);
+    }
+  }
+
   async function handleImageUpload(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
     if (!file) return;
@@ -261,7 +302,12 @@ export default function AdminProductsPage() {
               <h2 className={styles.modalTitle}>
                 {isNew ? '新しい商品を追加' : '商品を編集'}
               </h2>
-              <button onClick={closeForm} className={styles.closeBtn} id="close-product-form">✕</button>
+              <div style={{display: 'flex', gap: '8px'}}>
+                <button type="button" onClick={handleTranslate} className={styles.ctaSecondary} disabled={saving}>
+                  {saving ? '翻訳中...' : '自動翻訳 (EN)'}
+                </button>
+                <button onClick={closeForm} className={styles.closeBtn} id="close-product-form">✕</button>
+              </div>
             </div>
 
             <div className={styles.formGrid}>
@@ -391,6 +437,19 @@ export default function AdminProductsPage() {
                   rows={4}
                   placeholder="商品の説明文を入力..."
                   id="field-description"
+                />
+              </div>
+
+              {/* Description EN */}
+              <div className={`${styles.formField} ${styles.fullWidth}`}>
+                <label className={styles.fieldLabel}>商品説明（英語）</label>
+                <textarea
+                  value={form.descriptionEn}
+                  onChange={e => setForm(f => ({ ...f, descriptionEn: e.target.value }))}
+                  className={styles.fieldTextarea}
+                  rows={4}
+                  placeholder="English description..."
+                  id="field-description-en"
                 />
               </div>
 

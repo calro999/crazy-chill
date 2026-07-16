@@ -111,8 +111,36 @@
 .actions {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 16px;
   margin-left: 8px;
+}
+
+.langSwitch {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--font-heading);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+}
+
+.langSwitch a {
+  padding: 4px;
+  transition: color var(--transition-fast);
+}
+
+.langSwitch a:hover {
+  color: var(--color-text);
+}
+
+.activeLang {
+  color: var(--color-text-accent);
+}
+
+.langDivider {
+  color: var(--color-border-2);
+  font-weight: 300;
 }
 
 .ctaButton {

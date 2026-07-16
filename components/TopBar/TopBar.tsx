@@ -3,12 +3,15 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect } from 'react';
+import ja from '@/dictionaries/ja.json';
+import en from '@/dictionaries/en.json';
 import styles from './TopBar.module.css';
 
-export default function TopBar() {
+export default function TopBar({ lang = 'ja' }: { lang?: 'ja' | 'en' }) {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const dict = lang === 'en' ? en : ja;
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 10);
@@ -34,25 +37,31 @@ export default function TopBar() {
 
           {/* Desktop Nav */}
           <nav className={styles.nav} aria-label="メインナビゲーション">
-            <Link href="/products" className={`${styles.navLink} ${pathname?.startsWith('/products') ? styles.active : ''}`}>
-              商品一覧
+            <Link href={`/${lang}/products`} className={`${styles.navLink} ${pathname?.includes('/products') ? styles.active : ''}`}>
+              {dict.topbar.catalog}
             </Link>
-            <Link href="/catalog" className={`${styles.navLink} ${pathname?.startsWith('/catalog') ? styles.active : ''}`}>
-              カタログ
+            <Link href={`/${lang}/catalog`} className={`${styles.navLink} ${pathname?.includes('/catalog') ? styles.active : ''}`}>
+              {dict.topbar.catalog}
             </Link>
-            <Link href="/designs" className={`${styles.navLink} ${pathname?.startsWith('/designs') ? styles.active : ''}`}>
-              デザイン
+            <Link href={`/${lang}/designs`} className={`${styles.navLink} ${pathname?.includes('/designs') ? styles.active : ''}`}>
+              {dict.topbar.designs}
             </Link>
-            <Link href="/blog" className={`${styles.navLink} ${pathname?.startsWith('/blog') ? styles.active : ''}`}>
-              ブログ
+            <Link href={`/${lang}/blog`} className={`${styles.navLink} ${pathname?.includes('/blog') ? styles.active : ''}`}>
+              {dict.topbar.blog}
             </Link>
-            <Link href="/about" className={`${styles.navLink} ${pathname?.startsWith('/about') ? styles.active : ''}`}>
-              運営者情報
+            <Link href={`/${lang}/about`} className={`${styles.navLink} ${pathname?.includes('/about') ? styles.active : ''}`}>
+              {dict.topbar.about}
             </Link>
           </nav>
 
           {/* CTA */}
           <div className={styles.actions}>
+            <div className={styles.langSwitch}>
+              <Link href={`/ja${pathname.replace(/^\/(ja|en)/, '') || '/'}`} className={lang === 'ja' ? styles.activeLang : ''}>JP</Link>
+              <span className={styles.langDivider}>/</span>
+              <Link href={`/en${pathname.replace(/^\/(ja|en)/, '') || '/'}`} className={lang === 'en' ? styles.activeLang : ''}>EN</Link>
+            </div>
+            
             <a
               href="https://suzuri.jp/CRAZYCHILL"
               target="_blank"
@@ -95,16 +104,16 @@ export default function TopBar() {
               <span>CRAZY CHILL</span>
             </div>
             <div className={styles.mobileLinks}>
-              <Link href="/" className={styles.mobileLink}>ホーム</Link>
-              <Link href="/products" className={styles.mobileLink}>商品一覧</Link>
-              <Link href="/catalog" className={styles.mobileLink}>カタログ</Link>
-              <Link href="/category/t-shirts" className={styles.mobileLink}>Tシャツ</Link>
-              <Link href="/category/hoodies" className={styles.mobileLink}>パーカー</Link>
-              <Link href="/category/caps" className={styles.mobileLink}>キャップ</Link>
-              <Link href="/category/stickers" className={styles.mobileLink}>ステッカー</Link>
-              <Link href="/designs" className={styles.mobileLink}>デザインリスト</Link>
-              <Link href="/blog" className={styles.mobileLink}>ブログ</Link>
-              <Link href="/about" className={styles.mobileLink}>運営者情報</Link>
+              <Link href={`/${lang}`} className={styles.mobileLink}>{dict.topbar.home}</Link>
+              <Link href={`/${lang}/products`} className={styles.mobileLink}>{dict.topbar.catalog}</Link>
+              <Link href={`/${lang}/catalog`} className={styles.mobileLink}>{dict.topbar.catalog}</Link>
+              <Link href={`/${lang}/category/t-shirts`} className={styles.mobileLink}>T-Shirts</Link>
+              <Link href={`/${lang}/category/hoodies`} className={styles.mobileLink}>Hoodies</Link>
+              <Link href={`/${lang}/category/caps`} className={styles.mobileLink}>Caps</Link>
+              <Link href={`/${lang}/category/stickers`} className={styles.mobileLink}>Stickers</Link>
+              <Link href={`/${lang}/designs`} className={styles.mobileLink}>{dict.topbar.designs}</Link>
+              <Link href={`/${lang}/blog`} className={styles.mobileLink}>{dict.topbar.blog}</Link>
+              <Link href={`/${lang}/about`} className={styles.mobileLink}>{dict.topbar.about}</Link>
             </div>
             <a
               href="https://suzuri.jp/CRAZYCHILL"

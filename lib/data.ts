@@ -1,6 +1,5 @@
 import productsData from '@/data/products.json';
 import categoriesData from '@/data/categories.json';
-import blogData from '@/data/blog.json';
 import bannersData from '@/data/banners.json';
 
 export interface Product {
@@ -20,6 +19,7 @@ export interface Product {
   published: boolean;
   createdAt: string;
   sortOrder?: number;
+  series?: string;
 }
 
 export interface Category {
