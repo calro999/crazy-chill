@@ -250,6 +250,35 @@
       "published": true,
       "createdAt": "2026-07-16",
       "sortOrder": 9
+    },
+    {
+      "id": "the-minimal-flower-t-shirt-mrnmrkab",
+      "name": "THE MINIMAL FLOWER // T-shirt",
+      "nameJa": "THE MINIMAL FLOWER // スタンダードTシャツ",
+      "category": "t-shirts",
+      "series": "HANA",
+      "tags": [
+        "CRAZYCHILL",
+        "クレチル",
+        "モノクロ",
+        "シンプル",
+        "花イラスト",
+        "線画Tシャツ",
+        "ストリートファッション",
+        "モード系"
+      ],
+      "price": 4158,
+      "currency": "JPY",
+      "image": "https://lens.suzuri.jp/v3/500x500/t-shirt/s/black/front/20408772/1784184857-2000x2000.jpg.1.26+0.0+0.0701.webp?h=4ac58e1751bd5b716de4f1773be450229236a9b0&printed=true",
+      "imageAlt": "バラの花をモチーフにしたTシャツです。",
+      "suzuriUrl": "https://suzuri.jp/CRAZYCHILL/20408772/t-shirt/s/black",
+      "description": "色褪せない洗練、削ぎ落とされた美学。\n無駄な色彩を拒絶し、白と黒の線画だけで凛と咲き誇るミニマルな花。シンプルだからこそ引き立つ洗練されたグラフィックの熱量と、何にも染まらない自由でニュートラルな脱力感（CHILL）をグラフィックに落とし込みました。\nどんなスタイルにも溶け込みながら確かな個性を主張する、「CRAZY CHILL」がお届けするニュースタンダードなアパレルです。\n\n#CRAZYCHILL #クレチル #モノクロ #シンプル #花イラスト #線画Tシャツ #ストリートファッション #モード系",
+      "descriptionEn": "Indelible sophistication, scraped aesthetics.\nA minimal flower that rejects useless colors and blooms brilliantly with only white and black line drawings.The heat of the sophisticated graphics that stand out because of its simplicity, and the free and neutral weakness (chill) that does not penetrate anything, are reduced to the graphics.\nCrazy chill is a new standard of apparel that blends in with any style and asserts its authentic personality.\n\n# crazychill # crechil # monochrome # simple # flower illustration # line drawing T-shirt # street fashion # mode",
+      "featured": false,
+      "isNew": false,
+      "published": true,
+      "createdAt": "2026-07-16",
+      "sortOrder": 10
     }
   ]
 }
