@@ -1,11 +1,12 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import { notFound } from 'next/navigation';
-import { getPostBySlug, getAllPosts, formatDate } from '@/lib/data';
+import { getPostBySlug, getAllPosts, formatDate, getAllProducts, formatPrice } from '@/lib/data';
 import styles from './page.module.css';
 
 interface Props {
-  params: Promise<{ slug: string }>;
+  params: Promise<{ lang: string; slug: string }>;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -47,7 +48,7 @@ function renderMarkdown(content: string): string {
 }
 
 export default async function BlogPostPage({ params }: Props) {
-  const { slug } = await params;
+  const { lang, slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) notFound();
 
@@ -55,6 +56,14 @@ export default async function BlogPostPage({ params }: Props) {
   const currentIndex = allPosts.findIndex(p => p.slug === slug);
   const prevPost = currentIndex < allPosts.length - 1 ? allPosts[currentIndex + 1] : null;
   const nextPost = currentIndex > 0 ? allPosts[currentIndex - 1] : null;
+
+  // 商品サイドバー用
+  const allProducts = getAllProducts();
+  const rabbitProduct = allProducts.find(p => p.name.includes('肋骨が長いうさぎ') || p.nameJa?.includes('肋骨が長いうさぎ'));
+  const otherProducts = allProducts.filter(p => p.id !== rabbitProduct?.id);
+  const randomProduct = otherProducts.length > 0 ? otherProducts[Math.floor(Math.random() * otherProducts.length)] : null;
+  
+  const sidebarProducts = [rabbitProduct, randomProduct].filter(Boolean);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -82,70 +91,101 @@ export default async function BlogPostPage({ params }: Props) {
       <div className={styles.page}>
         {/* Breadcrumb */}
         <nav className={styles.breadcrumb} aria-label="パンくずリスト">
-          <Link href="/" className={styles.breadLink}>HOME</Link>
+          <Link href={`/${lang}`} className={styles.breadLink}>HOME</Link>
           <span>›</span>
-          <Link href="/blog" className={styles.breadLink}>ブログ</Link>
+          <Link href={`/${lang}/blog`} className={styles.breadLink}>ブログ</Link>
           <span>›</span>
           <span className={styles.breadCurrent}>{post.title}</span>
         </nav>
 
-        <article className={styles.article}>
-          {/* Header */}
-          <header className={styles.articleHeader}>
-            <div className={styles.tags}>
-              {post.tags.map(tag => (
-                <span key={tag} className={styles.tag}>{tag}</span>
-              ))}
-            </div>
-            <h1 className={styles.title}>{post.title}</h1>
-            <div className={styles.meta}>
-              <time dateTime={post.publishedAt}>{formatDate(post.publishedAt)}</time>
-              <span className={styles.author}>{post.author}</span>
-            </div>
-          </header>
+        <div className={styles.layoutWrapper}>
+          <div className={styles.mainContent}>
+            <article className={styles.article}>
+              {/* Header */}
+              <header className={styles.articleHeader}>
+                <div className={styles.tags}>
+                  {post.tags.map(tag => (
+                    <span key={tag} className={styles.tag}>{tag}</span>
+                  ))}
+                </div>
+                <h1 className={styles.title}>{post.title}</h1>
+                <div className={styles.meta}>
+                  <time dateTime={post.publishedAt}>{formatDate(post.publishedAt)}</time>
+                  <span className={styles.author}>{post.author}</span>
+                </div>
+              </header>
 
-          <div className={styles.glowLine} />
+              <div className={styles.glowLine} />
 
-          {/* Content */}
-          <div
-            className={styles.content}
-            dangerouslySetInnerHTML={{ __html: `<p>${renderMarkdown(post.content)}</p>` }}
-          />
+              {/* Content */}
+              <div
+                className={styles.content}
+                dangerouslySetInnerHTML={{ __html: `<p>${renderMarkdown(post.content)}</p>` }}
+              />
 
-          {/* CTA */}
-          <div className={styles.articleCta}>
-            <p>CRAZY CHILLのアイテムはSUZURIで購入できます</p>
-            <a
-              href="https://suzuri.jp/CRAZYCHILL"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={styles.ctaBtn}
-              id={`blog-post-suzuri-${post.id}`}
-            >
-              SUZURIショップを見る →
-            </a>
+              {/* CTA */}
+              <div className={styles.articleCta}>
+                <p>CRAZY CHILLのアイテムはSUZURIで購入できます</p>
+                <a
+                  href="https://suzuri.jp/CRAZYCHILL"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={styles.ctaBtn}
+                  id={`blog-post-suzuri-${post.id}`}
+                >
+                  SUZURIショップを見る →
+                </a>
+              </div>
+            </article>
+
+            {/* Post navigation */}
+            <nav className={styles.postNav} aria-label="記事ナビゲーション">
+              {prevPost && (
+                <Link href={`/${lang}/blog/${prevPost.slug}`} className={styles.navPrev}>
+                  <span className={styles.navLabel}>← 前の記事</span>
+                  <span className={styles.navTitle}>{prevPost.title}</span>
+                </Link>
+              )}
+              {nextPost && (
+                <Link href={`/${lang}/blog/${nextPost.slug}`} className={`${styles.navNext} ${!prevPost ? styles.navFull : ''}`}>
+                  <span className={styles.navLabel}>次の記事 →</span>
+                  <span className={styles.navTitle}>{nextPost.title}</span>
+                </Link>
+              )}
+            </nav>
+
+            <Link href={`/${lang}/blog`} className={styles.backLink}>
+              ← ブログ一覧へ戻る
+            </Link>
           </div>
-        </article>
 
-        {/* Post navigation */}
-        <nav className={styles.postNav} aria-label="記事ナビゲーション">
-          {prevPost && (
-            <Link href={`/blog/${prevPost.slug}`} className={styles.navPrev}>
-              <span className={styles.navLabel}>← 前の記事</span>
-              <span className={styles.navTitle}>{prevPost.title}</span>
-            </Link>
+          {/* Sidebar */}
+          {sidebarProducts.length > 0 && (
+            <aside className={styles.sidebar}>
+              <h3 className={styles.sidebarTitle}>おすすめアイテム</h3>
+              <div className={styles.sidebarGrid}>
+                {sidebarProducts.map((p, i) => {
+                  if (!p) return null;
+                  return (
+                    <Link href={`/${lang}/products/${p.id}`} key={`${p.id}-${i}`} className={styles.sideCard}>
+                      <div className={styles.sideCardImg}>
+                        {p.image ? (
+                          <Image src={p.image} alt={p.imageAlt || p.nameJa || p.name} fill sizes="160px" style={{ objectFit: 'cover' }} />
+                        ) : (
+                          <div className={styles.noImg}>✦</div>
+                        )}
+                      </div>
+                      <div className={styles.sideCardInfo}>
+                        <div className={styles.sideCardName}>{p.nameJa || p.name}</div>
+                        <div className={styles.sideCardPrice}>{formatPrice(p.price)}</div>
+                      </div>
+                    </Link>
+                  );
+                })}
+              </div>
+            </aside>
           )}
-          {nextPost && (
-            <Link href={`/blog/${nextPost.slug}`} className={`${styles.navNext} ${!prevPost ? styles.navFull : ''}`}>
-              <span className={styles.navLabel}>次の記事 →</span>
-              <span className={styles.navTitle}>{nextPost.title}</span>
-            </Link>
-          )}
-        </nav>
-
-        <Link href="/blog" className={styles.backLink}>
-          ← ブログ一覧へ戻る
-        </Link>
+        </div>
       </div>
     </>
   );

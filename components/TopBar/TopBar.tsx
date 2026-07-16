@@ -28,7 +28,7 @@ export default function TopBar({ lang = 'ja' }: { lang?: 'ja' | 'en' }) {
       <header className={`${styles.topbar} ${scrolled ? styles.scrolled : ''}`}>
         <div className={styles.inner}>
           <div className={styles.logoGroup}>
-            <Link href="/" className={styles.logo} aria-label="CRAZY CHILL ホームへ">
+            <Link href={`/${lang}`} className={styles.logo} aria-label="CRAZY CHILL ホームへ">
               <span className={styles.logoText}>CRAZY CHILL</span>
               <span className={styles.logoBadge}>クレチル</span>
             </Link>

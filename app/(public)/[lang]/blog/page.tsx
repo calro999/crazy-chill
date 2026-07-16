@@ -8,7 +8,8 @@ export const metadata: Metadata = {
   description: 'CRAZY CHILL（クレチル）公式ブログ。ダークパンクファッション、コーデ術、SUZURIアイテムレビューなどを発信中。',
 };
 
-export default function BlogPage() {
+export default async function BlogPage({ params }: { params: Promise<{ lang: string }> }) {
+  const { lang } = await params;
   const posts = getAllPosts();
 
   return (
@@ -37,11 +38,11 @@ export default function BlogPage() {
                     ))}
                   </div>
                 </div>
-                <Link href={`/blog/${post.slug}`} className={styles.postTitle}>
+                <Link href={`/${lang}/blog/${post.slug}`} className={styles.postTitle}>
                   {post.title}
                 </Link>
                 <p className={styles.postExcerpt}>{post.excerpt}</p>
-                <Link href={`/blog/${post.slug}`} className={styles.readMore}>
+                <Link href={`/${lang}/blog/${post.slug}`} className={styles.readMore}>
                   続きを読む →
                 </Link>
               </div>

@@ -29,7 +29,11 @@ export function middleware(request: NextRequest) {
   let locale = defaultLocale;
   
   if (acceptLanguage) {
-    if (acceptLanguage.includes('en')) {
+    const jaIndex = acceptLanguage.indexOf('ja');
+    const enIndex = acceptLanguage.indexOf('en');
+    
+    // enが存在し、かつjaが存在しないか、enの方が優先順位が高い(インデックスが小さい)場合はen
+    if (enIndex !== -1 && (jaIndex === -1 || enIndex < jaIndex)) {
       locale = 'en';
     }
   }

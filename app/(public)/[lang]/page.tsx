@@ -154,7 +154,7 @@ export default async function HomePage({ params }: Props) {
           <div className={styles.sectionHeader}>
             <div className={styles.sectionLabel}>BLOG</div>
             <h2 className={styles.sectionTitle}>最新記事</h2>
-            <Link href="/blog" className={styles.sectionMore}>
+            <Link href={`/${lang}/blog`} className={styles.sectionMore}>
               すべての記事 →
             </Link>
           </div>
@@ -168,7 +168,7 @@ export default async function HomePage({ params }: Props) {
                       <span key={tag} className={styles.blogTag}>{tag}</span>
                     ))}
                   </div>
-                  <Link href={`/blog/${post.slug}`} className={styles.blogTitle}>
+                  <Link href={`/${lang}/blog/${post.slug}`} className={styles.blogTitle}>
                     {post.title}
                   </Link>
                   <p className={styles.blogExcerpt}>{post.excerpt}</p>
@@ -176,7 +176,7 @@ export default async function HomePage({ params }: Props) {
                     <time className={styles.blogDate} dateTime={post.publishedAt}>
                       {formatDate(post.publishedAt)}
                     </time>
-                    <Link href={`/blog/${post.slug}`} className={styles.blogReadMore}>
+                    <Link href={`/${lang}/blog/${post.slug}`} className={styles.blogReadMore}>
                       続きを読む →
                     </Link>
                   </div>
