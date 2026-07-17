@@ -125,11 +125,84 @@
   font-weight: 700;
 }
 
-.content :global(a) {
-  color: var(--color-text-accent);
+.content a {
+  color: var(--color-accent);
   text-decoration: underline;
-  text-underline-offset: 3px;
-  transition: color var(--transition-fast);
+  text-underline-offset: 4px;
+}
+.content a:hover {
+  color: var(--color-accent-hover);
+}
+
+.blogImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 24px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.productCardGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 32px 0;
+}
+
+.productCardItem {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none !important;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+.productCardItem:hover {
+  transform: translateY(-4px);
+  border-color: var(--color-accent);
+}
+
+.productCardImage {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.productCardInfo {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.productCardName {
+  font-family: var(--font-heading);
+  font-size: 14px;
+  color: var(--color-text);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.productCardPrice {
+  font-size: 13px;
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+.disclaimer {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  text-align: right;
+  margin-top: 40px;
+  font-style: italic;
+}
+
+@media (max-width: 480px) {
+  .productCardGrid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .content :global(a:hover) {

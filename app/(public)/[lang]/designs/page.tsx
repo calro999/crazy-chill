@@ -32,8 +32,11 @@ export default function DesignsPage() {
             }, {} as Record<string, typeof products>)
           ).sort(([a], [b]) => a.localeCompare(b))
           .map(([seriesName, seriesProducts]) => (
-            <div key={seriesName} className={styles.seriesGroup}>
-              <h2 className={styles.seriesTitle}>{seriesName === 'SINGLE' ? 'その他 / 単独デザイン' : `${seriesName} SERIES`}</h2>
+            <details key={seriesName} className={styles.seriesGroup}>
+              <summary className={styles.seriesSummary}>
+                <h2 className={styles.seriesTitle}>{seriesName === 'SINGLE' ? 'その他 / 単独デザイン' : `${seriesName} SERIES`}</h2>
+                <span className={styles.accordionIcon}></span>
+              </summary>
               <div className={styles.grid}>
                 {seriesProducts.map((product, i) => (
                   <div key={product.id} className={styles.designItem}>
@@ -58,6 +61,7 @@ export default function DesignsPage() {
                         {product.name}
                       </Link>
                       <a
+
                         href={product.suzuriUrl}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -70,7 +74,7 @@ export default function DesignsPage() {
                   </div>
                 ))}
               </div>
-            </div>
+            </details>
           ))}
         </div>
       ) : (

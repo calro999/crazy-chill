@@ -41,10 +41,10 @@ function renderMarkdown(content: string): string {
     .replace(/^### (.+)$/gm, '<h3>$1</h3>')
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/\*(.+?)\*/g, '<em>$1</em>')
+    .replace(/!\[([^\]]*)\]\((.*?)\)/g, '<img src="$2" alt="$1" class="blogImage" />')
     .replace(/\[(.+?)\]\((.+?)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>')
     .replace(/^→ (.+)$/gm, '<p class="arrow-link">→ $1</p>')
     .replace(/\n\n/g, '</p><p>')
-    .replace(/^(?!<[h|p|s])/gm, '')
     .trim();
 }
 

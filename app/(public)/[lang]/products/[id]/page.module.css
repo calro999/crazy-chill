@@ -222,6 +222,38 @@
   border-left: 2px solid var(--color-accent);
 }
 
+.descText {
+  color: var(--color-text-subtle);
+  line-height: 1.6;
+  white-space: pre-wrap;
+  font-size: 15px;
+}
+
+.blogLinkCard {
+  margin: 8px 0 24px;
+  background: var(--color-bg-card);
+  border: 1px dashed var(--color-accent);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+.blogLinkCard:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.blogLinkAnchor {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--color-accent);
+  text-decoration: none;
+}
+.blogLinkAnchor:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
 /* Related */
 .related {
   border-top: 1px solid var(--color-border);

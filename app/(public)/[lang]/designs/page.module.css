@@ -48,9 +48,55 @@
   font-size: 32px;
   letter-spacing: 0.1em;
   color: var(--color-text);
-  border-bottom: 1px solid var(--color-border-2);
+  margin: 0;
+}
+
+/* アコーディオン要素のスタイリング */
+.seriesSummary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
   padding-bottom: 12px;
-  margin-bottom: 8px;
+  border-bottom: 1px solid var(--color-border-2);
+  margin-bottom: 24px;
+  list-style: none; /* デフォルトの三角形を消す (Chrome/Safari) */
+}
+.seriesSummary::-webkit-details-marker {
+  display: none; /* デフォルトの三角形を消す (Safari) */
+}
+.seriesSummary:hover .seriesTitle {
+  color: var(--color-accent);
+}
+
+.accordionIcon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  transition: transform 0.3s ease;
+}
+.accordionIcon::before,
+.accordionIcon::after {
+  content: '';
+  position: absolute;
+  background-color: var(--color-text);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.3s ease;
+}
+.accordionIcon::before {
+  width: 14px;
+  height: 2px;
+}
+.accordionIcon::after {
+  width: 2px;
+  height: 14px;
+}
+/* 開いた時のマイナスアイコン */
+.seriesGroup[open] .accordionIcon::after {
+  transform: translate(-50%, -50%) rotate(90deg);
 }
 
 .grid {

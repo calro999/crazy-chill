@@ -126,6 +126,14 @@ export default async function ProductDetailPage({ params }: Props) {
               <p className={styles.descText}>{description}</p>
             </div>
 
+            {product.series === 'ムダに肋骨が長いうさぎ' && (
+              <div className={styles.blogLinkCard}>
+                <Link href={`/${lang}/blog/rabbit-ribs-styling`} className={styles.blogLinkAnchor}>
+                  📸 着用写真・コーディネート例はこちらのブログをチェック！
+                </Link>
+              </div>
+            )}
+
             <div className={styles.ctas}>
               <SuzuriButton
                 productId={product.id}

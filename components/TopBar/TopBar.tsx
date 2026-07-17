@@ -38,7 +38,7 @@ export default function TopBar({ lang = 'ja' }: { lang?: 'ja' | 'en' }) {
           {/* Desktop Nav */}
           <nav className={styles.nav} aria-label="メインナビゲーション">
             <Link href={`/${lang}/products`} className={`${styles.navLink} ${pathname?.includes('/products') ? styles.active : ''}`}>
-              {dict.topbar.catalog}
+              {lang === 'ja' ? '商品一覧' : 'All Items'}
             </Link>
             <Link href={`/${lang}/catalog`} className={`${styles.navLink} ${pathname?.includes('/catalog') ? styles.active : ''}`}>
               {dict.topbar.catalog}
@@ -105,7 +105,7 @@ export default function TopBar({ lang = 'ja' }: { lang?: 'ja' | 'en' }) {
             </div>
             <div className={styles.mobileLinks}>
               <Link href={`/${lang}`} className={styles.mobileLink}>{dict.topbar.home}</Link>
-              <Link href={`/${lang}/products`} className={styles.mobileLink}>{dict.topbar.catalog}</Link>
+              <Link href={`/${lang}/products`} className={styles.mobileLink}>{lang === 'ja' ? '商品一覧' : 'All Items'}</Link>
               <Link href={`/${lang}/catalog`} className={styles.mobileLink}>{dict.topbar.catalog}</Link>
               <Link href={`/${lang}/category/t-shirts`} className={styles.mobileLink}>T-Shirts</Link>
               <Link href={`/${lang}/category/hoodies`} className={styles.mobileLink}>Hoodies</Link>
