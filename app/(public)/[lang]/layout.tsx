@@ -28,6 +28,9 @@ export const metadata: Metadata = {
     title: 'CRAZY CHILL（クレチル）| 狂気的なまでに脱力',
     description: '狂気的なまでに脱力するダークパンクアパレルブランド。',
   },
+  icons: {
+    icon: '/favicon.png',
+  },
   robots: {
     index: true,
     follow: true,
