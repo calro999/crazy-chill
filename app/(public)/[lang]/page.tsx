@@ -15,7 +15,19 @@ export default async function HomePage({ params }: Props) {
   const recentPosts = getRecentPosts(3);
   const featuredProducts = products.filter(p => p.featured).slice(0, 6);
   const newProducts = products.filter(p => p.isNew).slice(0, 6);
-  const displayProducts = featuredProducts.length > 0 ? featuredProducts : products.slice(0, 6);
+  
+  let displayProducts = [...newProducts];
+  for (const p of featuredProducts) {
+    if (!displayProducts.some(dp => dp.id === p.id)) {
+      displayProducts.push(p);
+    }
+  }
+  for (const p of products) {
+    if (displayProducts.length >= 8) break;
+    if (!displayProducts.some(dp => dp.id === p.id)) {
+      displayProducts.push(p);
+    }
+  }
 
   return (
     <div className={styles.page}>
