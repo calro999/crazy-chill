@@ -640,6 +640,35 @@
       "published": true,
       "createdAt": "2026-07-16",
       "sortOrder": 22
+    },
+    {
+      "id": "-cap-mrolqdeu",
+      "name": "ムダに肋骨が長いうさぎ ーcapー",
+      "nameJa": "ムダに肋骨が長いうさぎ ーキャップー",
+      "category": "caps",
+      "series": "ムダに肋骨が長いうさぎ",
+      "tags": [
+        "CRAZYCHILL",
+        "クレイジーチル",
+        "クレチル",
+        "cap",
+        "キャップ",
+        "うさぎ",
+        "動物",
+        "アニマル"
+      ],
+      "price": 2087,
+      "currency": "JPY",
+      "image": "https://lens.suzuri.jp/v3/500x500/toms-club-cap-for-shop/f/black/20400497/1784047614-2000x2000.png.0.3435+0.0+0.0.webp?h=72d9651d1c1c6320c60e0ae6656f066ab4fe8176&printed=true",
+      "imageAlt": "ムダに肋骨が長いうさぎのキャップです。",
+      "suzuriUrl": "https://suzuri.jp/CRAZYCHILL/20400497/toms-club-cap-for-shop/f/black",
+      "description": "肋骨が長くなっても意味ない。\n君までの距離は縮まらないから。\n#CRAZYCHILL #クレイジーチル #クレチル #cap #キャップ#うさぎ #動物 #アニマル",
+      "descriptionEn": "It doesn't matter if the ribs get longer.\nThe distance to you will not shrink.\n# crazychill # crazychill # creatile # cap # cap # rabbit # animal # animal",
+      "featured": false,
+      "isNew": false,
+      "published": true,
+      "createdAt": "2026-07-17",
+      "sortOrder": 23
     }
   ]
 }
