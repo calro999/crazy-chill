@@ -669,6 +669,34 @@
       "published": true,
       "createdAt": "2026-07-17",
       "sortOrder": 23
+    },
+    {
+      "id": "-half-pants-mrolw096",
+      "name": "ムダに肋骨が長いうさぎ ーHALF PANTSー",
+      "nameJa": "ムダに肋骨が長いうさぎ ーハーフパンツー",
+      "category": "misc",
+      "series": "ムダに肋骨が長いうさぎ",
+      "tags": [
+        "CRAZYCHILL",
+        "クレイジーチル",
+        "クレチル",
+        "ハーフパンツ",
+        "無駄に肋骨が長いうさぎ",
+        "短パン",
+        "おしゃれ"
+      ],
+      "price": 5584,
+      "currency": "JPY",
+      "image": "https://lens.suzuri.jp/v3/500x500/wundou-8-3oz-piping-half-pants-for-shop/l/black/20400497/1784047614-2000x2000.png.0.6995+0.0+0.0.webp?h=2c8148afea512762e110cd6838b07636ec3051e0&printed=true",
+      "imageAlt": "ムダに肋骨が長いうさぎのハーフパンツ",
+      "suzuriUrl": "https://suzuri.jp/CRAZYCHILL/20400497/wundou-8-3oz-piping-half-pants-for-shop/l/black",
+      "description": "肋骨が長くなっても意味ない。\n君までの距離は縮まらないから。\n#CRAZYCHILL #クレイジーチル #クレチル #ハーフパンツ #無駄に肋骨が長いうさぎ #短パン #おしゃれ",
+      "descriptionEn": "It doesn't matter if the ribs get longer.\nThe distance to you will not shrink.\n# crazychill # crazychill # krechil # halfpants # rabbits with long wasted ribs # shorts # fashionable",
+      "featured": false,
+      "isNew": false,
+      "published": true,
+      "createdAt": "2026-07-17",
+      "sortOrder": 24
     }
   ]
 }
