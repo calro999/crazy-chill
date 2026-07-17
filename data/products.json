@@ -697,6 +697,33 @@
       "published": true,
       "createdAt": "2026-07-17",
       "sortOrder": 24
+    },
+    {
+      "id": "-sox-mrp56jl6",
+      "name": "ムダに肋骨が長いうさぎ ーsoxー",
+      "nameJa": "ムダに肋骨が長いうさぎ ーくるぶし靴下ー",
+      "category": "misc",
+      "series": "ムダに肋骨が長いうさぎ",
+      "tags": [
+        "ムダに肋骨が長いうさぎ",
+        "アニマル",
+        "動物",
+        "靴下",
+        "ソックス",
+        "くるぶしソックス"
+      ],
+      "price": 2915,
+      "currency": "JPY",
+      "image": "https://lens.suzuri.jp/v3/500x500/ankle-socks/25-27cm/white/20400497/1784047614-2000x2000.png.0.9125+0.0-0.0386.webp?h=7f4388c0abd0a3f9ae5bc95eee3d2000ca04759b&printed=true",
+      "imageAlt": "「ムダに肋骨が長いうさぎ」シリーズのくるぶしソックス",
+      "suzuriUrl": "https://suzuri.jp/CRAZYCHILL/20400497/ankle-socks/25-27cm/white",
+      "description": "デザインテーマ：肋骨が長くなっても意味ない。君までの距離は縮まらないから。\nムダに肋骨が長いうさぎのくるぶしソックスです。\n\n#ムダに肋骨が長いうさぎ #アニマル #動物 #靴下 #ソックス #くるぶしソックス",
+      "descriptionEn": "Design theme: It makes no sense if the ribs get longer.The distance to you will not shrink.\nIt is a rabbit ankle sock with a long rib to waste.\n\n# Rabbits with long wasted ribs # Animals # Animals # Socks # Socks # Ankle socks",
+      "featured": false,
+      "isNew": false,
+      "published": true,
+      "createdAt": "2026-07-17",
+      "sortOrder": 25
     }
   ]
 }
