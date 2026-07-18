@@ -124,9 +124,9 @@ export default async function HomePage({ params }: Props) {
         </div>
 
         {/* Hero Visual (Right Side) */}
-        {newProducts.length > 0 && (
+        {displayProducts.length > 0 && (
           <div className={styles.heroVisual}>
-            {newProducts.slice(0, 4).map((product, i) => (
+            {displayProducts.slice(0, 4).map((product, i) => (
               <Link href={`/${lang}/products/${product.id}`} key={product.id} className={`${styles.heroVisualItem} ${styles[`heroVisualItem${i + 1}`]}`}>
                 <div className={styles.heroVisualImageWrapper}>
                   {product.image ? (
