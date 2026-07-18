@@ -25,15 +25,8 @@ interface Product {
   sortOrder: number;
 }
 
-const CATEGORIES = [
-  { value: 't-shirts', label: 'Tシャツ' },
-  { value: 'hoodies', label: 'パーカー' },
-  { value: 'caps', label: 'キャップ' },
-  { value: 'stickers', label: 'ステッカー' },
-  { value: 'glasses', label: 'グラス' },
-  { value: 'accessories', label: 'アクセサリー' },
-  { value: 'misc', label: '雑貨・小物' },
-];
+// Dynamic categories from API
+// const CATEGORIES will be loaded via state
 
 const EMPTY_PRODUCT: Omit<Product, 'id' | 'createdAt' | 'sortOrder'> = {
   name: '',
@@ -63,11 +56,28 @@ export default function AdminProductsPage() {
   const [message, setMessage] = useState('');
   const [uploading, setUploading] = useState(false);
   const [expandedSeries, setExpandedSeries] = useState<Record<string, boolean>>({});
+  const [categories, setCategories] = useState<{id: string, name: string}[]>([]);
   const fileInputRef = useRef<HTMLInputElement>(null);
+
+  // Compute unique series from products for auto-complete
+  const uniqueSeries = Array.from(new Set(products.map(p => p.series).filter(Boolean))) as string[];
 
   useEffect(() => {
     loadProducts();
+    loadCategories();
   }, []);
+
+  async function loadCategories() {
+    try {
+      const res = await fetch('/api/admin/categories');
+      if (res.ok) {
+        const data = await res.json();
+        setCategories(data.categories || []);
+      }
+    } catch (e) {
+      console.error(e);
+    }
+  }
 
   async function loadProducts() {
     try {
@@ -109,6 +119,43 @@ export default function AdminProductsPage() {
       published: product.published,
     });
     setTagsInput((product.tags || []).join(', '));
+  }
+
+  async function handleAddCategory() {
+    const name = window.prompt('新しいカテゴリーの名前（日本語）を入力してください');
+    if (!name) return;
+    const slug = window.prompt('URL用のスラッグ（英語・小文字ハイフン）を入力してください');
+    if (!slug) return;
+
+    const newCat = {
+      id: slug,
+      slug,
+      name,
+      nameEn: slug,
+      icon: '✨',
+      description: ''
+    };
+
+    setSaving(true);
+    try {
+      const res = await fetch('/api/admin/categories', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(newCat)
+      });
+      if (res.ok) {
+        const data = await res.json();
+        setCategories(data.categories);
+        setForm(f => ({ ...f, category: slug }));
+        setMessage('カテゴリーを追加しました！');
+      } else {
+        setMessage('カテゴリーの追加に失敗しました');
+      }
+    } catch (e) {
+      setMessage('通信エラーが発生しました');
+    } finally {
+      setSaving(false);
+    }
   }
 
   function closeForm() {
@@ -407,16 +454,22 @@ export default function AdminProductsPage() {
               {/* Category & Price */}
               <div className={styles.formField}>
                 <label className={styles.fieldLabel}>カテゴリー*</label>
-                <select
-                  value={form.category}
-                  onChange={e => setForm(f => ({ ...f, category: e.target.value }))}
-                  className={styles.fieldSelect}
-                  id="field-category"
-                >
-                  {CATEGORIES.map(cat => (
-                    <option key={cat.value} value={cat.value}>{cat.label}</option>
-                  ))}
-                </select>
+                <div style={{ display: 'flex', gap: '8px' }}>
+                  <select
+                    value={form.category}
+                    onChange={e => setForm(f => ({ ...f, category: e.target.value }))}
+                    className={styles.fieldSelect}
+                    id="field-category"
+                    style={{ flex: 1 }}
+                  >
+                    {categories.map(cat => (
+                      <option key={cat.id} value={cat.id}>{cat.name}</option>
+                    ))}
+                  </select>
+                  <button type="button" onClick={handleAddCategory} className={styles.btnSecondary} style={{ padding: '0 12px' }}>
+                    + 追加
+                  </button>
+                </div>
               </div>
 
               {/* Series */}
@@ -428,7 +481,13 @@ export default function AdminProductsPage() {
                   value={form.series || ''}
                   onChange={e => setForm(f => ({ ...f, series: e.target.value }))}
                   placeholder="デザインリストでグループ化されます"
+                  list="seriesList"
                 />
+                <datalist id="seriesList">
+                  {uniqueSeries.map(s => (
+                    <option key={s} value={s} />
+                  ))}
+                </datalist>
               </div>
 
               <div className={styles.formField}>
