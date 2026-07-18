@@ -151,7 +151,7 @@
 
 .heroVisualItem {
   position: absolute;
-  width: 46%; /* responsive width */
+  width: 38%; /* perfectly fits a 4-step staircase */
   background: rgba(10, 10, 15, 0.6);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -173,31 +173,31 @@
 .heroVisualItem1 {
   top: 0%;
   left: 0%;
-  transform: rotate(-4deg);
+  transform: rotate(-6deg);
   z-index: 1;
 }
 .heroVisualItem1, .heroVisualItem1:nth-child(n) { animation-delay: 0s, 0s; }
 
 .heroVisualItem2 {
-  top: 8%;
-  right: 0%;
-  transform: rotate(5deg);
+  top: 18%;
+  left: 20%;
+  transform: rotate(4deg);
   z-index: 2;
 }
 .heroVisualItem2, .heroVisualItem2:nth-child(n) { animation-delay: 0.1s, -1.5s; }
 
 .heroVisualItem3 {
-  bottom: 8%;
-  left: 2%;
-  transform: rotate(3deg);
+  top: 36%;
+  left: 40%;
+  transform: rotate(-2deg);
   z-index: 3;
 }
 .heroVisualItem3, .heroVisualItem3:nth-child(n) { animation-delay: 0.2s, -3s; }
 
 .heroVisualItem4 {
-  bottom: 0%;
-  right: 2%;
-  transform: rotate(-6deg);
+  top: 54%;
+  left: 60%;
+  transform: rotate(5deg);
   z-index: 4;
 }
 .heroVisualItem4, .heroVisualItem4:nth-child(n) { animation-delay: 0.3s, -4.5s; }
