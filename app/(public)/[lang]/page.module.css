@@ -141,22 +141,22 @@
 .heroVisual {
   position: relative;
   z-index: 2;
-  flex: 1;
+  flex: 1.5; /* Takes more space to use the empty area */
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 500px;
-  height: 500px;
+  max-width: 800px; /* Expanded from 500px to use left space */
+  height: 600px;    /* Taller to accommodate larger cards */
 }
 
 .heroVisualItem {
   position: absolute;
-  width: 23%; /* fits 4 cards horizontally without overlapping */
+  width: 24%; /* fits 4 cards horizontally without overlapping */
   background: rgba(10, 10, 15, 0.6);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--radius-lg);
-  padding: 8px;
+  padding: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
   animation: entrance 1s cubic-bezier(0.2, 0.8, 0.2, 1) both, float 6s ease-in-out infinite;
@@ -236,7 +236,7 @@
 }
 
 .heroVisualName {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   color: var(--color-text);
   font-family: var(--font-heading);
@@ -246,7 +246,7 @@
 }
 
 .heroVisualPrice {
-  font-size: 10px;
+  font-size: 12px;
   color: var(--color-accent-2);
   font-family: var(--font-heading);
 }
