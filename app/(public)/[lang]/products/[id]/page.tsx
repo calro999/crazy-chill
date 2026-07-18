@@ -52,21 +52,47 @@ export default async function ProductDetailPage({ params }: Props) {
 
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'Product',
-    name: name,
-    description: description,
-    image: product.image,
-    offers: {
-      '@type': 'Offer',
-      price: product.price,
-      priceCurrency: product.currency,
-      availability: 'https://schema.org/InStock',
-      url: product.suzuriUrl,
-    },
-    brand: {
-      '@type': 'Brand',
-      name: 'CRAZY CHILL',
-    },
+    '@graph': [
+      {
+        '@type': 'Product',
+        name: name,
+        description: description,
+        image: product.image,
+        offers: {
+          '@type': 'Offer',
+          price: product.price,
+          priceCurrency: product.currency,
+          availability: 'https://schema.org/InStock',
+          url: product.suzuriUrl,
+        },
+        brand: {
+          '@type': 'Brand',
+          name: 'CRAZY CHILL',
+        },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+          {
+            '@type': 'ListItem',
+            'position': 1,
+            'name': dict.topbar.home,
+            'item': `https://crazy-chill-official.vercel.app/${lang}`
+          },
+          {
+            '@type': 'ListItem',
+            'position': 2,
+            'name': dict.sections.allItems,
+            'item': `https://crazy-chill-official.vercel.app/${lang}/products`
+          },
+          {
+            '@type': 'ListItem',
+            'position': 3,
+            'name': name
+          }
+        ]
+      }
+    ]
   };
 
   return (

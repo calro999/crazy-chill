@@ -8,7 +8,14 @@ import styles from './layout.module.css';
 import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://crazy-chill.vercel.app'),
+  metadataBase: new URL('https://crazy-chill-official.vercel.app'),
+  alternates: {
+    canonical: './',
+    languages: {
+      'ja': '/ja',
+      'en': '/en',
+    },
+  },
   title: {
     default: 'CRAZY CHILL（クレチル）| 狂気的なまでに脱力するダークパンクブランド',
     template: '%s | CRAZY CHILL',

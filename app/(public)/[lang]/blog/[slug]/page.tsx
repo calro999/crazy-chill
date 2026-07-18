@@ -60,19 +60,45 @@ export default async function BlogPostPage({ params }: Props) {
 
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@type': 'BlogPosting',
-    headline: post.title,
-    description: post.excerpt,
-    datePublished: post.publishedAt,
-    author: {
-      '@type': 'Organization',
-      name: post.author,
-    },
-    publisher: {
-      '@type': 'Organization',
-      name: 'CRAZY CHILL',
-    },
-    keywords: post.tags.join(', '),
+    '@graph': [
+      {
+        '@type': 'BlogPosting',
+        headline: post.title,
+        description: post.excerpt,
+        datePublished: post.publishedAt,
+        author: {
+          '@type': 'Organization',
+          name: post.author,
+        },
+        publisher: {
+          '@type': 'Organization',
+          name: 'CRAZY CHILL',
+        },
+        keywords: post.tags.join(', '),
+      },
+      {
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+          {
+            '@type': 'ListItem',
+            'position': 1,
+            'name': 'HOME',
+            'item': `https://crazy-chill-official.vercel.app/${lang}`
+          },
+          {
+            '@type': 'ListItem',
+            'position': 2,
+            'name': 'ブログ',
+            'item': `https://crazy-chill-official.vercel.app/${lang}/blog`
+          },
+          {
+            '@type': 'ListItem',
+            'position': 3,
+            'name': post.title
+          }
+        ]
+      }
+    ]
   };
 
   return (

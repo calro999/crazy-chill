@@ -29,8 +29,64 @@ export default async function HomePage({ params }: Props) {
     }
   }
 
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Organization',
+        '@id': 'https://crazy-chill-official.vercel.app/#organization',
+        'name': 'CRAZY CHILL',
+        'url': 'https://crazy-chill-official.vercel.app/',
+        'logo': 'https://crazy-chill-official.vercel.app/favicon.png',
+        'description': '狂気的なまでに脱力するダークパンクアパレルブランド。'
+      },
+      {
+        '@type': 'WebSite',
+        '@id': 'https://crazy-chill-official.vercel.app/#website',
+        'url': 'https://crazy-chill-official.vercel.app/',
+        'name': 'CRAZY CHILL',
+        'publisher': {
+          '@id': 'https://crazy-chill-official.vercel.app/#organization'
+        }
+      },
+      {
+        '@type': 'FAQPage',
+        'mainEntity': [
+          {
+            '@type': 'Question',
+            'name': '商品はどこで購入できますか？',
+            'acceptedAnswer': {
+              '@type': 'Answer',
+              'text': '全商品はオリジナルグッズ通販サイト「SUZURI」にて販売しております。本サイトはカタログおよびブランド紹介サイトです。'
+            }
+          },
+          {
+            '@type': 'Question',
+            'name': '海外からの購入は可能ですか？',
+            'acceptedAnswer': {
+              '@type': 'Answer',
+              'text': 'はい、可能です。SUZURIが提携しているWorldShoppingサービスを通じて世界中からご購入いただけます。'
+            }
+          },
+          {
+            '@type': 'Question',
+            'name': '送料はいくらですか？',
+            'acceptedAnswer': {
+              '@type': 'Answer',
+              'text': '送料はSUZURIの規定に準じます。アイテムや配送地域によって異なりますので、SUZURIの各商品ページをご確認ください。'
+            }
+          }
+        ]
+      }
+    ]
+  };
+
   return (
     <div className={styles.page}>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* ===== HERO ===== */}
       <section className={styles.hero} aria-label="ヒーローセクション">
         <div className={styles.heroContent}>
@@ -70,8 +126,8 @@ export default async function HomePage({ params }: Props) {
         {/* Hero Visual (Right Side) */}
         {newProducts.length > 0 && (
           <div className={styles.heroVisual}>
-            {newProducts.slice(0, 2).map((product, i) => (
-              <Link href={`/products/${product.id}`} key={product.id} className={`${styles.heroVisualItem} ${styles[`heroVisualItem${i + 1}`]}`}>
+            {newProducts.slice(0, 4).map((product, i) => (
+              <Link href={`/${lang}/products/${product.id}`} key={product.id} className={`${styles.heroVisualItem} ${styles[`heroVisualItem${i + 1}`]}`}>
                 <div className={styles.heroVisualImageWrapper}>
                   {product.image ? (
                     <img src={product.image} alt={product.name} className={styles.heroVisualImage} />
@@ -197,7 +253,43 @@ export default async function HomePage({ params }: Props) {
             ))}
           </div>
         </section>
+        </section>
       )}
+
+      {/* ===== FAQ ===== */}
+      <section className={styles.faqSection} aria-label="よくある質問">
+        <div className={styles.sectionHeader}>
+          <div className={styles.sectionLabel}>Q&A</div>
+          <h2 className={styles.sectionTitle}>よくある質問</h2>
+        </div>
+        <div className={styles.faqList}>
+          <details className={styles.faqItem}>
+            <summary className={styles.faqQuestion}>
+              <span className={styles.faqIcon}>Q.</span> 商品はどこで購入できますか？
+            </summary>
+            <div className={styles.faqAnswer}>
+              <p>全商品はオリジナルグッズ通販サイト「SUZURI」にて販売しております。本サイトはカタログおよびブランド紹介サイトです。</p>
+            </div>
+          </details>
+          <details className={styles.faqItem}>
+            <summary className={styles.faqQuestion}>
+              <span className={styles.faqIcon}>Q.</span> 海外からの購入は可能ですか？
+            </summary>
+            <div className={styles.faqAnswer}>
+              <p>はい、可能です。SUZURIが提携しているWorldShoppingサービスを通じて世界中からご購入いただけます。</p>
+            </div>
+          </details>
+          <details className={styles.faqItem}>
+            <summary className={styles.faqQuestion}>
+              <span className={styles.faqIcon}>Q.</span> 送料はいくらですか？
+            </summary>
+            <div className={styles.faqAnswer}>
+              <p>送料はSUZURIの規定に準じます。アイテムや配送地域によって異なりますので、SUZURIの各商品ページをご確認ください。</p>
+            </div>
+          </details>
+        </div>
+      </section>
+
     </div>
   );
 }
