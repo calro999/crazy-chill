@@ -79,6 +79,14 @@
       "nameEn": "half-pants",
       "icon": "✨",
       "description": ""
+    },
+    {
+      "id": "pants",
+      "slug": "pants",
+      "name": "パンツ",
+      "nameEn": "pants",
+      "icon": "✨",
+      "description": ""
     }
   ]
 }
