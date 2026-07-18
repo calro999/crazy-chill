@@ -868,6 +868,35 @@
       "published": true,
       "createdAt": "2026-07-18",
       "sortOrder": 29
+    },
+    {
+      "id": "bone-rider-standard-t-shirt-mrqfou7x",
+      "name": "Bone rider standard t-shirt",
+      "nameJa": "BONE RIDER スタンダードTシャツ",
+      "category": "t-shirts",
+      "series": "BONE RIDER",
+      "tags": [
+        "CRAZYCHILL",
+        "ストリートファッション",
+        "スケーターファッション",
+        "骸骨デザイン",
+        "モノトーンコーデ",
+        "アメカジストリート",
+        "グラフィックT",
+        "チルアウト"
+      ],
+      "price": 3421,
+      "currency": "JPY",
+      "image": "https://lens.suzuri.jp/v3/500x500/t-shirt/s/white/front/20424051/1784378528-2000x2000.png.1.26+0.0+0.071.webp?h=ed5916eee827728069e0979bc8c62ac2ff6a0675&printed=true",
+      "imageAlt": "BONE RIDER - \"CRAZY CHILL\" スタンダードTシャツ",
+      "suzuriUrl": "https://suzuri.jp/CRAZYCHILL/20424051/t-shirt/s/white",
+      "description": "BONE RIDER - \"CRAZY CHILL\" スタンダードTシャツ。\nシンプルながらに中央のドクロが主張する。\n\nーコンセプトー\n「死んでもなお、チルで狂気的なライドは終わらない」\n骨でできたスケートボードに乗り、軽快に街を駆け抜ける骸骨のグラフィック。死や恐怖の象徴であるスケルトンがあえて「楽しげにスケートをしている」というギャップを描くことで、ブランドの核である「CRAZY（狂気）」と「CHILL（冷静・遊び心）」の融合を表現。モノトーンのソリッドなラインは、ストリートカルチャーやスケーターファッションの自由で反骨的なスピリットを象徴しています。身につけるだけで、周囲に流されない独自の「チルな姿勢」をアピールできるデザインです。\n\n#CRAZYCHILL #ストリートファッション #スケーターファッション #骸骨デザイン #モノトーンコーデ #アメカジストリート #グラフィックT #チルアウト",
+      "descriptionEn": "Bone rider - \"crazy chill\" standard t-shirt.\nThe simple but central skull insists.\n\n- Concepto\n\"Even if I die, the crazy ride will not end with Chill.\"\nA skeleton graphic of a skateboard made of bones and running lightly through the city.Skeletons, symbols of death and fear, dare to draw a gap of \"skating happily\", expressing the fusion of \"crazy\" and \"chill\", the core of the brand.The monotone solid line symbolizes the free and rebellious spirit of street culture and skater fashion.Just by wearing it, you can appeal to your own \"chill posture\" that will not be washed around.\n\n# CRAZYCHILL # streetfashion # skaterfashion # skeletondesign # monotonecode # amecajistreet # graphicT # chillout",
+      "featured": false,
+      "isNew": false,
+      "published": true,
+      "createdAt": "2026-07-18",
+      "sortOrder": 30
     }
   ]
 }
