@@ -724,6 +724,32 @@
       "published": true,
       "createdAt": "2026-07-17",
       "sortOrder": 25
+    },
+    {
+      "id": "-big-mrq04ekr",
+      "name": "ムダに肋骨が長いうさぎ ーbigー",
+      "nameJa": "ムダに肋骨が長いうさぎ ービッグシルエットスウェットー",
+      "category": "t-shirts",
+      "series": "ムダに肋骨が長いうさぎ",
+      "tags": [
+        "ムダに肋骨が長いうさぎ",
+        "CRAZYCHILL",
+        "クレチル",
+        "クレイジーチル",
+        "ビッグシルエットスウェット"
+      ],
+      "price": 5544,
+      "currency": "JPY",
+      "image": "https://lens.suzuri.jp/v3/500x500/big-sweat/m/white/20400497/1784047614-2000x2000.png.1.3516+0.0+0.068.webp?h=e3056783ed6eabce73ff30bdaa550d705e839f45&printed=true",
+      "imageAlt": "ムダに肋骨が長いうさぎシリーズのビッグシルエットスウェット",
+      "suzuriUrl": "https://suzuri.jp/CRAZYCHILL/20400497/big-sweat/m/white",
+      "description": "コンセプト：肋骨が長くなっても意味ない。君までの距離は縮まらないから。\nムダに肋骨が長いうさぎシリーズの肋骨うさぎちゃんが大きくプリントされたスウェットです！\n\n#ムダに肋骨が長いうさぎ #CRAZYCHILL #クレチル #クレイジーチル #ビッグシルエットスウェット",
+      "descriptionEn": "Concept: It makes no sense if the ribs get longer.The distance to you will not shrink.\nIt is a sweatshirt with a large print of the ribs of the rabbit series with long ribs in waste!",
+      "featured": false,
+      "isNew": false,
+      "published": true,
+      "createdAt": "2026-07-18",
+      "sortOrder": 26
     }
   ]
 }
