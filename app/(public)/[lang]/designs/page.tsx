@@ -37,6 +37,13 @@ export default function DesignsPage() {
                 <h2 className={styles.seriesTitle}>{seriesName === 'SINGLE' ? 'その他 / 単独デザイン' : `${seriesName} SERIES`}</h2>
                 <span className={styles.accordionIcon}></span>
               </summary>
+              {seriesName === 'BONE RIDER' && (
+                <div style={{ padding: '0 24px 24px', textAlign: 'center' }}>
+                  <Link href="/blog/bone-rider-setup-styling" style={{ color: 'var(--color-accent)', fontSize: '13px', textDecoration: 'underline', fontWeight: 600 }}>
+                    📸 【着用レビュー】夏のストリートコーデ＆セットアップを見る →
+                  </Link>
+                </div>
+              )}
               <div className={styles.grid}>
                 {seriesProducts.map((product, i) => (
                   <div key={product.id} className={styles.designItem}>
