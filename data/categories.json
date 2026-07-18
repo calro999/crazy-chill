@@ -87,6 +87,14 @@
       "nameEn": "pants",
       "icon": "✨",
       "description": ""
+    },
+    {
+      "id": "bag",
+      "slug": "bag",
+      "name": "バッグ",
+      "nameEn": "bag",
+      "icon": "✨",
+      "description": ""
     }
   ]
 }
