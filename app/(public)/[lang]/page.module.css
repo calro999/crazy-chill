@@ -151,7 +151,7 @@
 
 .heroVisualItem {
   position: absolute;
-  width: 280px;
+  width: 250px;
   background: rgba(10, 10, 15, 0.6);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -159,62 +159,52 @@
   padding: 12px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
   transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
-  animation: float 6s ease-in-out infinite;
+  animation: entrance 1s cubic-bezier(0.2, 0.8, 0.2, 1) both, float 6s ease-in-out infinite;
 }
 
 .heroVisualItem:hover {
-  transform: translateY(-10px) scale(1.05) !important;
+  transform: scale(1.1) rotate(0deg) !important;
+  filter: brightness(1.2) !important;
   border-color: var(--color-accent);
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.7), 0 0 40px rgba(212, 175, 55, 0.1);
-  z-index: 10;
+  z-index: 10 !important;
 }
 
 .heroVisualItem1 {
-  top: 5%;
-  left: 0%;
-  --rot: -12deg;
-  animation-delay: 0s;
+  top: -5%;
+  left: -20%;
+  transform: rotate(-15deg) scale(0.85);
   z-index: 1;
+  filter: brightness(0.6);
 }
+.heroVisualItem1, .heroVisualItem1:nth-child(n) { animation-delay: 0s, 0s; }
 
 .heroVisualItem2 {
-  top: 20%;
-  right: -5%;
-  --rot: 8deg;
-  animation-delay: -1.5s;
+  top: 15%;
+  right: -25%;
+  transform: rotate(18deg) scale(0.9);
   z-index: 2;
+  filter: brightness(0.7);
 }
+.heroVisualItem2, .heroVisualItem2:nth-child(n) { animation-delay: 0.1s, -1.5s; }
 
 .heroVisualItem3 {
-  bottom: 25%;
-  left: 10%;
-  --rot: -5deg;
-  animation-delay: -3s;
+  bottom: 5%;
+  left: -10%;
+  transform: rotate(-8deg) scale(0.95);
   z-index: 3;
+  filter: brightness(0.85);
 }
+.heroVisualItem3, .heroVisualItem3:nth-child(n) { animation-delay: 0.2s, -3s; }
 
 .heroVisualItem4 {
-  bottom: 5%;
-  right: 15%;
-  --rot: 15deg;
-  animation-delay: -4.5s;
+  bottom: -15%;
+  right: -5%;
+  transform: rotate(6deg) scale(1);
   z-index: 4;
+  filter: brightness(1);
 }
-
-.heroVisualItem:nth-child(n) {
-  /* add subtle entrance animation */
-  animation: float 6s ease-in-out infinite, slideUpFade 1s cubic-bezier(0.2, 0.8, 0.2, 1) backwards;
-}
-
-.heroVisualItem1 { animation-delay: 0s, 0.1s; }
-.heroVisualItem2 { animation-delay: -1.5s, 0.2s; }
-.heroVisualItem3 { animation-delay: -3s, 0.3s; }
-.heroVisualItem4 { animation-delay: -4.5s, 0.4s; }
-
-@keyframes slideUpFade {
-  from { opacity: 0; transform: translateY(50px) rotate(0deg); }
-  to { opacity: 1; }
-}
+.heroVisualItem4, .heroVisualItem4:nth-child(n) { animation-delay: 0.3s, -4.5s; }
 
 .heroVisualImageWrapper {
   position: relative;
@@ -266,8 +256,13 @@
 }
 
 @keyframes float {
-  0%, 100% { transform: translateY(0) rotate(var(--rot, 0deg)); }
-  50% { transform: translateY(-20px) rotate(calc(var(--rot, 0deg) + 2deg)); }
+  0%, 100% { translate: 0 0; }
+  50% { translate: 0 -25px; }
+}
+
+@keyframes entrance {
+  from { opacity: 0; translate: 0 80px; }
+  to { opacity: 1; translate: 0 0; }
 }
 
 /* Decorative */
