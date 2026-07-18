@@ -151,13 +151,13 @@
 
 .heroVisualItem {
   position: absolute;
-  width: 38%; /* perfectly fits a 4-step staircase */
+  width: 23%; /* fits 4 cards horizontally without overlapping */
   background: rgba(10, 10, 15, 0.6);
   backdrop-filter: blur(12px);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: var(--radius-xl);
-  padding: 12px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+  border-radius: var(--radius-lg);
+  padding: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
   animation: entrance 1s cubic-bezier(0.2, 0.8, 0.2, 1) both, float 6s ease-in-out infinite;
 }
@@ -171,33 +171,33 @@
 }
 
 .heroVisualItem1 {
-  top: 0%;
+  top: 5%;
   left: 0%;
-  transform: rotate(-6deg);
+  transform: rotate(-3deg);
   z-index: 1;
 }
 .heroVisualItem1, .heroVisualItem1:nth-child(n) { animation-delay: 0s, 0s; }
 
 .heroVisualItem2 {
-  top: 18%;
-  left: 20%;
-  transform: rotate(4deg);
+  top: 45%;
+  left: 25%;
+  transform: rotate(2deg);
   z-index: 2;
 }
 .heroVisualItem2, .heroVisualItem2:nth-child(n) { animation-delay: 0.1s, -1.5s; }
 
 .heroVisualItem3 {
-  top: 36%;
-  left: 40%;
+  top: 5%;
+  left: 50%;
   transform: rotate(-2deg);
   z-index: 3;
 }
 .heroVisualItem3, .heroVisualItem3:nth-child(n) { animation-delay: 0.2s, -3s; }
 
 .heroVisualItem4 {
-  top: 54%;
-  left: 60%;
-  transform: rotate(5deg);
+  top: 45%;
+  left: 75%;
+  transform: rotate(3deg);
   z-index: 4;
 }
 .heroVisualItem4, .heroVisualItem4:nth-child(n) { animation-delay: 0.3s, -4.5s; }
@@ -236,7 +236,7 @@
 }
 
 .heroVisualName {
-  font-size: 13px;
+  font-size: 11px;
   font-weight: 700;
   color: var(--color-text);
   font-family: var(--font-heading);
@@ -246,7 +246,7 @@
 }
 
 .heroVisualPrice {
-  font-size: 12px;
+  font-size: 10px;
   color: var(--color-accent-2);
   font-family: var(--font-heading);
 }
