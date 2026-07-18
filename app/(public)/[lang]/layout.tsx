@@ -5,6 +5,7 @@ import Footer from '@/components/Footer/Footer';
 import Sidebar from '@/components/Sidebar/Sidebar';
 import { getAllCategories } from '@/lib/data';
 import styles from './layout.module.css';
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://crazy-chill.vercel.app'),
@@ -91,6 +92,7 @@ export default async function RootLayout({
             <Footer lang={lang as 'ja' | 'en'} />
           </div>
         </div>
+        <Analytics />
       </body>
     </html>
   );
