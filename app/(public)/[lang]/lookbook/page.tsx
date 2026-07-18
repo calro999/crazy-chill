@@ -12,36 +12,42 @@ const LOOKBOOK_IMAGES = [
   {
     src: '/images/products/BONE%20RIDER.png',
     alt: 'BONE RIDER セットアップ着用',
+    seriesName: 'BONE RIDER SERIES',
     linkHref: '/designs',
     linkLabel: 'BONE RIDERシリーズを見る →'
   },
   {
     src: '/images/products/全身肋骨ちゃん.jpg',
     alt: '全身肋骨ちゃん 着用イメージ',
+    seriesName: '肋骨ちゃん SERIES',
     linkHref: '/products',
     linkLabel: 'このアイテムを探す →'
   },
   {
     src: '/images/products/別ポーズ2全身肋骨.jpg',
     alt: '全身肋骨ちゃん ストリートコーデ',
+    seriesName: '肋骨ちゃん SERIES',
     linkHref: '/products',
     linkLabel: 'アイテム一覧へ →'
   },
   {
     src: '/images/products/別ポーズ全身肋骨.jpg',
     alt: '全身肋骨ちゃん ダークパンクスタイル',
+    seriesName: '肋骨ちゃん SERIES',
     linkHref: '/products',
     linkLabel: 'アイテム一覧へ →'
   },
   {
     src: '/images/products/肋骨ちゃん.png',
     alt: '肋骨ちゃん グラフィック着用',
+    seriesName: '肋骨ちゃん SERIES',
     linkHref: '/products',
     linkLabel: 'アイテム一覧へ →'
   },
   {
     src: '/images/products/肋骨全身.jpg',
     alt: '肋骨全身 ルーズシルエットコーデ',
+    seriesName: '肋骨ちゃん SERIES',
     linkHref: '/products',
     linkLabel: 'アイテム一覧へ →'
   }

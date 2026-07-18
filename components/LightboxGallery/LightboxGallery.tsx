@@ -8,6 +8,7 @@ import styles from './LightboxGallery.module.css';
 interface GalleryImage {
   src: string;
   alt: string;
+  seriesName?: string;
   linkHref?: string;
   linkLabel?: string;
 }
@@ -63,9 +64,14 @@ export default function LightboxGallery({ images }: LightboxGalleryProps) {
                 fill
                 sizes="(max-width: 768px) 50vw, 33vw"
                 className={styles.thumbnail}
-                style={{ objectFit: 'cover' }}
+                style={{ objectFit: 'cover', objectPosition: 'top' }}
               />
             </div>
+            {image.seriesName && (
+              <div className={styles.seriesLabel}>
+                {image.seriesName}
+              </div>
+            )}
           </div>
         ))}
       </div>
