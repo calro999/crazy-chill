@@ -171,8 +171,8 @@
 }
 
 .heroVisualItem1 {
-  top: -5%;
-  left: -20%;
+  top: 5%;
+  left: 10%;
   transform: rotate(-15deg) scale(0.85);
   z-index: 1;
   filter: brightness(0.6);
@@ -181,7 +181,7 @@
 
 .heroVisualItem2 {
   top: 15%;
-  right: -25%;
+  right: 10%;
   transform: rotate(18deg) scale(0.9);
   z-index: 2;
   filter: brightness(0.7);
@@ -189,8 +189,8 @@
 .heroVisualItem2, .heroVisualItem2:nth-child(n) { animation-delay: 0.1s, -1.5s; }
 
 .heroVisualItem3 {
-  bottom: 5%;
-  left: -10%;
+  bottom: 15%;
+  left: 20%;
   transform: rotate(-8deg) scale(0.95);
   z-index: 3;
   filter: brightness(0.85);
@@ -198,8 +198,8 @@
 .heroVisualItem3, .heroVisualItem3:nth-child(n) { animation-delay: 0.2s, -3s; }
 
 .heroVisualItem4 {
-  bottom: -15%;
-  right: -5%;
+  bottom: 5%;
+  right: 20%;
   transform: rotate(6deg) scale(1);
   z-index: 4;
   filter: brightness(1);
