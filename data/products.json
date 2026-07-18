@@ -810,6 +810,35 @@
       "published": true,
       "createdAt": "2026-07-18",
       "sortOrder": 27
+    },
+    {
+      "id": "bone-rider-heavyweight-big-silhouette-long-sleeve-t-shirt-mrqfcfx1",
+      "name": "Bone rider Heavyweight Big Silhouette Long Sleeve T-Shirt",
+      "nameJa": "BONE RIDER ヘビーウェイトビッグシルエット長袖Tシャツ",
+      "category": "t-shirts",
+      "series": "BONE RIDER",
+      "tags": [
+        "CRAZYCHILL",
+        "ストリートファッション",
+        "スケーターファッション",
+        "骸骨デザイン",
+        "モノトーンコーデ",
+        "アメカジストリート",
+        "グラフィックT",
+        "チルアウト"
+      ],
+      "price": 3336,
+      "currency": "JPY",
+      "image": "https://lens.suzuri.jp/v3/500x500/printstar-5-6oz-heavyweight-big-silhouette-long-sleeve-tshirt-for-shop/l/white/20424051/1784378528-2000x2000.png.2.2427-0.0399-0.0043.webp?h=b9956e9a257eae03b28002a119f9b6990da1ade6&printed=true",
+      "imageAlt": "BONE RIDER ヘビーウェイトビッグシルエット長袖Tシャツ",
+      "suzuriUrl": "https://suzuri.jp/CRAZYCHILL/20424051/printstar-5-6oz-heavyweight-big-silhouette-long-sleeve-tshirt-for-shop/l/white",
+      "description": "シリーズコンセプト：「死んでもなお、チルで狂気的なライドは終わらない」\nBONE RIDERシリーズのヘビーウェイトビッグシルエット長袖Tシャツです。\nヘビーウェイトでビッグシルエットなので、ゆったり着たい人にオススメです。\n#CRAZYCHILL #ストリートファッション #スケーターファッション #骸骨デザイン #モノトーンコーデ #アメカジストリート #グラフィックT #チルアウト",
+      "descriptionEn": "Series Concept: “Dying doesn't end the crazy ride with a chill”\nThis is a heavyweight big silhouette long sleeve t-shirt from the bone rider series.\nIt has a heavy weight and a big silhouette, so it is recommended for those who want to wear it loosely.\n# CRAZYCHILL # streetfashion # skaterfashion # skeletondesign # monotonecode # amecajistreet # graphicT # chillout",
+      "featured": false,
+      "isNew": false,
+      "published": true,
+      "createdAt": "2026-07-18",
+      "sortOrder": 28
     }
   ]
 }
