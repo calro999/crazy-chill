@@ -1,8 +1,10 @@
 {
   "topbar": {
     "home": "Home",
+    "products": "Products",
     "catalog": "Catalog",
     "designs": "Designs",
+    "lookbook": "Lookbook",
     "blog": "Blog",
     "about": "About",
     "buy": "Buy on SUZURI"

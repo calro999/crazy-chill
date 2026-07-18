@@ -38,13 +38,16 @@ export default function TopBar({ lang = 'ja' }: { lang?: 'ja' | 'en' }) {
           {/* Desktop Nav */}
           <nav className={styles.nav} aria-label="メインナビゲーション">
             <Link href={`/${lang}/products`} className={`${styles.navLink} ${pathname?.includes('/products') ? styles.active : ''}`}>
-              {lang === 'ja' ? '商品一覧' : 'All Items'}
+              {dict.topbar.products}
             </Link>
             <Link href={`/${lang}/catalog`} className={`${styles.navLink} ${pathname?.includes('/catalog') ? styles.active : ''}`}>
               {dict.topbar.catalog}
             </Link>
             <Link href={`/${lang}/designs`} className={`${styles.navLink} ${pathname?.includes('/designs') ? styles.active : ''}`}>
               {dict.topbar.designs}
+            </Link>
+            <Link href={`/${lang}/lookbook`} className={`${styles.navLink} ${pathname?.includes('/lookbook') ? styles.active : ''}`}>
+              {dict.topbar.lookbook}
             </Link>
             <Link href={`/${lang}/blog`} className={`${styles.navLink} ${pathname?.includes('/blog') ? styles.active : ''}`}>
               {dict.topbar.blog}
@@ -105,13 +108,14 @@ export default function TopBar({ lang = 'ja' }: { lang?: 'ja' | 'en' }) {
             </div>
             <div className={styles.mobileLinks}>
               <Link href={`/${lang}`} className={styles.mobileLink}>{dict.topbar.home}</Link>
-              <Link href={`/${lang}/products`} className={styles.mobileLink}>{lang === 'ja' ? '商品一覧' : 'All Items'}</Link>
+              <Link href={`/${lang}/products`} className={styles.mobileLink}>{dict.topbar.products}</Link>
               <Link href={`/${lang}/catalog`} className={styles.mobileLink}>{dict.topbar.catalog}</Link>
               <Link href={`/${lang}/category/t-shirts`} className={styles.mobileLink}>T-Shirts</Link>
               <Link href={`/${lang}/category/hoodies`} className={styles.mobileLink}>Hoodies</Link>
               <Link href={`/${lang}/category/caps`} className={styles.mobileLink}>Caps</Link>
               <Link href={`/${lang}/category/stickers`} className={styles.mobileLink}>Stickers</Link>
               <Link href={`/${lang}/designs`} className={styles.mobileLink}>{dict.topbar.designs}</Link>
+              <Link href={`/${lang}/lookbook`} className={styles.mobileLink}>{dict.topbar.lookbook}</Link>
               <Link href={`/${lang}/blog`} className={styles.mobileLink}>{dict.topbar.blog}</Link>
               <Link href={`/${lang}/about`} className={styles.mobileLink}>{dict.topbar.about}</Link>
             </div>

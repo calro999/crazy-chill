@@ -1,8 +1,10 @@
 {
   "topbar": {
     "home": "ホーム",
+    "products": "商品一覧",
     "catalog": "カタログ",
     "designs": "デザインリスト",
+    "lookbook": "ルックブック",
     "blog": "ブログ",
     "about": "CRAZY CHILLとは",
     "buy": "SUZURIで購入"

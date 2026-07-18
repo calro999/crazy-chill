@@ -9,9 +9,10 @@ import ja from '@/dictionaries/ja.json';
 import en from '@/dictionaries/en.json';
 
 const NAV_ITEMS = [
-  { key: 'catalog', href: '/products', icon: '◈' },
+  { key: 'products', href: '/products', icon: '◈' },
   { key: 'catalog', href: '/catalog', icon: '◉' },
   { key: 'designs', href: '/designs', icon: '◆' },
+  { key: 'lookbook', href: '/lookbook', icon: '📸' },
   { key: 'blog', href: '/blog', icon: '◇' },
   { key: 'about', href: '/about', icon: '◎' },
 ];
