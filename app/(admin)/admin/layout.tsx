@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { getAllProducts, getAllPosts } from '@/lib/data';
 import '@/app/globals.css';
 import styles from './layout.module.css';
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   title: '管理画面 | CRAZY CHILL',
@@ -66,6 +67,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
             {children}
           </main>
         </div>
+        <Analytics />
       </body>
     </html>
   );
