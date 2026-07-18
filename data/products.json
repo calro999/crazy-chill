@@ -1013,6 +1013,35 @@
       "published": true,
       "createdAt": "2026-07-18",
       "sortOrder": 34
+    },
+    {
+      "id": "bone-rider-crazy-chill-one-point-t-shirt-mrqh3yun",
+      "name": "Bone rider - \"crazy chill\" one-point t-shirt",
+      "nameJa": "BONE RIDER - \"CRAZY CHILL\" ワンポイントTシャツ",
+      "category": "t-shirts",
+      "series": "BONE RIDER",
+      "tags": [
+        "CRAZYCHILL",
+        "ストリートファッション",
+        "スケーターファッション",
+        "骸骨デザイン",
+        "モノトーンコーデ",
+        "アメカジストリート",
+        "グラフィックT",
+        "チルアウト"
+      ],
+      "price": 3300,
+      "currency": "JPY",
+      "image": "https://lens.suzuri.jp/v3/500x500/one-point-t-shirt/l/white/close-up/20424051/1784378528-2000x2000.png.webp?h=dd37f34f73c98132c510114e2a26f30e44a555a0&printed=false",
+      "imageAlt": "BONE RIDER - \"CRAZY CHILL\" ワンポイントTシャツ",
+      "suzuriUrl": "https://suzuri.jp/CRAZYCHILL/20424051/one-point-t-shirt/l/white",
+      "description": "BONE RIDER - \"CRAZY CHILL\" ワンポイントTシャツです。\n胸元にドクロが主張する、シンプルめなTシャツになっています。\n\nーコンセプトー\n「死んでもなお、チルで狂気的なライドは終わらない」\n骨でできたスケートボードに乗り、軽快に街を駆け抜ける骸骨のグラフィック。死や恐怖の象徴であるスケルトンがあえて「楽しげにスケートをしている」というギャップを描くことで、ブランドの核である「CRAZY（狂気）」と「CHILL（冷静・遊び心）」の融合を表現。モノトーンのソリッドなラインは、ストリートカルチャーやスケーターファッションの自由で反骨的なスピリットを象徴しています。身につけるだけで、周囲に流されない独自の「チルな姿勢」をアピールできるデザインです。\n\n#CRAZYCHILL #ストリートファッション #スケーターファッション #骸骨デザイン #モノトーンコーデ #アメカジストリート #グラフィックT #チルアウト",
+      "descriptionEn": "Bone rider - \"crazy chill\" one-point t-shirt.\nIt is a simple T-shirt insisted by Skull on the chest.\n\n- Concepto\n\"Even if I die, the crazy ride will not end with Chill.\"\nA skeleton graphic of a skateboard made of bones and running lightly through the city.Skeletons, symbols of death and fear, dare to draw a gap of \"skating happily\", expressing the fusion of \"crazy\" and \"chill\", the core of the brand.The monotone solid line symbolizes the free and rebellious spirit of street culture and skater fashion.Just by wearing it, you can appeal to your own \"chill posture\" that will not be washed around.\n\n# CRAZYCHILL # streetfashion # skaterfashion # skeletondesign # monotonecode # amecajistreet # graphicT # chillout",
+      "featured": false,
+      "isNew": false,
+      "published": true,
+      "createdAt": "2026-07-18",
+      "sortOrder": 35
     }
   ]
 }
