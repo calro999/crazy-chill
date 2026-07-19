@@ -18,13 +18,26 @@ export async function GET() {
         ? `【CRAZY CHILL】${product.nameJa} - ${product.tags.join(', ')}`
         : `【CRAZY CHILL】${product.nameJa} - 狂気的なまでに脱力するダークパンクアパレル`;
 
+      // 着用画像（Lookbook用画像）のマッピング
+      let additionalImages = '';
+      const lowerName = product.nameJa.toLowerCase();
+      
+      if (lowerName.includes('bone rider')) {
+        additionalImages += `\n      <g:additional_image_link>${baseUrl}/images/products/BONE%20RIDER.png</g:additional_image_link>`;
+      }
+      if (lowerName.includes('肋骨') || lowerName.includes('うさぎ')) {
+        additionalImages += `\n      <g:additional_image_link>${baseUrl}/images/products/%E5%85%A8%E8%BA%AB%E8%82%8B%E9%AA%A8%E3%81%A1%E3%82%83%E3%82%93.jpg</g:additional_image_link>`;
+        additionalImages += `\n      <g:additional_image_link>${baseUrl}/images/products/%E8%82%8B%E9%AA%A8%E3%81%A1%E3%82%83%E3%82%93.png</g:additional_image_link>`;
+        additionalImages += `\n      <g:additional_image_link>${baseUrl}/images/products/%E5%88%A5%E3%83%9D%E3%83%BC%E3%82%BA2%E5%85%A8%E8%BA%AB%E8%82%8B%E9%AA%A8.jpg</g:additional_image_link>`;
+      }
+
       return `
     <item>
       <g:id>${product.id}</g:id>
       <g:title><![CDATA[${product.nameJa}]]></g:title>
       <g:description><![CDATA[${description}]]></g:description>
       <g:link>${baseUrl}/ja/products/${product.id}</g:link>
-      <g:image_link>${baseUrl}${product.image}</g:image_link>
+      <g:image_link>${baseUrl}${product.image}</g:image_link>${additionalImages}
       <g:price>${product.price} JPY</g:price>
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
