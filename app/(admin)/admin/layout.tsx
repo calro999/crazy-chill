@@ -10,9 +10,6 @@ export const metadata: Metadata = {
     index: false,
     follow: false,
   },
-  icons: {
-    icon: '/favicon.png',
-  },
 };
 
 export default function AdminLayout({ children }: { children: React.ReactNode }) {

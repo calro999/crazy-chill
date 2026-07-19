@@ -31,14 +31,20 @@ export const metadata: Metadata = {
     siteName: 'CRAZY CHILL',
     title: 'CRAZY CHILL（クレチル）| 狂気的なまでに脱力',
     description: '狂気的なまでに脱力するダークパンクアパレルブランド。SUZURIにてオリジナルアイテム販売中。',
+    images: [
+      {
+        url: '/images/products/BONE%20RIDER.png',
+        width: 1200,
+        height: 630,
+        alt: 'CRAZY CHILL - 狂気的なまでに脱力するダークパンクブランド',
+      },
+    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'CRAZY CHILL（クレチル）| 狂気的なまでに脱力',
     description: '狂気的なまでに脱力するダークパンクアパレルブランド。',
-  },
-  icons: {
-    icon: '/favicon.png',
+    images: ['/images/products/BONE%20RIDER.png'],
   },
   robots: {
     index: true,

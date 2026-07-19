@@ -25,6 +25,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: post.publishedAt,
       authors: [post.author],
       tags: post.tags,
+      images: [
+        {
+          url: post.coverImage || '/images/products/BONE%20RIDER.png',
+          width: 1200,
+          height: 630,
+          alt: post.title,
+        },
+      ],
     },
   };
 }
