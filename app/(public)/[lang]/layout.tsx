@@ -46,9 +46,6 @@ export const metadata: Metadata = {
     description: '狂気的なまでに脱力するダークパンクアパレルブランド。',
     images: ['/images/products/BONE%20RIDER.png'],
   },
-  icons: {
-    icon: '/favicon.ico',
-  },
   robots: {
     index: true,
     follow: true,
