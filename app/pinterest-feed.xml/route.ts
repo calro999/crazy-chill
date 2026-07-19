@@ -32,18 +32,21 @@ export async function GET() {
         additionalImages += `\n      <g:additional_image_link>${baseUrl}/images/products/%E5%88%A5%E3%83%9D%E3%83%BC%E3%82%BA2%E5%85%A8%E8%BA%AB%E8%82%8B%E9%AA%A8.jpg</g:additional_image_link>`;
       }
 
+      const imageUrl = product.image.startsWith('http') ? product.image : `${baseUrl}${product.image}`;
+
       return `
     <item>
       <g:id>${product.id}</g:id>
       <g:title><![CDATA[${nameJa}]]></g:title>
       <g:description><![CDATA[${description}]]></g:description>
       <g:link>${baseUrl}/ja/products/${product.id}</g:link>
-      <g:image_link>${baseUrl}${product.image}</g:image_link>${additionalImages}
+      <g:image_link><![CDATA[${imageUrl}]]></g:image_link>${additionalImages}
       <g:price>${product.price} JPY</g:price>
       <g:availability>in stock</g:availability>
       <g:condition>new</g:condition>
       <g:brand>CRAZY CHILL</g:brand>
       <g:product_type><![CDATA[${product.category}]]></g:product_type>
+      <g:google_product_category>166</g:google_product_category>
     </item>`;
     }).join('')}
   </channel>
