@@ -14,13 +14,14 @@ export async function GET() {
     <description>CRAZY CHILL (クレチル) の公式プロダクトカタログ</description>
     ${products.map(product => {
       // Create a description from tags or use a default one
+      const nameJa = product.nameJa || product.name;
       const description = product.tags && product.tags.length > 0
-        ? `【CRAZY CHILL】${product.nameJa} - ${product.tags.join(', ')}`
-        : `【CRAZY CHILL】${product.nameJa} - 狂気的なまでに脱力するダークパンクアパレル`;
+        ? `【CRAZY CHILL】${nameJa} - ${product.tags.join(', ')}`
+        : `【CRAZY CHILL】${nameJa} - 狂気的なまでに脱力するダークパンクアパレル`;
 
       // 着用画像（Lookbook用画像）のマッピング
       let additionalImages = '';
-      const lowerName = product.nameJa.toLowerCase();
+      const lowerName = nameJa.toLowerCase();
       
       if (lowerName.includes('bone rider')) {
         additionalImages += `\n      <g:additional_image_link>${baseUrl}/images/products/BONE%20RIDER.png</g:additional_image_link>`;
@@ -34,7 +35,7 @@ export async function GET() {
       return `
     <item>
       <g:id>${product.id}</g:id>
-      <g:title><![CDATA[${product.nameJa}]]></g:title>
+      <g:title><![CDATA[${nameJa}]]></g:title>
       <g:description><![CDATA[${description}]]></g:description>
       <g:link>${baseUrl}/ja/products/${product.id}</g:link>
       <g:image_link>${baseUrl}${product.image}</g:image_link>${additionalImages}

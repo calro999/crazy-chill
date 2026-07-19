@@ -6,7 +6,7 @@ import Footer from '@/components/Footer/Footer';
 import Sidebar from '@/components/Sidebar/Sidebar';
 import { getAllCategories } from '@/lib/data';
 import styles from './layout.module.css';
-import { Analytics } from '@vercel/analytics/next';
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://crazy-chill-official.vercel.app'),
