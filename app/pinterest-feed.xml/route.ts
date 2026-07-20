@@ -50,7 +50,7 @@ export async function GET() {
       <g:condition>new</g:condition>
       <g:brand>CRAZY CHILL</g:brand>
       <g:product_type><![CDATA[${product.category}]]></g:product_type>
-      <g:google_product_category><![CDATA[Apparel & Accessories > Clothing]]></g:google_product_category>
+      <g:google_product_category><![CDATA[Apparel & Accessories > Clothing > Shirts & Tops]]></g:google_product_category>
     </item>`;
     }).join('')}
   </channel>
@@ -60,7 +60,9 @@ export async function GET() {
     status: 200,
     headers: {
       'Content-Type': 'application/xml',
-      'Cache-Control': 's-maxage=86400, stale-while-revalidate',
+      'Cache-Control': 'no-cache, no-store, must-revalidate',
+      'Pragma': 'no-cache',
+      'Expires': '0',
     },
   });
 }
