@@ -12,7 +12,7 @@ export default async function HomePage({ params }: Props) {
   const { lang } = await params;
   const dict = await getDictionary(lang);
   const products = getAllProducts();
-  const recentPosts = getRecentPosts(3);
+  const recentPosts = getRecentPosts(3, lang);
   const featuredProducts = products.filter(p => p.featured).slice(0, 6);
   const newProducts = products.filter(p => p.isNew).slice(0, 6);
   

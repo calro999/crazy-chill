@@ -43,6 +43,7 @@ export interface BlogPost {
   author: string;
   publishedAt: string;
   published: boolean;
+  targetLanguage?: 'ja' | 'en' | 'all';
 }
 
 export interface Banner {
@@ -89,7 +90,7 @@ export function getCategoryBySlug(slug: string): Category | undefined {
 import fs from 'fs';
 import path from 'path';
 
-export function getAllPosts(): BlogPost[] {
+export function getAllPosts(lang?: string): BlogPost[] {
   try {
     const blogsDir = path.join(process.cwd(), 'data', 'blogs');
     if (!fs.existsSync(blogsDir)) return [];
@@ -104,7 +105,13 @@ export function getAllPosts(): BlogPost[] {
     }
     
     return posts
-      .filter(p => p.published)
+      .filter(p => {
+        if (!p.published) return false;
+        if (lang && p.targetLanguage && p.targetLanguage !== 'all') {
+          return p.targetLanguage === lang;
+        }
+        return true;
+      })
       .sort((a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime());
   } catch (err) {
     console.error('Failed to read blog posts:', err);
@@ -124,8 +131,8 @@ export function getPostBySlug(slug: string): BlogPost | undefined {
   }
 }
 
-export function getRecentPosts(limit = 3): BlogPost[] {
-  return getAllPosts().slice(0, limit);
+export function getRecentPosts(limit = 3, lang?: string): BlogPost[] {
+  return getAllPosts(lang).slice(0, limit);
 }
 
 // Banners

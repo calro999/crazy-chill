@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 export default async function BlogPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
-  const posts = getAllPosts();
+  const posts = getAllPosts(lang);
 
   return (
     <div className={styles.page}>
