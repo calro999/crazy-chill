@@ -36,10 +36,7 @@ export async function GET() {
         additionalImages += `\n      <g:additional_image_link><![CDATA[${baseUrl}/images/products/%E5%88%A5%E3%83%9D%E3%83%BC%E3%82%BA2%E5%85%A8%E8%BA%AB%E8%82%8B%E9%AA%A8.jpg]]></g:additional_image_link>`;
       }
 
-      let imageUrl = product.image.startsWith('http') ? product.image : `${baseUrl}${product.image}`;
-      if (imageUrl.includes('suzuri.jp')) {
-        imageUrl = `${baseUrl}/api/image-proxy?url=${encodeURIComponent(imageUrl)}`;
-      }
+      const imageUrl = product.image.startsWith('http') ? product.image : `${baseUrl}${product.image}`;
 
       return `
     <item>
