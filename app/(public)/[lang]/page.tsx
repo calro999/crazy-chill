@@ -29,24 +29,26 @@ export default async function HomePage({ params }: Props) {
     }
   }
 
+  const siteUrl = 'https://crazy-chill-official.vercel.app';
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'Organization',
-        '@id': 'https://crazy-chill-official.vercel.app/#organization',
+        '@id': `${siteUrl}/#organization`,
         'name': 'CRAZY CHILL',
-        'url': 'https://crazy-chill-official.vercel.app/',
-        'logo': 'https://crazy-chill-official.vercel.app/favicon.png',
-        'description': '狂気的なまでに脱力するダークパンクアパレルブランド。'
+        'url': siteUrl,
+        'logo': `${siteUrl}/images/products/BONE%20RIDER.png`,
+        'description': '狂気的なまでに脱力するダークパンクアパレルブランド CRAZY CHILL（クレチル）。'
       },
       {
         '@type': 'WebSite',
-        '@id': 'https://crazy-chill-official.vercel.app/#website',
-        'url': 'https://crazy-chill-official.vercel.app/',
+        '@id': `${siteUrl}/#website`,
+        'url': siteUrl,
         'name': 'CRAZY CHILL',
         'publisher': {
-          '@id': 'https://crazy-chill-official.vercel.app/#organization'
+          '@id': `${siteUrl}/#organization`
         }
       },
       {
@@ -130,13 +132,13 @@ export default async function HomePage({ params }: Props) {
               <Link href={`/${lang}/products/${product.id}`} key={product.id} className={`${styles.heroVisualItem} ${styles[`heroVisualItem${i + 1}`]}`}>
                 <div className={styles.heroVisualImageWrapper}>
                   {product.image ? (
-                    <img src={product.image} alt={product.name} className={styles.heroVisualImage} />
+                    <img src={product.image} alt={product.imageAlt || (lang === 'en' ? product.name : (product.nameJa || product.name))} className={styles.heroVisualImage} loading={i === 0 ? "eager" : "lazy"} />
                   ) : (
                     <div className={styles.heroVisualNoImage}>✦</div>
                   )}
                 </div>
                 <div className={styles.heroVisualLabel}>
-                  <div className={styles.heroVisualName}>{product.name}</div>
+                  <div className={styles.heroVisualName}>{lang === 'en' ? product.name : (product.nameJa || product.name)}</div>
                   <div className={styles.heroVisualPrice}>{formatPrice(product.price)}</div>
                 </div>
               </Link>

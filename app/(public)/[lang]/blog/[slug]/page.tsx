@@ -11,28 +11,47 @@ interface Props {
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params;
+  const { lang, slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) return { title: '記事が見つかりません' };
+
+  const siteUrl = 'https://crazy-chill-official.vercel.app';
+  const coverUrl = post.coverImage
+    ? (post.coverImage.startsWith('http') ? post.coverImage : `${siteUrl}${post.coverImage}`)
+    : `${siteUrl}/images/products/BONE%20RIDER.png`;
 
   return {
     title: post.title,
     description: post.excerpt,
+    alternates: {
+      canonical: `${siteUrl}/${lang}/blog/${slug}`,
+      languages: {
+        ja: `${siteUrl}/ja/blog/${slug}`,
+        en: `${siteUrl}/en/blog/${slug}`,
+      },
+    },
     openGraph: {
       title: `${post.title} | CRAZY CHILL ブログ`,
       description: post.excerpt,
       type: 'article',
+      url: `${siteUrl}/${lang}/blog/${slug}`,
       publishedTime: post.publishedAt,
       authors: [post.author],
       tags: post.tags,
       images: [
         {
-          url: post.coverImage || '/images/products/BONE%20RIDER.png',
+          url: coverUrl,
           width: 1200,
           height: 630,
           alt: post.title,
         },
       ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${post.title} | CRAZY CHILL`,
+      description: post.excerpt,
+      images: [coverUrl],
     },
   };
 }
@@ -66,14 +85,26 @@ export default async function BlogPostPage({ params }: Props) {
   const prevPost = currentIndex < allPosts.length - 1 ? allPosts[currentIndex + 1] : null;
   const nextPost = currentIndex > 0 ? allPosts[currentIndex - 1] : null;
 
+  const siteUrl = 'https://crazy-chill-official.vercel.app';
+  const coverUrl = post.coverImage
+    ? (post.coverImage.startsWith('http') ? post.coverImage : `${siteUrl}${post.coverImage}`)
+    : `${siteUrl}/images/products/BONE%20RIDER.png`;
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'BlogPosting',
+        '@id': `${siteUrl}/${lang}/blog/${post.slug}#blogposting`,
+        mainEntityOfPage: {
+          '@type': 'WebPage',
+          '@id': `${siteUrl}/${lang}/blog/${post.slug}`,
+        },
         headline: post.title,
         description: post.excerpt,
+        image: coverUrl,
         datePublished: post.publishedAt,
+        dateModified: post.publishedAt,
         author: {
           '@type': 'Organization',
           name: post.author,
@@ -81,6 +112,10 @@ export default async function BlogPostPage({ params }: Props) {
         publisher: {
           '@type': 'Organization',
           name: 'CRAZY CHILL',
+          logo: {
+            '@type': 'ImageObject',
+            url: `${siteUrl}/images/products/BONE%20RIDER.png`,
+          },
         },
         keywords: post.tags.join(', '),
       },
@@ -91,13 +126,13 @@ export default async function BlogPostPage({ params }: Props) {
             '@type': 'ListItem',
             'position': 1,
             'name': 'HOME',
-            'item': `https://crazy-chill-official.vercel.app/${lang}`
+            'item': `${siteUrl}/${lang}`
           },
           {
             '@type': 'ListItem',
             'position': 2,
             'name': 'ブログ',
-            'item': `https://crazy-chill-official.vercel.app/${lang}/blog`
+            'item': `${siteUrl}/${lang}/blog`
           },
           {
             '@type': 'ListItem',

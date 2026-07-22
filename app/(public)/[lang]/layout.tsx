@@ -8,56 +8,78 @@ import { getAllCategories } from '@/lib/data';
 import styles from './layout.module.css';
 import { Analytics } from '@vercel/analytics/react';
 
-export const metadata: Metadata = {
-  metadataBase: new URL('https://crazy-chill-official.vercel.app'),
-  alternates: {
-    canonical: './',
-    languages: {
-      'ja': '/ja',
-      'en': '/en',
-    },
-  },
-  title: {
-    default: 'CRAZY CHILL（クレチル）| 狂気的なまでに脱力するダークパンクブランド',
-    template: '%s | CRAZY CHILL',
-  },
-  description:
-    '「狂気的なまでに脱力」をコンセプトに掲げるダークパンクアパレルブランドCRAZY CHILL（クレチル）。オリジナルTシャツ、パーカー、キャップ、ステッカーなどをSUZURIにて販売中。',
-  keywords: ['CRAZY CHILL', 'クレチル', 'ダークパンク', 'オリジナルTシャツ', 'SUZURI', 'アパレル', 'ストリートファッション'],
-  openGraph: {
-    type: 'website',
-    locale: 'ja_JP',
-    url: 'https://crazy-chill.vercel.app',
-    siteName: 'CRAZY CHILL',
-    title: 'CRAZY CHILL（クレチル）| 狂気的なまでに脱力',
-    description: '狂気的なまでに脱力するダークパンクアパレルブランド。SUZURIにてオリジナルアイテム販売中。',
-    images: [
-      {
-        url: '/images/products/BONE%20RIDER.png',
-        width: 1200,
-        height: 630,
-        alt: 'CRAZY CHILL - 狂気的なまでに脱力するダークパンクブランド',
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const isEn = lang === 'en';
+
+  const title = isEn
+    ? 'CRAZY CHILL | Dark Punk & Japanese Subculture Apparel'
+    : 'CRAZY CHILL（クレチル）| 狂気的なまでに脱力するダークパンクブランド';
+
+  const description = isEn
+    ? 'Official store for CRAZY CHILL. Japanese dark punk fashion, streetwear t-shirts, hoodies, and subculture graphic apparel available on SUZURI.'
+    : '「狂気的なまでに脱力」をコンセプトに掲げるダークパンクアパレルブランドCRAZY CHILL（クレチル）。オリジナルTシャツ、パーカー、キャップ、ステッカーなどをSUZURIにて絶賛販売中。';
+
+  const keywords = isEn
+    ? ['CRAZY CHILL', 'Japanese Fashion', 'Dark Punk', 'Streetwear', 'Anime T-shirts', 'SUZURI', 'Gothic Apparel', 'Subculture']
+    : ['CRAZY CHILL', 'クレチル', 'ダークパンク', 'オリジナルTシャツ', 'SUZURI', 'アパレル', 'ストリートファッション', 'サブカル 服', 'ゴスロリ', 'ギャル 服'];
+
+  const siteUrl = 'https://crazy-chill-official.vercel.app';
+
+  return {
+    metadataBase: new URL(siteUrl),
+    alternates: {
+      canonical: `${siteUrl}/${lang}`,
+      languages: {
+        'ja': `${siteUrl}/ja`,
+        'en': `${siteUrl}/en`,
       },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    title: 'CRAZY CHILL（クレチル）| 狂気的なまでに脱力',
-    description: '狂気的なまでに脱力するダークパンクアパレルブランド。',
-    images: ['/images/products/BONE%20RIDER.png'],
-  },
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
+    },
+    title: {
+      default: title,
+      template: isEn ? '%s | CRAZY CHILL' : '%s | CRAZY CHILL（クレチル）',
+    },
+    description: description,
+    keywords: keywords,
+    openGraph: {
+      type: 'website',
+      locale: isEn ? 'en_US' : 'ja_JP',
+      url: `${siteUrl}/${lang}`,
+      siteName: 'CRAZY CHILL',
+      title: title,
+      description: description,
+      images: [
+        {
+          url: `${siteUrl}/images/products/BONE%20RIDER.png`,
+          width: 1200,
+          height: 630,
+          alt: 'CRAZY CHILL - Dark Punk Apparel',
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: title,
+      description: description,
+      images: [`${siteUrl}/images/products/BONE%20RIDER.png`],
+    },
+    robots: {
       index: true,
       follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-video-preview': -1,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
     },
-  },
-};
+  };
+}
 
 export default async function RootLayout({
   children,
@@ -68,6 +90,48 @@ export default async function RootLayout({
 }) {
   const { lang } = await params;
   const categories = getAllCategories();
+  const siteUrl = 'https://crazy-chill-official.vercel.app';
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Organization',
+        '@id': `${siteUrl}/#organization`,
+        name: 'CRAZY CHILL',
+        url: siteUrl,
+        logo: {
+          '@type': 'ImageObject',
+          url: `${siteUrl}/images/products/BONE%20RIDER.png`,
+        },
+        sameAs: [
+          'https://suzuri.jp/CRAZYCHILL',
+          'https://pinterest.com/CRAZYCHILL',
+        ],
+        description: '狂気的なまでに脱力するダークパンクアパレルブランド CRAZY CHILL（クレチル）',
+      },
+      {
+        '@type': 'WebSite',
+        '@id': `${siteUrl}/#website`,
+        url: siteUrl,
+        name: 'CRAZY CHILL',
+        publisher: {
+          '@id': `${siteUrl}/#organization`,
+        },
+        inLanguage: [
+          { '@type': 'Language', name: 'Japanese', alternateName: 'ja' },
+          { '@type': 'Language', name: 'English', alternateName: 'en' },
+        ],
+      },
+      {
+        '@type': 'Brand',
+        '@id': `${siteUrl}/#brand`,
+        name: 'CRAZY CHILL',
+        url: siteUrl,
+        logo: `${siteUrl}/images/products/BONE%20RIDER.png`,
+      },
+    ],
+  };
 
   return (
     <html lang={lang}>
@@ -92,21 +156,7 @@ export default async function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              '@context': 'https://schema.org',
-              '@type': 'WebSite',
-              name: 'CRAZY CHILL',
-              url: 'https://crazy-chill.vercel.app',
-              description: '狂気的なまでに脱力するダークパンクアパレルブランド',
-              publisher: {
-                '@type': 'Organization',
-                name: 'CRAZY CHILL',
-                logo: {
-                  '@type': 'ImageObject',
-                  url: 'https://crazy-chill.vercel.app/images/logo.png'
-                }
-              }
-            })
+            __html: JSON.stringify(jsonLd),
           }}
         />
         <TopBar lang={lang as 'ja' | 'en'} />

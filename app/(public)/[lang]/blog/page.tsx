@@ -4,17 +4,78 @@ import { getAllPosts, formatDate } from '@/lib/data';
 import ProductSidebar from '@/components/ProductSidebar/ProductSidebar';
 import styles from './page.module.css';
 
-export const metadata: Metadata = {
-  title: 'ブログ',
-  description: 'CRAZY CHILL（クレチル）公式ブログ。ダークパンクファッション、コーデ術、SUZURIアイテムレビューなどを発信中。',
-};
+export async function generateMetadata({ params }: { params: Promise<{ lang: string }> }): Promise<Metadata> {
+  const { lang } = await params;
+  const isEn = lang === 'en';
+  const siteUrl = 'https://crazy-chill-official.vercel.app';
+
+  const title = isEn ? 'Blog' : 'ブログ';
+  const description = isEn
+    ? 'CRAZY CHILL Official Blog. Discover Japanese subculture fashion, Gothic Lolita, Gyaru culture, and styling guides.'
+    : 'CRAZY CHILL（クレチル）公式ブログ。ダークパンクファッション、コーデ術、SUZURIアイテムレビューなどを発信中。';
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: `${siteUrl}/${lang}/blog`,
+      languages: {
+        ja: `${siteUrl}/ja/blog`,
+        en: `${siteUrl}/en/blog`,
+      },
+    },
+    openGraph: {
+      title: `${title} | CRAZY CHILL`,
+      description,
+      url: `${siteUrl}/${lang}/blog`,
+    },
+  };
+}
 
 export default async function BlogPage({ params }: { params: Promise<{ lang: string }> }) {
   const { lang } = await params;
   const posts = getAllPosts(lang);
+  const siteUrl = 'https://crazy-chill-official.vercel.app';
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'ItemList',
+        itemListElement: posts.map((post, index) => ({
+          '@type': 'ListItem',
+          position: index + 1,
+          url: `${siteUrl}/${lang}/blog/${post.slug}`,
+          name: post.title,
+        })),
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'HOME',
+            item: `${siteUrl}/${lang}`,
+          },
+          {
+            '@type': 'ListItem',
+            position: 2,
+            name: lang === 'en' ? 'Blog' : 'ブログ',
+            item: `${siteUrl}/${lang}/blog`,
+          },
+        ],
+      },
+    ],
+  };
 
   return (
-    <div className={styles.page}>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <div className={styles.page}>
       <div className={styles.layoutWrapper}>
         <div className={styles.mainContent}>
           <div className={styles.header}>
@@ -64,5 +125,6 @@ export default async function BlogPage({ params }: { params: Promise<{ lang: str
         <ProductSidebar lang={lang} />
       </div>
     </div>
+    </>
   );
 }

@@ -14,19 +14,34 @@ interface Props {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { id, lang } = await params;
   const product = getProductById(id);
-  const dict = await getDictionary(lang);
   if (!product) return { title: 'Not Found' };
 
   const name = lang === 'en' ? product.name : (product.nameJa || product.name);
   const description = lang === 'en' && product.descriptionEn ? product.descriptionEn : product.description;
+  const siteUrl = 'https://crazy-chill-official.vercel.app';
+  const imageUrl = product.image.startsWith('http') ? product.image : `${siteUrl}${product.image}`;
 
   return {
     title: name,
     description: description,
+    alternates: {
+      canonical: `${siteUrl}/${lang}/products/${id}`,
+      languages: {
+        ja: `${siteUrl}/ja/products/${id}`,
+        en: `${siteUrl}/en/products/${id}`,
+      },
+    },
     openGraph: {
       title: `${name} | CRAZY CHILL`,
       description: description,
-      images: product.image ? [{ url: product.image, alt: product.imageAlt || name, width: 1024, height: 1024 }] : [],
+      url: `${siteUrl}/${lang}/products/${id}`,
+      images: [{ url: imageUrl, alt: product.imageAlt || name, width: 1024, height: 1024 }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${name} | CRAZY CHILL`,
+      description: description,
+      images: [imageUrl],
     },
   };
 }
@@ -49,25 +64,36 @@ export default async function ProductDetailPage({ params }: Props) {
 
   const name = lang === 'en' ? product.name : (product.nameJa || product.name);
   const description = lang === 'en' && product.descriptionEn ? product.descriptionEn : product.description;
+  const siteUrl = 'https://crazy-chill-official.vercel.app';
+  const imageUrl = product.image.startsWith('http') ? product.image : `${siteUrl}${product.image}`;
 
   const jsonLd = {
     '@context': 'https://schema.org',
     '@graph': [
       {
         '@type': 'Product',
+        '@id': `${siteUrl}/${lang}/products/${product.id}#product`,
         name: name,
         description: description,
-        image: product.image,
-        offers: {
-          '@type': 'Offer',
-          price: product.price,
-          priceCurrency: product.currency,
-          availability: 'https://schema.org/InStock',
-          url: product.suzuriUrl,
-        },
+        image: imageUrl,
+        sku: product.id,
+        category: product.category,
         brand: {
           '@type': 'Brand',
           name: 'CRAZY CHILL',
+        },
+        offers: {
+          '@type': 'Offer',
+          url: product.suzuriUrl,
+          priceCurrency: product.currency,
+          price: product.price,
+          priceValidUntil: '2027-12-31',
+          availability: 'https://schema.org/InStock',
+          itemCondition: 'https://schema.org/NewCondition',
+          seller: {
+            '@type': 'Organization',
+            name: 'SUZURI (GMO Pepabo)',
+          },
         },
       },
       {
@@ -77,13 +103,13 @@ export default async function ProductDetailPage({ params }: Props) {
             '@type': 'ListItem',
             'position': 1,
             'name': dict.topbar.home,
-            'item': `https://crazy-chill-official.vercel.app/${lang}`
+            'item': `${siteUrl}/${lang}`
           },
           {
             '@type': 'ListItem',
             'position': 2,
             'name': dict.sections.allItems,
-            'item': `https://crazy-chill-official.vercel.app/${lang}/products`
+            'item': `${siteUrl}/${lang}/products`
           },
           {
             '@type': 'ListItem',

@@ -29,7 +29,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${baseUrl}/${lang}${path}`,
         lastModified: new Date(),
         changeFrequency: 'daily',
-        priority: path === '' ? 1 : 0.8,
+        priority: path === '' ? 1.0 : 0.8,
+        alternates: {
+          languages: {
+            ja: `${baseUrl}/ja${path}`,
+            en: `${baseUrl}/en${path}`,
+          },
+        },
       });
     });
 
@@ -39,17 +45,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
         url: `${baseUrl}/${lang}/products/${product.id}`,
         lastModified: new Date(product.createdAt),
         changeFrequency: 'weekly',
-        priority: 0.7,
+        priority: 0.8,
+        alternates: {
+          languages: {
+            ja: `${baseUrl}/ja/products/${product.id}`,
+            en: `${baseUrl}/en/products/${product.id}`,
+          },
+        },
       });
     });
 
-    // Blog Pages
-    posts.forEach(post => {
+    // Blog Pages (Filtered by target language)
+    const langPosts = getAllPosts(lang as 'ja' | 'en');
+    langPosts.forEach(post => {
       sitemapEntries.push({
         url: `${baseUrl}/${lang}/blog/${post.slug}`,
         lastModified: new Date(post.publishedAt),
         changeFrequency: 'monthly',
-        priority: 0.6,
+        priority: 0.7,
+        alternates: {
+          languages: {
+            ja: `${baseUrl}/ja/blog/${post.slug}`,
+            en: `${baseUrl}/en/blog/${post.slug}`,
+          },
+        },
       });
     });
 
@@ -60,6 +79,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.7,
+        alternates: {
+          languages: {
+            ja: `${baseUrl}/ja/category/${cat.slug}`,
+            en: `${baseUrl}/en/category/${cat.slug}`,
+          },
+        },
       });
     });
   });
