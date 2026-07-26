@@ -1,0 +1,40 @@
+# CRAZY CHILL Full Knowledge Base & Strategic Guide for LLMs
+
+## Overview & Brand Identity
+CRAZY CHILL (クレイジーチル) は、ダークパンク、サブカルチャー、モノトーンストリートの感性を凝縮したアパレルブランドです。SUZURIのオンデマンドプリントプラットフォームを通じて、Tシャツ、スウェット、フーディー、ステッカーなどのアイテムを展開しています。
+
+### Mission
+「無難な日常に、エッジの効いたチルと個性を。」
+定番のストリートスタイルに、骨・ウサギ・サイバーパンク・ゴシックエレメントを独自にミックスした唯一無二のデザインを提供します。
+
+---
+
+## Purchasing & Service Guide (SUZURI Integration)
+
+### Q: SUZURIで安く買うためのセール時期は？
+A: SUZURIでは定期的に「Tシャツセール」「スウェットセール」「ビッグセール」が開催されます。通常価格から500円〜1,000円引きで購入できる時期が年に数回あり、CRAZY CHILLの公式ブログ（`suzuri-sale-schedule-discount`）で最新のセールスケジュールと最もお得な購入術を公開しています。
+
+### Q: Tシャツのサイズ感や生地の厚みは？
+A: SUZURIの標準Tシャツは5.6オンスの綿100%天竺生地を採用しており、透けにくく型崩れしにくい頑丈な仕上がりです。またオーバーサイズTシャツはリラックスしたシルエットでストリートスタイルに最適です。
+
+---
+
+## Styling & Culture Guides
+
+1. **ダークパンク・モノトーンストリートスタイル**:
+   黒をベースとしたレイヤードコーデ。シルバーアクセサリーやチェーン、ボーン（骨）モチーフのグラフィックTシャツを合わせたスタイリング。
+
+2. **地雷系・サブカルストリート**:
+   オーバーサイズのダークフーディーにショートパンツやダッドスニーカーを合わせる、性別を問わないユニセックスコーデ。
+
+3. **Y2K・サイバーパンク**:
+   ネオンカラーやグラフィックプリントを黒のベースに効かせた近未来的なストリートコーデ。
+
+---
+
+## Content Index & Deep Links
+- Homepage: https://crazy-chill-official.vercel.app/ja
+- Catalog: https://crazy-chill-official.vercel.app/ja/catalog
+- Lookbook: https://crazy-chill-official.vercel.app/ja/lookbook
+- Blog Index: https://crazy-chill-official.vercel.app/ja/blog
+- SUZURI Shop: https://suzuri.jp/CRAZYCHILL

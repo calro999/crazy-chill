@@ -118,6 +118,11 @@ export default async function RootLayout({
         publisher: {
           '@id': `${siteUrl}/#organization`,
         },
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: `${siteUrl}/${lang}/catalog?q={search_term_string}`,
+          'query-input': 'required name=search_term_string',
+        },
         inLanguage: [
           { '@type': 'Language', name: 'Japanese', alternateName: 'ja' },
           { '@type': 'Language', name: 'English', alternateName: 'en' },

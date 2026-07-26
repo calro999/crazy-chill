@@ -90,58 +90,94 @@ export default async function BlogPostPage({ params }: Props) {
     ? (post.coverImage.startsWith('http') ? post.coverImage : `${siteUrl}${post.coverImage}`)
     : `${siteUrl}/images/products/BONE%20RIDER.png`;
 
+  // Extract potential Q&A from content for FAQPage schema
+  const faqItems: { '@type': string; name: string; acceptedAnswer: { '@type': string; text: string } }[] = [];
+  const lines = post.content.split('\n');
+  for (let i = 0; i < lines.length; i++) {
+    const line = lines[i];
+    if (line.startsWith('### Q:') || line.startsWith('## Q:') || line.includes('【FAQ】') || line.includes('Q&A')) {
+      const question = line.replace(/^[#\s]+/, '').replace(/^Q:\s*/, '');
+      let answer = '';
+      for (let j = i + 1; j < lines.length && !lines[j].startsWith('#'); j++) {
+        if (lines[j].trim()) {
+          answer += lines[j].replace(/^A:\s*/, '') + ' ';
+        }
+      }
+      if (question && answer) {
+        faqItems.push({
+          '@type': 'Question',
+          name: question.trim(),
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: answer.trim().replace(/[*_#]/g, ''),
+          },
+        });
+      }
+    }
+  }
+
+  const jsonLdGraph: Record<string, unknown>[] = [
+    {
+      '@type': 'BlogPosting',
+      '@id': `${siteUrl}/${lang}/blog/${post.slug}#blogposting`,
+      mainEntityOfPage: {
+        '@type': 'WebPage',
+        '@id': `${siteUrl}/${lang}/blog/${post.slug}`,
+      },
+      headline: post.title,
+      description: post.excerpt,
+      image: coverUrl,
+      datePublished: post.publishedAt,
+      dateModified: post.publishedAt,
+      author: {
+        '@type': 'Organization',
+        name: post.author,
+      },
+      publisher: {
+        '@type': 'Organization',
+        name: 'CRAZY CHILL',
+        logo: {
+          '@type': 'ImageObject',
+          url: `${siteUrl}/images/products/BONE%20RIDER.png`,
+        },
+      },
+      keywords: post.tags.join(', '),
+    },
+    {
+      '@type': 'BreadcrumbList',
+      'itemListElement': [
+        {
+          '@type': 'ListItem',
+          'position': 1,
+          'name': 'HOME',
+          'item': `${siteUrl}/${lang}`
+        },
+        {
+          '@type': 'ListItem',
+          'position': 2,
+          'name': 'ブログ',
+          'item': `${siteUrl}/${lang}/blog`
+        },
+        {
+          '@type': 'ListItem',
+          'position': 3,
+          'name': post.title
+        }
+      ]
+    }
+  ];
+
+  if (faqItems.length > 0) {
+    jsonLdGraph.push({
+      '@type': 'FAQPage',
+      '@id': `${siteUrl}/${lang}/blog/${post.slug}#faqpage`,
+      mainEntity: faqItems,
+    });
+  }
+
   const jsonLd = {
     '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'BlogPosting',
-        '@id': `${siteUrl}/${lang}/blog/${post.slug}#blogposting`,
-        mainEntityOfPage: {
-          '@type': 'WebPage',
-          '@id': `${siteUrl}/${lang}/blog/${post.slug}`,
-        },
-        headline: post.title,
-        description: post.excerpt,
-        image: coverUrl,
-        datePublished: post.publishedAt,
-        dateModified: post.publishedAt,
-        author: {
-          '@type': 'Organization',
-          name: post.author,
-        },
-        publisher: {
-          '@type': 'Organization',
-          name: 'CRAZY CHILL',
-          logo: {
-            '@type': 'ImageObject',
-            url: `${siteUrl}/images/products/BONE%20RIDER.png`,
-          },
-        },
-        keywords: post.tags.join(', '),
-      },
-      {
-        '@type': 'BreadcrumbList',
-        'itemListElement': [
-          {
-            '@type': 'ListItem',
-            'position': 1,
-            'name': 'HOME',
-            'item': `${siteUrl}/${lang}`
-          },
-          {
-            '@type': 'ListItem',
-            'position': 2,
-            'name': 'ブログ',
-            'item': `${siteUrl}/${lang}/blog`
-          },
-          {
-            '@type': 'ListItem',
-            'position': 3,
-            'name': post.title
-          }
-        ]
-      }
-    ]
+    '@graph': jsonLdGraph,
   };
 
   return (
