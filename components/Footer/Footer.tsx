@@ -45,6 +45,7 @@ export default function Footer({ lang = 'ja' }: { lang?: 'ja' | 'en' }) {
             <div className={styles.colTitle}>{dict.footer.links}</div>
             <Link href={`/${lang}/blog`} className={styles.colLink}>{dict.topbar.blog}</Link>
             <Link href={`/${lang}/about`} className={styles.colLink}>{dict.topbar.about}</Link>
+            <Link href={`/${lang}/sitemap`} className={styles.colLink}>{dict.footer.sitemap}</Link>
             <a href="https://suzuri.jp/CRAZYCHILL" target="_blank" rel="noopener noreferrer" className={styles.colLink}>
               SUZURI
             </a>
