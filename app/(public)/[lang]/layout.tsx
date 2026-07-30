@@ -32,13 +32,6 @@ export async function generateMetadata({
 
   return {
     metadataBase: new URL(siteUrl),
-    alternates: {
-      canonical: `${siteUrl}/${lang}`,
-      languages: {
-        'ja': `${siteUrl}/ja`,
-        'en': `${siteUrl}/en`,
-      },
-    },
     title: {
       default: title,
       template: isEn ? '%s | CRAZY CHILL' : '%s | CRAZY CHILL（クレチル）',
