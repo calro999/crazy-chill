@@ -3,6 +3,7 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 
+# AI Crawlers & LLM Bots
 User-agent: GPTBot
 Allow: /
 
@@ -18,10 +19,10 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-User-agent: GoogleOther
+User-agent: Google-Extended
 Allow: /
 
-User-agent: Google-Extended
+User-agent: GoogleOther
 Allow: /
 
 User-agent: Applebot-Extended
@@ -30,4 +31,22 @@ Allow: /
 User-agent: Bytespider
 Allow: /
 
+User-agent: CCBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: FacebookExternalHit
+Allow: /
+
+User-agent: Cohere-ai
+Allow: /
+
+User-agent: OMGilibot
+Allow: /
+
+# Sitemap and LLMs pointers
 Sitemap: https://crazy-chill-official.vercel.app/sitemap.xml
+LLMs: https://crazy-chill-official.vercel.app/llms.txt
+LLMs-Full: https://crazy-chill-official.vercel.app/llms-full.txt

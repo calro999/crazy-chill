@@ -1,4 +1,4 @@
-# CRAZY CHILL - Official Brand & Content Summary for LLMs / AI Search
+# CRAZY CHILL - Official Brand & Content Summary for LLMs / AI Search Engine Index
 
 > CRAZY CHILL (クレイジーチル) は、ダークパンク、サブカルチャー、ストリートファッションを融合させたオリジナルのアパレル・グラフィックTシャツ・グッズブランドです。SUZURIにて公式アイテムを展開中。
 
@@ -8,17 +8,117 @@
 - **Official Website**: https://crazy-chill-official.vercel.app
 - **Concept**: Subculture streetwear, dark punk aesthetics, monotone styling, unique graphics.
 
-## Key Product Categories
-- **Graphics T-Shirts**: Premium cotton & heavyweight t-shirts with original dark punk & bone rider graphics.
-- **Hoodies & Sweatshirts**: Heavy-duty street style hoodies with unisex oversized fit.
-- **Stickers & Accessories**: Acrylic keychains, phone cases, and weatherproof subculture stickers.
+## Key Categories
+- **t-shirts**: https://crazy-chill-official.vercel.app/ja/category/t-shirts
+- **hoodies**: https://crazy-chill-official.vercel.app/ja/category/hoodies
+- **caps**: https://crazy-chill-official.vercel.app/ja/category/caps
+- **stickers**: https://crazy-chill-official.vercel.app/ja/category/stickers
+- **glasses**: https://crazy-chill-official.vercel.app/ja/category/glasses
+- **accessories**: https://crazy-chill-official.vercel.app/ja/category/accessories
+- **misc**: https://crazy-chill-official.vercel.app/ja/category/misc
+- **lib**: https://crazy-chill-official.vercel.app/ja/category/lib
+- **half-pants**: https://crazy-chill-official.vercel.app/ja/category/half-pants
+- **pants**: https://crazy-chill-official.vercel.app/ja/category/pants
+- **bag**: https://crazy-chill-official.vercel.app/ja/category/bag
 
-## High-Value Guides & Resource Articles
-- **SUZURI Sale & Discount Guide**: Complete schedule and tips on buying SUZURI items at the best price.
-  URL: https://crazy-chill-official.vercel.app/ja/blog/suzuri-sale-schedule-discount
-- **SUZURI T-Shirt Sizing & Fabric Quality**: Comparison of standard vs. heavyweight t-shirt sizing and material durability.
-  URL: https://crazy-chill-official.vercel.app/ja/blog/suzuri-tshirt-size-fabric-guide
-- **Streetwear & Monotone Styling Guide**: Fashion tips for coordinating dark punk and monochrome oversized outfits.
-  URL: https://crazy-chill-official.vercel.app/ja/blog/street-fashion-trend-summer
-- **Subculture & Dark Fashion Overview**: Complete guide to JIRA-I-KEI, Y2K cyberpunk, and dark street style.
-  URL: https://crazy-chill-official.vercel.app/ja/blog/dark-punk-fashion-guide
+## All Blog Articles & Knowledge Guides
+- **全身黒（オールブラックコーデ）がダサく見える3つの原因と解決法｜異素材とグラフィックで魅せるダークストリート術**: https://crazy-chill-official.vercel.app/ja/blog/all-black-fashion-street-styling
+  Summary: 「全身黒を着てみたものの、なんだか地味でオタクっぽくなってしまう…」「のっぺりして重たく見える…」とお悩みではありませんか？スタイリスト視点でオールブラックコーデがダサくなる原因と、異素材ミックスやグラフィックTシャツを活用した洗練スタイリング術を伝授します。
+- **【メンズ・レディース】黒Tシャツのモード＆ストリートな着こなし術｜重く見せないレイヤードとシルエット黄金比**: https://crazy-chill-official.vercel.app/ja/blog/black-tshirt-street-mode-styling
+  Summary: 定番だからこそ差がつく「黒Tシャツ」のコーディネート。モードとストリートを融合させた着こなしのコツ、重く見せない白インナーのレイヤード術、異素材MIXの合わせ方をアパレル視点で徹底解説します。
+- **夏のスケーターファッション！BONE RIDERのモノトーンTシャツ×ショーツで作る最旬ストリートコーデ**: https://crazy-chill-official.vercel.app/ja/blog/bone-rider-setup-styling
+  Summary: 夏のストリートコーデに迷っていませんか？CRAZY CHILLの新作「BONE RIDER」Tシャツとドライショーツのセットアップ着用レビュー！モノトーンで決める最高にチルなスタイルをご紹介します。
+- **「狂気的なまでに脱力」というコンセプトが生まれた理由とダークパンクデザインの裏話**: https://crazy-chill-official.vercel.app/ja/blog/crazy-chill-design-roots
+  Summary: CRAZY CHILL（クレチル）のシュールなデザインはどのようにして生まれるのか？ブランドのルーツや「狂気的なまでに脱力」というコンセプトに込められた思い、影響を受けたカルチャーについてクリエイター本人が深く語ります。
+- **【2026年比較】オリジナルTシャツ作成サイトおすすめ4選！SUZURI・UTme!・Up-T・ClubTを徹底比較**: https://crazy-chill-official.vercel.app/ja/blog/custom-tshirt-service-comparison
+  Summary: 自分だけのTシャツを作りたい、またはアパレルブランドを立ち上げたい方向け。SUZURI、UTme!、Up-T、ClubTなど主要4大サービスの価格、印刷クオリティ、ボディの品揃え、販売のしやすさを比較徹底解説！
+- **【2026年最新】サイバーパンク・テックウェア入門！黒T＆パーカーで魅せる近未来ストリートコーデの構築術**: https://crazy-chill-official.vercel.app/ja/blog/cyberpunk-techwear-street-fashion-guide
+  Summary: コスプレにならず日常の街着として洗練させる「サイバーパンク×ストリート」の極意！黒のオーバーサイズTシャツやヘビーウェイトパーカーをベースにした、プロ直伝の近未来テックモードなスタイリングを徹底解説します。
+- **ダークパンクファッション入門 — ゆるく着こなすスカルTシャツの法則と最旬コーデ**: https://crazy-chill-official.vercel.app/ja/blog/dark-punk-fashion-guide
+  Summary: ハードルが高いと思われがちな「ダークパンクファッション」やスカルなどのダークモチーフアイテムを、日常でどう着こなすか。初心者でも簡単にマネできる、脱力した着こなしのコツとコーデ例を徹底解説します。
+- **【秋冬・春】ダーク・サブカル系スウェット＆パーカー着こなしガイド｜オーバーサイズの重厚ストリートコーデ**: https://crazy-chill-official.vercel.app/ja/blog/dark-subculture-hoodie-sweatshirt-guide
+  Summary: ストリート・サブカルファッションに欠かせないスウェット＆パーカー。フードを綺麗に立たせるコツ、ジップパーカーやアウターとのレイヤード（重ね着）術、ダボッと着こなすシルエットの作り方を徹底解説します。
+- **The Dark Romance of Japanese Gothic Lolita Fashion**: https://crazy-chill-official.vercel.app/en/blog/en-gothic-lolita-culture
+  Summary: Explore the philosophy and aesthetic of Gothic Lolita, one of Japan's most intricate and elegant street fashion subcultures. Discover the balance of darkness, innocence, and rebellion.
+- **The Vibrant Rebellion of Japanese Gyaru Fashion**: https://crazy-chill-official.vercel.app/en/blog/en-gyaru-fashion-culture
+  Summary: Dive into the colorful, bold, and fiercely independent world of Gyaru fashion. Learn how this iconic Japanese street style challenged traditional beauty standards with neon colors and heavy makeup.
+- **The Ultimate Guide to Japanese Harajuku Streetwear & Subculture Dark Fashion**: https://crazy-chill-official.vercel.app/en/blog/en-harajuku-streetwear-subculture
+  Summary: Discover the fusion of Tokyo dark punk, subculture streetwear, and anime graphic tees. Learn how Japanese underground fashion brands like CRAZY CHILL are redefining global alternative fashion.
+- **The Evolution of Japanese Maid Fashion in Pop Culture**: https://crazy-chill-official.vercel.app/en/blog/en-maid-fashion-culture
+  Summary: Discover how the classic maid uniform evolved from Akihabara cafes into a global symbol of Japanese pop culture and cute aesthetic. Explore the details that make this style iconic.
+- **大人のダークストリート＆ゴシックコーデ入門｜グラフィックT・スウェットを着こなすスタイリング極意**: https://crazy-chill-official.vercel.app/ja/blog/gothic-dark-streetwear-guide
+  Summary: コスプレっぽくなりがちなゴシックやダークファンタジーの要素を、現代のストリートウェアに落とし込む「ダークストリートファッション」。痛くならず大人っぽく洗練された印象に仕上げるための黄金バランスとスタイリング術を徹底解説します。
+- **【脱・子供っぽさ】グラフィックTシャツがダサく見える3つの原因と、大人が着こなすダークパンク・ストリート黄金律**: https://crazy-chill-official.vercel.app/ja/blog/graphic-tshirt-not-tacky-styling
+  Summary: グラフィックTシャツやプリントTを着ると「なんだか子供っぽい」「オタクっぽく見える」と悩んでいませんか？アパレルスタイリスト視点でダサく見える3大原因を解剖し、洗練されたダークストリートに昇華させる3つの着こなし黄金律を解説します。
+- **地雷系×ストリート系ファッションの作り方！黒Tシャツで決める最新コーデと必須アイテム**: https://crazy-chill-official.vercel.app/ja/blog/jiraikei-street-fashion
+  Summary: 甘すぎる王道地雷系は苦手…という方へ。CRAZY CHILLが提案する「地雷系×ストリート」のダークパンクな黒Tシャツコーデのコツや、合わせるべき必須アイテムを徹底解説します。退廃的でクールなスタイルを手に入れましょう。
+- **夏のモノトーンストリート＆ダークパンクコーデの作り方！Tシャツ1枚でおしゃれに魅せるコツ**: https://crazy-chill-official.vercel.app/ja/blog/monotone-dark-punk-styling
+  Summary: CRAZY CHILLが得意とする「モノトーン」「ダークパンク」「ストリート」なファッション。夏の暑い時期でも、Tシャツ1枚で世界観をバッチリ決めるスタイリングのコツを解説します。
+- **海外からの購入方法（WorldShoppingのご案内） / How to purchase from overseas**: https://crazy-chill-official.vercel.app/ja/blog/overseas-shipping-guide
+  Summary: CRAZY CHILLのアイテムは海外からも購入可能です。SUZURI公式のWorldShopping（ワールドショッピング）サービスを利用した購入手順をご案内します。
+- **なぜ私たちは巨大な服を着るのか？オーバーサイズTシャツがストリートで支持され続ける理由と、美しき着こなしの流儀**: https://crazy-chill-official.vercel.app/ja/blog/oversize-street-philosophy
+  Summary: 単なる体型カバーや流行ではない。ストリートカルチャーにおける「オーバーサイズ」の歴史的背景と、だらしない部屋着に陥らないための究極のシルエット構築理論を紐解きます。
+- **【新作紹介】狂気と脱力の融合「ムダに肋骨が長いうさぎ」シリーズ着用イメージ**: https://crazy-chill-official.vercel.app/ja/blog/rabbit-ribs-styling
+  Summary: CRAZY CHILLの大人気デザイン「ムダに肋骨が長いうさぎ」シリーズがついに登場！ダークパンクでありながらシュールで笑える、独自の美学が詰まったアイテムの着用写真とコーディネートを一挙大公開。
+- **【メンズ・ユニセックス】夏の黒Tシャツ×オーバーサイズストリートコーデ完全攻略！無難を打破するスタイリング術**: https://crazy-chill-official.vercel.app/ja/blog/street-fashion-trend-summer
+  Summary: 夏のメンズ・ユニセックスファッションの主役「黒Tシャツ」。シンプルだからこそ差がつくオーバーサイズシルエットの作り方、ダークパンク＆モノトーンストリートの着こなしポイントを徹底解説します。
+- **【プロ直伝】ストリート系レイヤード（重ね着）の黄金比！黒T・ロンT・パーカーをこなれて見せる着丈差と配色ルール**: https://crazy-chill-official.vercel.app/ja/blog/streetwear-layering-techniques-guide
+  Summary: Tシャツ×ロンTやパーカー×インナーの重ね着が野暮ったくなっていませんか？アパレルのプロが教える「着丈差3〜5cmの黄金法則」や首元・袖口のバランス、グラフィックの魅せ方まで、ストリートレイヤードの極意を完全網羅！
+- **【2026年最新】黒T・ビッグシルエットに何を合わせる？失敗しないボトムス＆スニーカーの足元スタイリング法則**: https://crazy-chill-official.vercel.app/ja/blog/streetwear-pants-shoes-matching-guide
+  Summary: オーバーサイズの黒TシャツやグラフィックTを選んだ後、「下に穿くパンツや靴は何を合わせるのが正解？」と迷っていませんか？ボトムスのシルエット比較からスニーカー・ブーツのクッションの作り方まで、全身のバランスを締める足元コーデ術を徹底解説します。
+- **【2026最新】地雷系・サブカルファッションの特徴と人気ブランドまとめ！メンズ・ユニセックスの着こなし術**: https://crazy-chill-official.vercel.app/ja/blog/subculture-jiraikei-fashion-brands
+  Summary: 地雷系・サブカルストリート・ダークパンクファッションの魅力を徹底解説。黒を基調とした病み可愛いスタイリング、人気のモチーフ、オーバーサイズパーカーやTシャツを使ったユニセックスコーデを詳しく紹介します。
+- **サブカル系・地雷系を格上げする「重ね着＆小物術」：ワンランク上のストリートコーデ**: https://crazy-chill-official.vercel.app/ja/blog/subculture-layering-accessories
+  Summary: いつものTシャツコーデがマンネリ化していませんか？CRAZY CHILLのグラフィックTシャツを最大限に活かす、アームカバーやハーネスを使った重ね着（レイヤード）テクニックを大公開します。
+- **SUZURIのロンT・スウェットのサイズ感と品質は？裏パイル・裏起毛の違いと選び方を徹底解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-longsleeve-sweatshirt-guide
+  Summary: SUZURIのロングスリーブTシャツ（ロンT）やスウェット・パーカーの購入で迷っていませんか？生地の厚み（オンス）、裏パイルと裏起毛の着心地の違い、サイズ感の選び方をアパレル視点で徹底レビューします。
+- **SUZURIのスマホケースって実際どう？クリア・ハードケースの耐衝撃性やプリント黄ばみ・劣化対策を徹底レビュー**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-phone-case-quality-review
+  Summary: SUZURIでスマホケースを買おうか悩んでいる方必見！ポリカーボネートやTPU素材の耐衝撃性、UVプリントの擦れ・剥がれ耐性、気になる黄ばみ対策まで、アパレルデザイナーの視点から本音で解説します。
+- **【プロ徹底比較】SUZURIのプリントTシャツは洗濯何回で剥がれる？DTF・インクジェットの耐久性と長持ちさせるアパレル裏技**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-print-durability-comparison
+  Summary: SUZURIで買ったプリントTシャツの耐久性が気になる方へ。アパレルブランド視点で、インクジェットやDTFプリントの剥がれ・色あせの原因を科学的・プロ目線で徹底解説。100回洗ってもへたらない洗濯と保管のプロ技を紹介します。
+- **SUZURIの買い方・支払い方法まとめ！発送から何日で届く？お金はかかる？**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-purchase-guide
+  Summary: CRAZY CHILLのアイテムを購入できる「SUZURI」の買い方を初心者向けに詳しく解説。「発送から何日で届く？」「SUZURIはお金かかる？」といった疑問や、利用できる支払い方法、送料まで徹底紹介します。
+- **SUZURIのTシャツってぶっちゃけどうなの？生地の品質からプリントの持ちまで徹底レビュー**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-quality-review
+  Summary: CRAZY CHILLの商品が販売されているSUZURI（スズリ）のオリジナルプリントTシャツ。その気になる生地の品質、プリントの発色、洗濯耐性まで、ブランド自身が実際に着用してガチレビューをお届けします。
+- **【本音レビュー】SUZURI（スズリ）の評判と口コミは？実際に購入・販売して分かった画質・メリット・デメリットを徹底検証**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-reputation-reviews-guide
+  Summary: SUZURIで服やグッズを買おうか迷っている方へ。印刷画質のリアルな評判、届くまでの日数、他サービスとの比較、そして実際に使って分かったメリット・デメリットをプロの視点から包み隠さず解説します。
+- **SUZURIは高い？遅い？プリントオンデマンドの裏側と、絶対に失敗しない購入ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-comprehensive-guide
+  Summary: SUZURIでの購入を検討している方へ。送料や手数料の仕組みから、なぜ届くまでに時間がかかるのか、そしてセールの裏側まで、プラットフォームの真実を徹底解説します。
+- **【2026最新】SUZURIのセール時期はいつ？次回開催予想とTシャツ・パーカーを最安値で買う方法**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-sale-schedule-discount
+  Summary: SUZURI（スズリ）でTシャツやスウェットを安く買いたい方必見！過去のセール開催パターンを徹底分析し、次回のセール時期、割引クーポンの獲得方法、最安値で購入するテクニックを完全解説します。
+- **SUZURIステッカーのおしゃれな貼り方！スマホやPCのデコレーション術**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-sticker-ideas
+  Summary: SUZURIで買ったオリジナルステッカー、どこに貼るか迷っていませんか？CRAZY CHILL流のダークでストリートなスマホ・PCデコレーションのアイデアや、剥がれにくい貼り方のコツを徹底解説します。
+- **SUZURIのTシャツのクオリティ・サイズ感を徹底レビュー！評判や画像サイズも解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-tshirt-quality-size
+  Summary: 「SUZURIのTシャツって生地のクオリティはどう？」「サイズ感はどう選べばいい？」といった疑問にお答えします。CRAZY CHILLで扱うTシャツの品質や評判、プリントされる画像サイズについても詳しく解説します。
+- **【比較検証】SUZURI Tシャツのサイズ感と生地の厚み（オンス）・透け感を徹底解説！失敗しない選び方**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-tshirt-size-fabric-guide
+  Summary: SUZURIでオリジナルTシャツを買う前に知っておきたい「サイズ感」と「生地の厚さ」。スタンダードTシャツ・ヘビーウェイト・オーバーサイズTシャツの違いを実際に比較して解説します。
+- **SUZURIのTシャツを長持ちさせる洗濯・お手入れ完全ガイド！プリント剥がれや色あせを防ぐプロのコツ**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-tshirt-washing-care
+  Summary: SUZURIで購入したお気に入りのTシャツ、長く綺麗な状態で着続けたいですよね。プリントが剥がれたり生地がヨレたりするのを防ぐ、アパレル視点での正しく簡単な洗濯・乾燥・アイロン掛けのコツを徹底解説します。
+- **カップルで楽しむダークパンク・シミラールック：ユニセックスブランドCRAZY CHILLの魅力**: https://crazy-chill-official.vercel.app/ja/blog/unisex-similar-look-styling
+  Summary: ストリートファッション好きのカップル・友人同士に大人気の「シミラールック」。あからさまなお揃いではなく、雰囲気やテーマを合わせる洗練されたペアルックの作り方をご提案します。
+- **CRAZY CHILL（クレチル）とは？「狂気的なまでに脱力」するダークパンクブランドの哲学**: https://crazy-chill-official.vercel.app/ja/blog/what-is-crazy-chill
+  Summary: CRAZY CHILL（クレチル）が目指すファッションの哲学とは何か。ダークなのに力が抜けている、そんな矛盾した美学とブランドの誕生秘話、そしてSUZURIでの活動について詳しく語ります。
+- **Y2Kファッション×ダークストリート：近未来サイバーパンクな着こなし術**: https://crazy-chill-official.vercel.app/ja/blog/y2k-cyberpunk-streetwear
+  Summary: 2000年代のサイバーな雰囲気と、現代のダークパンクを掛け合わせた「ネオY2Kスタイル」。CRAZY CHILLのアイテムを使った近未来的なストリートコーデの組み方を徹底解説します。
+
+## Featured Products
+- **ムダに肋骨が長いうさぎ**: https://crazy-chill-official.vercel.app/ja/products/dead-butterfly-tee
+- **ムダに肋骨が長いうさぎ**: https://crazy-chill-official.vercel.app/ja/products/-mrneo0dd
+- **THE MINIMAL FLOWER // CRAZY CHILL**: https://crazy-chill-official.vercel.app/ja/products/the-minimal-flower-crazy-chill-mrnfh5rh
+- **THE MINIMAL FLOWER // CRAZY CHILL**: https://crazy-chill-official.vercel.app/ja/products/the-minimal-flower-crazy-chill-mrngi28g
+- **THE MINIMAL FLOWER // sticker**: https://crazy-chill-official.vercel.app/ja/products/the-minimal-flower-sticker-mrngk8dp
+- **THE MINIMAL FLOWER // MUGCUP**: https://crazy-chill-official.vercel.app/ja/products/the-minimal-flower-mugcup-mrnh5x3u
+- ** THE MINIMAL FLOWER // SANDALS**: https://crazy-chill-official.vercel.app/ja/products/-the-minimal-flower-sandals-mrnh9z0h
+- **THE MINIMAL FLOWER // DRY T-shirt**: https://crazy-chill-official.vercel.app/ja/products/the-minimal-flower-dry-t-shirt-mrnhc2nv
+- **THE MINIMAL FLOWER // SOX**: https://crazy-chill-official.vercel.app/ja/products/the-minimal-flower-sox-mrnl5emh
+- **THE MINIMAL FLOWER // T-shirt**: https://crazy-chill-official.vercel.app/ja/products/the-minimal-flower-t-shirt-mrnmrkab
+- **THE NOISE PETAL // CLEAR FILE**: https://crazy-chill-official.vercel.app/ja/products/the-noise-petal-clear-file-mrnmxm7f
+- **THE NOISE PETAL // sticker**: https://crazy-chill-official.vercel.app/ja/products/the-noise-petal-sticker-mrnn0kyr
+- **THE NOISE PETAL // Tumblr**: https://crazy-chill-official.vercel.app/ja/products/the-noise-petal-tumblr-mrnn3d6d
+- **THE NOISE PETAL // MUGCUP**: https://crazy-chill-official.vercel.app/ja/products/the-noise-petal-mugcup-mrnn8jrv
+- **THE NOISE PETAL // bag**: https://crazy-chill-official.vercel.app/ja/products/the-noise-petal-bag-mrnne1ab
+- **THE NOISE PETAL // T-shirt**: https://crazy-chill-official.vercel.app/ja/products/the-noise-petal-t-shirt-mrnnhvnc
+- **THE NOISE PETAL // ACRYL PANEL**: https://crazy-chill-official.vercel.app/ja/products/the-noise-petal-acryl-panel-mrnnmlit
+- **THE NOISE PETAL // bag**: https://crazy-chill-official.vercel.app/ja/products/the-noise-petal-bag-mrnnraa5
+- **THE NOISE PETAL // T-shirt**: https://crazy-chill-official.vercel.app/ja/products/the-noise-petal-t-shirt-mrnnzz3w
+- **THE MONOCHROME BLOOM // SANDALS**: https://crazy-chill-official.vercel.app/ja/products/the-monochrome-bloom-sandals-mrno3r6x
