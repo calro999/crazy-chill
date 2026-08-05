@@ -95,6 +95,14 @@
       "nameEn": "bag",
       "icon": "✨",
       "description": ""
+    },
+    {
+      "id": "basketball",
+      "slug": "basketball",
+      "name": "バスケットボールシャツ",
+      "nameEn": "basketball",
+      "icon": "✨",
+      "description": ""
     }
   ]
 }
