@@ -127,6 +127,14 @@
       "nameEn": "sweatshirt",
       "icon": "✨",
       "description": ""
+    },
+    {
+      "id": "sandal",
+      "slug": "sandal",
+      "name": "サンダル",
+      "nameEn": "sandal",
+      "icon": "✨",
+      "description": ""
     }
   ]
 }
