@@ -119,6 +119,14 @@
       "nameEn": "sox",
       "icon": "✨",
       "description": ""
+    },
+    {
+      "id": "sweatshirt",
+      "slug": "sweatshirt",
+      "name": "スウェット",
+      "nameEn": "sweatshirt",
+      "icon": "✨",
+      "description": ""
     }
   ]
 }
