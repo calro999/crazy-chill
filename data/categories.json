@@ -111,6 +111,14 @@
       "nameEn": "polo",
       "icon": "✨",
       "description": ""
+    },
+    {
+      "id": "sox",
+      "slug": "sox",
+      "name": "靴下",
+      "nameEn": "sox",
+      "icon": "✨",
+      "description": ""
     }
   ]
 }
