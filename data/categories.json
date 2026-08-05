@@ -103,6 +103,14 @@
       "nameEn": "basketball",
       "icon": "✨",
       "description": ""
+    },
+    {
+      "id": "polo",
+      "slug": "polo",
+      "name": "ポロシャツ",
+      "nameEn": "polo",
+      "icon": "✨",
+      "description": ""
     }
   ]
 }
