@@ -20,6 +20,11 @@
 - **half-pants**: https://crazy-chill-official.vercel.app/ja/category/half-pants
 - **pants**: https://crazy-chill-official.vercel.app/ja/category/pants
 - **bag**: https://crazy-chill-official.vercel.app/ja/category/bag
+- **basketball**: https://crazy-chill-official.vercel.app/ja/category/basketball
+- **polo**: https://crazy-chill-official.vercel.app/ja/category/polo
+- **sox**: https://crazy-chill-official.vercel.app/ja/category/sox
+- **sweatshirt**: https://crazy-chill-official.vercel.app/ja/category/sweatshirt
+- **sandal**: https://crazy-chill-official.vercel.app/ja/category/sandal
 
 ## All Blog Articles & Knowledge Guides
 - **全身黒（オールブラックコーデ）がダサく見える3つの原因と解決法｜異素材とグラフィックで魅せるダークストリート術**: https://crazy-chill-official.vercel.app/ja/blog/all-black-fashion-street-styling
