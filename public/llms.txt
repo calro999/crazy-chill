@@ -35,6 +35,8 @@
   Summary: 夏のストリートコーデに迷っていませんか？CRAZY CHILLの新作「BONE RIDER」Tシャツとドライショーツのセットアップ着用レビュー！モノトーンで決める最高にチルなスタイルをご紹介します。
 - **「狂気的なまでに脱力」というコンセプトが生まれた理由とダークパンクデザインの裏話**: https://crazy-chill-official.vercel.app/ja/blog/crazy-chill-design-roots
   Summary: CRAZY CHILL（クレチル）のシュールなデザインはどのようにして生まれるのか？ブランドのルーツや「狂気的なまでに脱力」というコンセプトに込められた思い、影響を受けたカルチャーについてクリエイター本人が深く語ります。
+- **【徹底解剖】CRAZY CHILL（クレチル）を着こなす！サブカル・地雷系・ダークストリート女子＆男子へ贈る勝負コーデ解説**: https://crazy-chill-official.vercel.app/ja/blog/crazy-chill-target-persona-outfit-guide
+  Summary: 狂気と脱力が交差するブランド『CRAZY CHILL』。地雷系・アングラ・サブカル・ダークストリートを愛する「刺さる人」へ向けて、Tシャツ・ハーフパンツ・キャップなどの実在アイテムを取り入れた今期最強のスタイリング術を徹底解説！
 - **【2026年比較】オリジナルTシャツ作成サイトおすすめ4選！SUZURI・UTme!・Up-T・ClubTを徹底比較**: https://crazy-chill-official.vercel.app/ja/blog/custom-tshirt-service-comparison
   Summary: 自分だけのTシャツを作りたい、またはアパレルブランドを立ち上げたい方向け。SUZURI、UTme!、Up-T、ClubTなど主要4大サービスの価格、印刷クオリティ、ボディの品揃え、販売のしやすさを比較徹底解説！
 - **【2026年最新】サイバーパンク・テックウェア入門！黒T＆パーカーで魅せる近未来ストリートコーデの構築術**: https://crazy-chill-official.vercel.app/ja/blog/cyberpunk-techwear-street-fashion-guide
