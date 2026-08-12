@@ -65,6 +65,8 @@
   Summary: 「黒Tシャツや黒パーカーばかり着ていると全身真っ黒で地味に見える…」とお悩みの方へ。黒コーデののっぺり感を解消する「異素材ミックス（綿×レザー×ナイロン）」の比率と、シルバーアクセサリー・グラフィックの配置によるダークストリートの垢抜け立体感演出術をアパレルプロ視点で徹底解説！
 - **夏のモノトーンストリート＆ダークパンクコーデの作り方！Tシャツ1枚でおしゃれに魅せるコツ**: https://crazy-chill-official.vercel.app/ja/blog/monotone-dark-punk-styling
   Summary: CRAZY CHILLが得意とする「モノトーン」「ダークパンク」「ストリート」なファッション。夏の暑い時期でも、Tシャツ1枚で世界観をバッチリ決めるスタイリングのコツを解説します。
+- **【2026夏】メンズの黒Tシャツ・モノトーンコーデ完全攻略！重たく見せない夏のダークストリート＆オーバーサイズ着こなし術**: https://crazy-chill-official.vercel.app/ja/blog/monotone-mens-summer-streetwear-styling
+  Summary: 夏に黒Tシャツやモノトーンを着ると「暑苦しい」「重く見える」と悩んでいませんか？アパレル視点で明かす重さを回避する5つの黄金法則と、大人のモード＆ダークパンクストリート夏コーデの実例を徹底解説！
 - **海外からの購入方法（WorldShoppingのご案内） / How to purchase from overseas**: https://crazy-chill-official.vercel.app/ja/blog/overseas-shipping-guide
   Summary: CRAZY CHILLのアイテムは海外からも購入可能です。SUZURI公式のWorldShopping（ワールドショッピング）サービスを利用した購入手順をご案内します。
 - **【比較解説】SUZURIオーバーサイズTシャツのサイズ感・実寸とストリート着こなしの美学！失敗しない選び方**: https://crazy-chill-official.vercel.app/ja/blog/oversize-street-philosophy
@@ -115,10 +117,14 @@
   Summary: 2026年最新のSUZURIセール開催時期と頻度を徹底予測！6月のTシャツ1000円引きセール、10-11月のパーカー1000円引きセールなど年間スケジュール、ゲリラ開催の頻度、セールが「いつからいつまで」開催されるかの傾向と最安値購入テクニックを完全網羅！
 - **SUZURIの注文から届くまでの日数は？「遅い」と言われる理由と製造〜配送の仕組み・セール期の到着目安をアパレル視点で徹底解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-shipping-days-delivery-guide
   Summary: 「SUZURIで買った服やグッズは注文から何日で届く？」「なぜ『届くまでが遅い』と言われるの？」という疑問をプロのアパレル視点で徹底解説。通常期とセール期の発送目安、オンデマンド製造の仕組み、プレゼントやイベント用に間に合わせる逆算購入ルールまで詳しく紹介します。
+- **【プロ直伝】SUZURIステッカーのきれいな貼り方・剥がし方＆気泡ゼロのコツ！スマホ・PC・バイクの防水耐候テストとデコレーション実例**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-sticker-apply-remove-guide
+  Summary: SUZURIのステッカーをスマホやPC、水筒、ヘルメットに気泡やホコリなく綺麗に貼るテクニックをアパレル・雑貨デザインのプロが徹底解説！剥がし方のコツや耐水性の実地テスト、CRAZY CHILLステッカーのおしゃれなレイアウト実例まで紹介します。
 - **SUZURIステッカーのおしゃれな貼り方！スマホやPCのデコレーション術**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-sticker-ideas
   Summary: SUZURIで買ったオリジナルステッカー、どこに貼るか迷っていませんか？CRAZY CHILL流のダークでストリートなスマホ・PCデコレーションのアイデアや、剥がれにくい貼り方のコツを徹底解説します。
 - **SUZURIのステッカー＆アクリルグッズまとめ！耐性・透明感・文具アイテムの魅力を解剖**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-stickers-acrylic-stationery-goods
   Summary: SUZURIの定番人気グッズ（ダイカットステッカー、アクリルキーホルダー、アクリルパネル、クリアファイル、マルマンコラボクロッキーブック）のAlt属性データから、印刷クオリティやコレクション・カスタマイズの楽しさをまとめました。
+- **【プロが教える】黒Tシャツ・パーカーの色あせ防止＆黒さを復活させる洗濯・お手入れ完全ガイド！毛玉・ヨレを防ぐ保管術**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-sweatshirt-hoodie-care-fading-prevention
+  Summary: お気に入りの黒Tシャツや黒パーカーが洗濯するたびに白っぽく色あせたり、毛玉・首元のヨレに悩んでいませんか？アパレル視点で黒さを何年もキープする正しい洗剤・洗い方・干し方と、褪せた黒服の復活裏技を解説！
 - **SUZURIのキャンバストートバッグのサイズ感・生地の厚み（12oz）を徹底レビュー！通学・通勤やサブカル・ストリートコーデでの選び方**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-tote-bag-size-quality-review
   Summary: SUZURIのキャンバストートバッグのサイズ（S/M/L）、12.0オンス厚手生地の耐久性、印刷クオリティをアパレル視点で徹底レビュー。通勤・通学・イベントでの使い勝手から、ダークパンク・ストリートコーデのアクセントとしての活用法まで解説します。
 - **【徹底検証】SUZURI Tシャツのクオリティ・評判・サイズ感とプリント画像サイズ（解像度）の全知識**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-tshirt-quality-size
