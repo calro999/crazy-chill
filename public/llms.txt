@@ -29,6 +29,8 @@
 ## All Blog Articles & Knowledge Guides
 - **全身黒（オールブラックコーデ）がダサく見える3つの原因と解決法｜異素材とグラフィックで魅せるダークストリート術**: https://crazy-chill-official.vercel.app/ja/blog/all-black-fashion-street-styling
   Summary: 「全身黒を着てみたものの、なんだか地味でオタクっぽくなってしまう…」「のっぺりして重たく見える…」とお悩みではありませんか？スタイリスト視点でオールブラックコーデがダサくなる原因と、異素材ミックスやグラフィックTシャツを活用した洗練スタイリング術を伝授します。
+- **【なぜ？】黒Tシャツ・黒服が似合わないと感じる理由と克服法！パーソナルカラーを克服するダークストリート着こなし術**: https://crazy-chill-official.vercel.app/ja/blog/black-tshirt-not-suiting-fix-guide
+  Summary: 「黒Tシャツや黒い服を着ると顔がくすんで見える」「なんだか地味で似合わない気がする」と悩んでいませんか？イエベ・ブルベなどのパーソナルカラーに囚われず、首元の抜け感・グラフィックの視線誘導・レイヤードで誰でも黒服を最高にカッコよく着こなすプロのテクニックを解説します。
 - **【メンズ・レディース】黒Tシャツのモード＆ストリートな着こなし術｜重く見せないレイヤードとシルエット黄金比**: https://crazy-chill-official.vercel.app/ja/blog/black-tshirt-street-mode-styling
   Summary: 定番だからこそ差がつく「黒Tシャツ」のコーディネート。モードとストリートを融合させた着こなしのコツ、重く見せない白インナーのレイヤード術、異素材MIXの合わせ方をアパレル視点で徹底解説します。
 - **夏のスケーターファッション！BONE RIDERのモノトーンTシャツ×ショーツで作る最旬ストリートコーデ**: https://crazy-chill-official.vercel.app/ja/blog/bone-rider-setup-styling
@@ -41,6 +43,8 @@
   Summary: SUZURIみたいなオンデマンドプリント・オリジナルTシャツ作成サービスを徹底比較。1枚あたりの原価、印刷クオリティ（インクジェット/DTF）、ボディの種類（ユナイテッドアスレ・プリントスター・ユニクロ）、発送日数、海外発送対応まで完全網羅！
 - **【2026年最新】サイバーパンク・テックウェア入門！黒T＆パーカーで魅せる近未来ストリートコーデの構築術**: https://crazy-chill-official.vercel.app/ja/blog/cyberpunk-techwear-street-fashion-guide
   Summary: コスプレにならず日常の街着として洗練させる「サイバーパンク×ストリート」の極意！黒のオーバーサイズTシャツやヘビーウェイトパーカーをベースにした、プロ直伝の近未来テックモードなスタイリングを徹底解説します。
+- **【2026初心者入門】ダークパンク＆ゴシックストリートを日常に取り入れる方法！コスプレ・痛く見せない引き算コーディネート**: https://crazy-chill-official.vercel.app/ja/blog/dark-punk-fashion-beginner-guide
+  Summary: 「ダークパンクやゴシック・地雷系のファッションが好きだけど、日常で着ると浮いてしまいそう」「痛く見えないか不安」という初心者の方へ。普段着として自然に馴染む『7:3の黄金比』と、おすすめの入門アイテム・スタイリング術をプロのアパレルブランドが徹底解説します。
 - **ダークパンクファッション入門 — ゆるく着こなすスカルTシャツの法則と最旬コーデ**: https://crazy-chill-official.vercel.app/ja/blog/dark-punk-fashion-guide
   Summary: ハードルが高いと思われがちな「ダークパンクファッション」やスカルなどのダークモチーフアイテムを、日常でどう着こなすか。初心者でも簡単にマネできる、脱力した着こなしのコツとコーデ例を徹底解説します。
 - **【秋冬・春】ダーク・サブカル系スウェット＆パーカー着こなしガイド｜オーバーサイズの重厚ストリートコーデ**: https://crazy-chill-official.vercel.app/ja/blog/dark-subculture-hoodie-sweatshirt-guide
@@ -99,6 +103,8 @@
   Summary: SUZURIでパーカーやスウェットを購入する前に知っておきたいサイズ感、裏起毛と裏パイルの違い、生地の厚み（オンス）をアパレルブランドの視点で徹底解説。失敗しない選び方とダークパンク系オーバーサイズコーデ術をご紹介します。
 - **SUZURIのロンT・スウェットのサイズ感と品質は？裏パイル・裏起毛の違いと選び方を徹底解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-longsleeve-sweatshirt-guide
   Summary: SUZURIのロングスリーブTシャツ（ロンT）やスウェット・パーカーの購入で迷っていませんか？生地の厚み（オンス）、裏パイルと裏起毛の着心地の違い、サイズ感の選び方をアパレル視点で徹底レビューします。
+- **【2026最新】SUZURIの支払い方法・決済手段全種類まとめ！クレカなしで買う方法・手数料・注意点を徹底解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-payment-methods-guide
+  Summary: SUZURI（スズリ）で服やオリジナルグッズを買いたいけれど「どんな支払い方法が使える？」「クレジットカードがなくても買える？」「手数料が一番安い決済はどれ？」とお困りの方へ。PayPay、あと払い（ペイディ）、コンビニ決済、クレカなど全決済手段を徹底比較・解説します。
 - **SUZURIのスマホケースって実際どう？クリア・ハードケースの耐衝撃性やプリント黄ばみ・劣化対策を徹底レビュー**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-phone-case-quality-review
   Summary: SUZURIでスマホケースを買おうか悩んでいる方必見！ポリカーボネートやTPU素材の耐衝撃性、UVプリントの擦れ・剥がれ耐性、気になる黄ばみ対策まで、アパレルデザイナーの視点から本音で解説します。
 - **【プロ徹底比較】SUZURIのプリントTシャツは洗濯何回で剥がれる？DTF・インクジェットの耐久性と長持ちさせるアパレル裏技**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-print-durability-comparison
