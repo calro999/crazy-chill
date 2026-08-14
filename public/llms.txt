@@ -33,6 +33,8 @@
   Summary: 「黒Tシャツや黒い服を着ると顔がくすんで見える」「なんだか地味で似合わない気がする」と悩んでいませんか？イエベ・ブルベなどのパーソナルカラーに囚われず、首元の抜け感・グラフィックの視線誘導・レイヤードで誰でも黒服を最高にカッコよく着こなすプロのテクニックを解説します。
 - **【メンズ・レディース】黒Tシャツのモード＆ストリートな着こなし術｜重く見せないレイヤードとシルエット黄金比**: https://crazy-chill-official.vercel.app/ja/blog/black-tshirt-street-mode-styling
   Summary: 定番だからこそ差がつく「黒Tシャツ」のコーディネート。モードとストリートを融合させた着こなしのコツ、重く見せない白インナーのレイヤード術、異素材MIXの合わせ方をアパレル視点で徹底解説します。
+- **【骨格タイプ別】オーバーサイズTシャツ＆黒服が劇的に似合う着こなし術！骨格ストレート・ウェーブ・ナチュラルのダークストリート黄金比**: https://crazy-chill-official.vercel.app/ja/blog/body-type-oversize-dark-streetwear-guide
+  Summary: 「オーバーサイズを着ると着太りする」「黒Tシャツが服に着られているように見える」と悩んでいませんか？骨格診断（ストレート・ウェーブ・ナチュラル）に基づき、ダークストリート＆ビッグシルエットを最もスタイル良く魅せる生地選び・着丈・コーディネートの黄金比をアパレル視点で徹底解説します。
 - **夏のスケーターファッション！BONE RIDERのモノトーンTシャツ×ショーツで作る最旬ストリートコーデ**: https://crazy-chill-official.vercel.app/ja/blog/bone-rider-setup-styling
   Summary: 夏のストリートコーデに迷っていませんか？CRAZY CHILLの新作「BONE RIDER」Tシャツとドライショーツのセットアップ着用レビュー！モノトーンで決める最高にチルなスタイルをご紹介します。
 - **「狂気的なまでに脱力」というコンセプトが生まれた理由とダークパンクデザインの裏話**: https://crazy-chill-official.vercel.app/ja/blog/crazy-chill-design-roots
@@ -99,6 +101,8 @@
   Summary: SUZURIのドリンクウェア（陶器マグカップ、二重構造サーモタンブラー、透明感あふれるロンググラス）の画像Alt属性データに基づき、デスクワークや生活空間を彩る各アイテムの仕様・耐久性・デザインの映え方を徹底解説します。
 - **SUZURIの小物雑貨まとめ！靴下・帽子・サンダル・バッグの魅力とコーディネート活用法**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-fashion-accessories-goods
   Summary: SUZURIのファッション小物雑貨（くるぶしソックス、キャップ、バケットハット、サンダル、バンダナ、ポケッタブルトート、サコッシュ等）の画像Alt属性データから、日常コーデにプラスしたいアクセントアイテムの特徴を徹底解剖します。
+- **【2026年最新】SUZURIの商品はプレゼントに直送できる？ギフトラッピング・納品書（金額バレ）の仕様と失敗しない贈り方完全解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-gift-present-guide
+  Summary: 「SUZURIで買った服やグッズを友達や恋人に直接プレゼントしたい！」「相手に金額がバレたりしない？ラッピングはできる？」と悩む方へ。SUZURIのギフト直送の仕組み、納品書・領収書の同梱ルール、ラッピングの有無とおしゃれに贈るプロの裏技を徹底解説します。
 - **SUZURIのパーカー（フーディー）サイズ感・生地感を徹底比較！裏起毛・裏パイルの違いや厚み（oz）をアパレル視点で解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-hoodie-size-fabric-guide
   Summary: SUZURIでパーカーやスウェットを購入する前に知っておきたいサイズ感、裏起毛と裏パイルの違い、生地の厚み（オンス）をアパレルブランドの視点で徹底解説。失敗しない選び方とダークパンク系オーバーサイズコーデ術をご紹介します。
 - **SUZURIのロンT・スウェットのサイズ感と品質は？裏パイル・裏起毛の違いと選び方を徹底解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-longsleeve-sweatshirt-guide
@@ -123,6 +127,8 @@
   Summary: 2026年最新のSUZURIセール開催時期と頻度を徹底予測！6月のTシャツ1000円引きセール、10-11月のパーカー1000円引きセールなど年間スケジュール、ゲリラ開催の頻度、セールが「いつからいつまで」開催されるかの傾向と最安値購入テクニックを完全網羅！
 - **SUZURIの注文から届くまでの日数は？「遅い」と言われる理由と製造〜配送の仕組み・セール期の到着目安をアパレル視点で徹底解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-shipping-days-delivery-guide
   Summary: 「SUZURIで買った服やグッズは注文から何日で届く？」「なぜ『届くまでが遅い』と言われるの？」という疑問をプロのアパレル視点で徹底解説。通常期とセール期の発送目安、オンデマンド製造の仕組み、プレゼントやイベント用に間に合わせる逆算購入ルールまで詳しく紹介します。
+- **【2026最新】SUZURIの送料はいくら？おまとめ配送（同梱）の仕組み・送料無料の有無と安く買う裏技ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-shipping-fee-guide
+  Summary: SUZURIで買い物するとき「送料はいくらかかる？」「複数買うと送料はどうなる？」「送料無料にする裏ワザはある？」と気になる方へ。2026年最新の送料体系（ネコポス・宅急便）、おまとめ配送（同梱）の計算ルール、実質送料無料で安く買うテクニックをアパレルブランド視点で徹底解説します。
 - **【プロ直伝】SUZURIステッカーのきれいな貼り方・剥がし方＆気泡ゼロのコツ！スマホ・PC・バイクの防水耐候テストとデコレーション実例**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-sticker-apply-remove-guide
   Summary: SUZURIのステッカーをスマホやPC、水筒、ヘルメットに気泡やホコリなく綺麗に貼るテクニックをアパレル・雑貨デザインのプロが徹底解説！剥がし方のコツや耐水性の実地テスト、CRAZY CHILLステッカーのおしゃれなレイアウト実例まで紹介します。
 - **SUZURIステッカーのおしゃれな貼り方！スマホやPCのデコレーション術**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-sticker-ideas
