@@ -37,6 +37,8 @@
   Summary: 「黒Tシャツや黒い服を着ると顔がくすんで見える」「なんだか地味で似合わない気がする」と悩んでいませんか？イエベ・ブルベなどのパーソナルカラーに囚われず、首元の抜け感・グラフィックの視線誘導・レイヤードで誰でも黒服を最高にカッコよく着こなすプロのテクニックを解説します。
 - **【メンズ・レディース】黒Tシャツのモード＆ストリートな着こなし術｜重く見せないレイヤードとシルエット黄金比**: https://crazy-chill-official.vercel.app/ja/blog/black-tshirt-street-mode-styling
   Summary: 定番だからこそ差がつく「黒Tシャツ」のコーディネート。モードとストリートを融合させた着こなしのコツ、重く見せない白インナーのレイヤード術、異素材MIXの合わせ方をアパレル視点で徹底解説します。
+- **【黒服の白っぽさ・アタリ復活】黒Tシャツやパーカーが白く毛羽立つ原因と直し方！お酢・ブラッシング・黒染めスプレーで漆黒を取り戻すプロのお手入れ術**: https://crazy-chill-official.vercel.app/ja/blog/black-tshirt-whitening-fuzz-restoration-guide
+  Summary: お気に入りの黒Tシャツや黒パーカーの襟元・縫い目・全体が白っぽく毛羽立って古着っぽくなっていませんか？摩擦による「フィブリル化（白化現象）」の科学的メカニズムと、自宅にあるお酢・洋服ブラシ・黒色復元剤を使って漆黒の深みを蘇らせるアパレル直伝のお手入れ術！
 - **【骨格タイプ別】オーバーサイズTシャツ＆黒服が劇的に似合う着こなし術！骨格ストレート・ウェーブ・ナチュラルのダークストリート黄金比**: https://crazy-chill-official.vercel.app/ja/blog/body-type-oversize-dark-streetwear-guide
   Summary: 「オーバーサイズを着ると着太りする」「黒Tシャツが服に着られているように見える」と悩んでいませんか？骨格診断（ストレート・ウェーブ・ナチュラル）に基づき、ダークストリート＆ビッグシルエットを最もスタイル良く魅せる生地選び・着丈・コーディネートの黄金比をアパレル視点で徹底解説します。
 - **夏のスケーターファッション！BONE RIDERのモノトーンTシャツ×ショーツで作る最旬ストリートコーデ**: https://crazy-chill-official.vercel.app/ja/blog/bone-rider-setup-styling
@@ -163,6 +165,8 @@
   Summary: SUZURIで選べる「スタンダード・ヘビーウェイト・ビッグシルエット・USAコットン・ドライ」等のTシャツ生地をアパレル視点で徹底比較！生地の厚み（オンス）、糸の質感、首元のヨレにくさ、透け感の違いを完全マトリクスで解説します。
 - **【徹底検証】SUZURI Tシャツのクオリティ・評判・サイズ感とプリント画像サイズ（解像度）の全知識**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-tshirt-quality-size
   Summary: SUZURIのTシャツ生地クオリティ、プリントの耐久性、身幅・着丈のサイズ感選びをリアルに分析。さらに『SUZURI Tシャツ 画像サイズ』の仕様（横2520×縦3352px）やS〜3XLにおけるプリント比率の印象差まで専門的に解説します。
+- **【縮んだ服を元に戻す】SUZURIのTシャツ・パーカーは洗濯で縮む？縮み率の実測値とトリートメント（ジメチコン）で伸ばす劇的復活法**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-tshirt-shrinkage-hair-treatment-restore-guide
+  Summary: SUZURI（スズリ）で買ったTシャツやパーカーは洗濯や乾燥機でどれくらい縮む？綿100%生地の縮み率の実測目安と、うっかり縮んで丈が短くなった服を「ヘアトリートメント（ジメチコン成分）」で元のサイズに伸ばすアパレル直伝の復活手順を徹底解説！
 - **【2026年最新】SUZURI Tシャツのサイズ感・生地オンス・透け感を比較！女性の着こなしから洗濯の縮みまで徹底解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-tshirt-size-fabric-guide
   Summary: SUZURIでオリジナルTシャツを購入する際に絶対失敗しないための全ガイド。スタンダード、ヘビーウェイト、オーバーサイズの違いから、女性の身長別サイズ選び（150cm〜165cm）、生地の透け感・オンス比較、洗濯後の縮み実測データまで圧倒的情報量で完全網羅します。
 - **SUZURIのTシャツを長持ちさせる洗濯・お手入れ完全ガイド！プリント剥がれや色あせを防ぐプロのコツ**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-tshirt-washing-care
@@ -179,6 +183,8 @@
   Summary: ストリートファッション好きのカップル・友人同士に大人気の「シミラールック」。あからさまなお揃いではなく、雰囲気やテーマを合わせる洗練されたペアルックの作り方をご提案します。
 - **CRAZY CHILL（クレチル）とは？「狂気的なまでに脱力」するダークパンクブランドの哲学**: https://crazy-chill-official.vercel.app/ja/blog/what-is-crazy-chill
   Summary: CRAZY CHILL（クレチル）が目指すファッションの哲学とは何か。ダークなのに力が抜けている（looks chill）、そんな矛盾した美学とブランドの誕生秘話、そしてSUZURIでの活動について詳しく語ります。
+- **【脱・着膨れ＆だらしなさ】ワイドパンツ×オーバーサイズ黒Tシャツ・パーカーの「Aライン・Hライン・Oライン」黄金シルエット構築術！大人のダークストリート着こなし論**: https://crazy-chill-official.vercel.app/ja/blog/wide-pants-oversize-black-tshirt-silhouette-guide
+  Summary: 上下ゆったり（ビッグT×ワイドパンツ）を着ると『太って見える』『だらしない部屋着に見える』とお悩みの方へ！Aライン・Hライン・Oラインの3大黄金シルエット理論と、足元のボリューム靴連動・3首の抜け感・レイヤード術で洗練された大人のダークストリートを構築するスタイリング法則！
 - **【2026最新】サイバーストリートファッションの着こなし方！Y2K×ダークパンクコーデ完全解説**: https://crazy-chill-official.vercel.app/ja/blog/y2k-cyberpunk-streetwear
   Summary: 検索急上昇中の『サイバーストリート ファッション』を徹底解説！2000年代のY2Kサイバー感と現代のダークパンク・テックウェアを融合させたネオ・サイバーストリートスタイルの組み方、カラー法則、アクセサリー選びまで完全網羅！
 
