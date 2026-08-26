@@ -37,6 +37,8 @@
   Summary: 優等生っぽくなりがちな黒カーディガンを、エッジの効いたダークストリート・グランジ・パンクに昇華！インナーのグラフィックTシャツを活かすVゾーン計算、ドロップショルダー＆ダメージ感の選び方、ワイドパンツ・クラッシュデニムとの合わせ方をアパレルブランドが徹底解説！
 - **【黒グラフィックT×ベスト重ね着】タクティカル・フィッシング・ニットベストで作る大人の立体感ダークストリート＆サブカル着こなし黄金比**: https://crazy-chill-official.vercel.app/ja/blog/black-graphic-tshirt-vest-layering-street-guide
   Summary: 「夏〜秋の黒Tシャツ1枚コーデが単調でマンネリ化する…」「体型をカバーしながら一瞬で玄人ストリート感を出したい！」そんな悩みを一撃で解決するベストレイヤード術！タクティカル・フィッシング・ニット・メッシュベストとグラフィックTを合わせる黄金比と実践コーデを徹底解説。
+- **【プロ直伝】黒パーカーのフードを綺麗に立たせる裏ワザと、オーバーサイズで魅せる大人のダークストリート黄金比**: https://crazy-chill-official.vercel.app/ja/blog/black-hoodie-hood-stand-oversize-street-styling
+  Summary: 「パーカーのフードがペタッと潰れて部屋着っぽく見える…」を完全解決！アパレル目線で解説するフード立ち上がりのメカニズム＆裏ワザ（洗濯・干し方・インナー仕込み）から、肩幅・身幅・裾リブの黄金比、SUZURIのヘビーウェイトパーカーをモードに着こなす極意まで徹底解説。
 - **【脱・子供っぽさ＆部屋着感】黒ショーツ（ハーフパンツ）×オーバーサイズ黒Tシャツ・パーカーの大人ダークストリート着こなし黄金比！膝上丈・ソックス・スニーカー合わせ完全攻略**: https://crazy-chill-official.vercel.app/ja/blog/black-shorts-oversize-dark-streetwear-styling
   Summary: 短パン×ビッグTシャツが子供っぽく見えたり短足に見えたりする原因を徹底解剖！黒ショーツ（ハーフパンツ/カーゴショーツ/ナイロンショーツ）とオーバーサイズ黒Tシャツ・パーカーを大人っぽくモードストリートに着こなす『4:6黄金シルエット』『ソックスの丈感と色合わせ』『足元ボリュームスニーカーの選定』を完全解説。
 - **【黒スキニーはもう古い？】2026年ストリートの正解ボトムス5選！オーバーサイズ黒T・パーカーを今っぽく着こなす脱・時代遅れ黒パンツ論**: https://crazy-chill-official.vercel.app/ja/blog/black-skinny-pants-outdated-modern-street-guide
@@ -125,12 +127,16 @@
   Summary: いつものTシャツコーデがマンネリ化していませんか？CRAZY CHILLのグラフィックTシャツを最大限に活かす、アームカバーやハーネスを使った重ね着（レイヤード）テクニックを大公開します。
 - **【2026年最新】サブカルストリート女子・男子の「推し活＆ライブ参戦服」コーデ完全解説！モッシュ・撮影・長時間の快適性とダーク系ファッションを両立する着こなし術**: https://crazy-chill-official.vercel.app/ja/blog/subculture-live-event-outfit-guide
   Summary: ライブハウスやフェス、推し活イベントに何を着ていく？サブカル系・地雷系・ダークストリート好きのための「ライブ参戦服」スタイリング完全ガイド。安全面や長時間の快適さを保ちつつ、写真映えするグラフィックTシャツ＆オーバーサイズパーカーの着こなし術をプロ視点で徹底解説します。
+- **【図解】サブカル系と地雷系の違いとは？量産型・ダークパンクとの境界線と痛見えしない大人のブラックストリート入門**: https://crazy-chill-official.vercel.app/ja/blog/subculture-vs-jiraikei-dark-street-difference-guide
+  Summary: 「サブカル系」「地雷系」「量産型」「ダークストリート」の違いや特徴をアパレル・ストリートカルチャー視点で徹底図解！発祥ルーツから配色・シルエットの違い、子供っぽさ・痛見えを完全回避して洗練されたブラックコーデに落とし込むプロの着こなし術を完全解説。
 - **【夏 黒Tシャツ 暑い？】猛暑でも黒Tを涼しく快適に着こなす科学的裏技！熱中症対策と視覚的抜け感のストリート術**: https://crazy-chill-official.vercel.app/ja/blog/summer-black-tshirt-heat-countermeasures-guide
   Summary: 「夏に黒Tシャツを着ると暑い？」「黒Tは熱を吸収して暑苦しい？」そんな疑問をアパレル工学と色彩科学で解明！実はUVカット率99%の黒服を、猛暑でも涼しくサラサラに着こなすプロのテクニック（5.6oz通気性選び・冷感インナー・3首の抜け感・異素材MIX）を大公開。
 - **【2026最新】スズリ(SUZURI)服の種類と違いを完全比較！Tシャツ・パーカー・スウェットの生地・オンス・選び方**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-apparel-clothing-guide
   Summary: SUZURIで展開されるアパレル服の種類（スタンダード、ヘビーウェイト、USAコットン、ビッグシルエット、スウェット、パーカー、ショーツ等）の違いとスペック、オンス（生地の厚み）、着用シーン別の失敗しない選び方を徹底解説！
 - **【プロ徹底比較】SUZURIのビッグシルエットT vs オーバーサイズT vs ヘビーウェイトT！シルエット・オンス（oz）・身幅・肩落ち感をアパレル視点でガチ検証**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-big-silhouette-vs-oversize-heavyweight-tshirt
   Summary: SUZURIでTシャツを注文する際、最も迷う『スタンダード(5.6oz)』『ヘビーウェイト(7.4oz)』『ビッグシルエット(5.6oz)』『オーバーサイズ(5.6oz)』の違いをアパレル視点で完全比較。身幅・肩幅の落ち感・透けにくさ・洗濯耐久性から失敗しない選び方を伝授します。
+- **【プロ解説】SUZURIのコーチジャケットってどう？生地の厚み・防風性・サイズ感とダークストリート着こなし完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-coach-jacket-quality-styling-guide
+  Summary: SUZURIで展開されるコーチジャケットの質感、T/Cウェザー生地の防風性、サイズ選びのコツをアパレル視点で徹底レビュー！春・秋・初冬の着用温度感から、インナーにパーカーを重ねるレイヤード術、バックプリントが映える大人のダークストリートコーデまで完全網羅。
 - **【2026最新】SUZURIクーポンコード入手方法＆使えない時の原因と解決策！LINEクーポン・セール併用まで完全解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-coupon-discount-code-guide
   Summary: SUZURI（スズリ）で使えるクーポンコードの入手方法（LINE公式・アプリ通知・Xキャンペーン）から、「クーポンが使えない原因と対処法」、1,000円引きセールとの併用ルール、プレゼント用購入の最安値裏ワザまで徹底解説！
 - **【徹底レビュー】SUZURIのタンブラー・マグカップ・グラスまとめ！保温保冷性能・サイズ感・印刷耐久性を解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-drinkware-mug-tumbler-guide
