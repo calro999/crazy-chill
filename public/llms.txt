@@ -77,6 +77,8 @@
   Summary: 「ダークパンクやゴシック・地雷系のファッションが好きだけど、日常で着ると浮いてしまいそう」「痛く見えないか不安」という初心者の方へ。普段着として自然に馴染む『7:3の黄金比』と、おすすめの入門アイテム・スタイリング術をプロのアパレルブランドが徹底解説します。
 - **ダークパンクファッション入門 — ゆるく着こなすスカルTシャツの法則と最旬コーデ**: https://crazy-chill-official.vercel.app/ja/blog/dark-punk-fashion-guide
   Summary: ハードルが高いと思われがちな「ダークパンクファッション」やスカルなどのダークモチーフアイテムを、日常でどう着こなすか。初心者でも簡単にマネできる、脱力した着こなしのコツとコーデ例を徹底解説します。
+- **【手元＆腰回りで差をつける】ダークストリート・モード系シルバーアクセサリー重ね付け完全攻略！リング・ブレスレット・ウォレットチェーンの配置黄金比と統一感の作り方**: https://crazy-chill-official.vercel.app/ja/blog/dark-streetwear-silver-accessories-layering-guide
+  Summary: 黒Tシャツやパーカー、オールブラックコーデを一気にプロ級へ引き上げるシルバーアクセサリー重ね付けの黄金律をアパレル視点で徹底解説！「中二病感・下品なガチャガチャ感」を防ぐ引き算のルール、左右の手のボリューム比率（6:4の法則）、指ごとのリング配置、大人のウォレットチェーン＆カラビナ活用術まで完全網羅。
 - **【秋冬・春】ダーク・サブカル系スウェット＆パーカー着こなしガイド｜オーバーサイズの重厚ストリートコーデ**: https://crazy-chill-official.vercel.app/ja/blog/dark-subculture-hoodie-sweatshirt-guide
   Summary: ストリート・サブカルファッションに欠かせないスウェット＆パーカー。フードを綺麗に立たせるコツ、ジップパーカーやアウターとのレイヤード（重ね着）術、ダボッと着こなすシルエットの作り方を徹底解説します。
 - **The Dark Romance of Japanese Gothic Lolita Fashion**: https://crazy-chill-official.vercel.app/en/blog/en-gothic-lolita-culture
@@ -87,6 +89,8 @@
   Summary: Discover the ultimate guide to Japanese subcultures fashion and Harajuku streetwear. Explore Japan fashion subcultures, Urahara roots, Harajuku substyles, Y2K cyber techwear, dark punk aesthetic, why Tokyo fashion looks chill, and how to style Japanese streetwear.
 - **The Evolution of Japanese Maid Fashion in Pop Culture**: https://crazy-chill-official.vercel.app/en/blog/en-maid-fashion-culture
   Summary: Discover how the classic maid uniform evolved from Akihabara cafes into a global symbol of Japanese pop culture and cute aesthetic. Explore the details that make this style iconic.
+- **【スミクロ・フェードブラック着こなし論】色落ち黒Tシャツ・ヴィンテージライクをモードストリートに昇華！漆黒とのグラデーションで作る大人の退廃美コーデ完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/faded-black-charcoal-tshirt-dark-streetwear-styling
+  Summary: ダークストリートやモード界隈で絶大な支持を集める「スミクロ（炭黒 / フェードブラック）」の着こなし術をアパレルプロが徹底解説！「だらしない色あせ古着」に見せない境界線、漆黒（ソリッドブラック）×スミクロ×グレーのトーンオントーン黄金比、異素材ボトムスとの調和、色落ち黒Tシャツの救済活用法まで完全網羅。
 - **大人のダークストリート＆ゴシックコーデ入門｜グラフィックT・スウェットを着こなすスタイリング極意**: https://crazy-chill-official.vercel.app/ja/blog/gothic-dark-streetwear-guide
   Summary: コスプレっぽくなりがちなゴシックやダークファンタジーの要素を、現代のストリートウェアに落とし込む「ダークストリートファッション」。痛くならず大人っぽく洗練された印象に仕上げるための黄金バランスとスタイリング術を徹底解説します。
 - **グラフィックロンT（長袖Tシャツ）を極めるストリート＆ダークモード着こなし術！春秋冬3シーズンのメンズ・レディースコーデ**: https://crazy-chill-official.vercel.app/ja/blog/graphic-longsleeve-tshirt-street-styling
@@ -155,6 +159,8 @@
   Summary: SUZURI（スズリ）で使えるクーポンコードの入手方法（LINE公式・アプリ通知・Xキャンペーン）から、「クーポンが使えない原因と対処法」、1,000円引きセールとの併用ルール、プレゼント用購入の最安値裏ワザまで徹底解説！
 - **【徹底レビュー】SUZURIのタンブラー・マグカップ・グラスまとめ！保温保冷性能・サイズ感・印刷耐久性を解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-drinkware-mug-tumbler-guide
   Summary: SUZURIで大人気のサーモタンブラー、陶器マグカップ、ロンググラスの機能・サイズ感・保温保冷効果・印刷クオリティを徹底解説。デスクワークでの結露防止やプレゼント用途まで、失敗しないドリンクウェア選びを網羅します。
+- **【プロ徹底検証】SUZURIのドライTシャツってどう？吸水速乾・生地感（4.1oz/4.4oz）・透け感・耐久性と夏のフェス＆ダークストリート着こなし完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-dry-athletic-tshirt-review-guide
+  Summary: SUZURIで展開されるドライTシャツ（吸水速乾・ポリエステル）の機能性、United Athle 4.1ozやglimmer 4.4ozの生地質感、サイズ選び、透け感、プリント耐久性をアパレル視点で徹底レビュー！「スポーツウェア・体操服っぽく見えないか？」という不安を解消し、真夏の猛暑や野外フェスでカッコよく決めるダークストリート着こなし術まで完全解説。
 - **SUZURIの小物雑貨まとめ！靴下・帽子・サンダル・バッグの魅力とコーディネート活用法**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-fashion-accessories-goods
   Summary: SUZURIのファッション小物雑貨（くるぶしソックス、キャップ、バケットハット、サンダル、バンダナ、ポケッタブルトート、サコッシュ等）の画像Alt属性データから、日常コーデにプラスしたいアクセントアイテムの特徴を徹底解剖します。
 - **【プロ徹底検証】SUZURIのフルグラフィックTシャツって実際どう？昇華転写プリントの画質・ポリエステル生地の通気性・サイズ感・耐久性とダークストリート着こなし術**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-full-graphic-tshirt-quality-review
