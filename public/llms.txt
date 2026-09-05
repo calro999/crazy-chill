@@ -169,6 +169,8 @@
   Summary: SUZURIで服やグッズを買う前に必読！「画面で見た色と実物が違う」「サイズが大きすぎた・小さすぎた」「生地が薄かった」等の通販トラブルをゼロにする5大チェックリストをアパレル視点で徹底解説。RGBとCMYK印刷の仕組みやオンス選びの正解を網羅。
 - **【プロ徹底比較】SUZURIのビッグシルエットT vs オーバーサイズT vs ヘビーウェイトT！シルエット・オンス（oz）・身幅・肩落ち感をアパレル視点でガチ検証**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-big-silhouette-vs-oversize-heavyweight-tshirt
   Summary: SUZURIでTシャツを注文する際、最も迷う『スタンダード(5.6oz)』『ヘビーウェイト(7.4oz)』『ビッグシルエット(5.6oz)』『オーバーサイズ(5.6oz)』の違いをアパレル視点で完全比較。身幅・肩幅の落ち感・透けにくさ・洗濯耐久性から失敗しない選び方を伝授します。
+- **【プロ徹底検証】SUZURIのバケットハット＆キャップってどう？刺繍クオリティ・生地の厚み・深さ・頭囲サイズ感・洗濯耐性と大人のダークストリート被り方完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-bucket-hat-cap-embroidery-quality-guide
+  Summary: SUZURIのバケットハットやキャップの品質、Direct Embroidery（直接刺繍）の立体感・糸密度、頭囲サイズ感（56〜61cm）、クラウンの深さ、洗濯による型崩れ耐性をアパレル視点で徹底レビュー！「ネットで帽子を買って失敗したくない」「目深に被れる？」という疑問を解消し、ダークストリートに落とし込む被り方の黄金比まで完全解説。
 - **【プロ解説】SUZURIのコーチジャケットってどう？生地の厚み・防風性・サイズ感とダークストリート着こなし完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-coach-jacket-quality-styling-guide
   Summary: SUZURIで展開されるコーチジャケットの質感、T/Cウェザー生地の防風性、サイズ選びのコツをアパレル視点で徹底レビュー！春・秋・初冬の着用温度感から、インナーにパーカーを重ねるレイヤード術、バックプリントが映える大人のダークストリートコーデまで完全網羅。
 - **【2026最新】SUZURIクーポンコード入手方法＆使えない時の原因と解決策！LINEクーポン・セール併用まで完全解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-coupon-discount-code-guide
@@ -207,6 +209,8 @@
   Summary: SUZURIで買ったプリントTシャツの耐久性が気になる方へ。アパレルブランド視点で、インクジェットやDTFプリントの剥がれ・色あせの原因を科学的・プロ目線で徹底解説。100回洗ってもへたらない洗濯と保管のプロ技を紹介します。
 - **【届いて臭い？】SUZURIの服が酸っぱい匂い・酢のような薬品臭がする原因と1回で完全に消す洗濯＆お手入れ裏技【アパレル解説】**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-print-smell-acid-odor-removal-guide
   Summary: 「SUZURIで買ったTシャツやパーカーが届いたら、酸っぱい酢のような臭いや薬品臭がする…これって不良品？」と不安な方へ。オンデマンド印刷の「前処理剤（定着液）」の化学的メカニズムと人体への安全性、1回の洗濯で完全に消すプロの消臭テクニックを徹底解説！
+- **【プロ徹底比較】SUZURIの定番2大Tシャツどっちを選ぶ？「Printstar 5.6oz」vs「United Athle 5.6oz」の生地感・首リブ耐久性・サイズ感・透けなさをガチ検証！**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-printstar-vs-united-athle-5-6oz-tshirt-comparison
+  Summary: SUZURIで最も選ばれる2大定番Tシャツ「Printstar 5.6oz（スタンダード）」と「United Athle 5.6oz（ヘビーウェイト）」は同じオンスで何が違う？糸の質感・首元リブの伸びにくさ・身幅シルエット・洗濯縮み率をアパレル視点で完全比較！ストリート派・モード派それぞれの最適解を徹底解説。
 - **【2026最新】SUZURIの買い方・支払い方法全種類と発送から何日で届くかを完全解説！海外配送対応まで**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-purchase-guide
   Summary: SUZURI（スズリ）で服やグッズを買う際の手順・買い方、全9種類の支払い方法と手数料、送料の仕組み、発送から手元に届くまでの日数（通常時・セール時）、WorldShoppingによる海外配送まで完全網羅解説します！
 - **【ガチ検証】SUZURI Tシャツの印刷クオリティ・発色・洗濯耐久性をプロが本音レビュー！**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-quality-review
@@ -265,6 +269,8 @@
   Summary: お気に入りのグラフィックTシャツやパーカーの首元がビヨーンと伸びて波打ち、だらしなく見えていませんか？繊維の熱可塑性と水素結合を利用した「氷水×スチームアイロン」による驚きの復活手順と、アパレルのプロが実践する首元を絶対にヨレさせない洗濯・干し方・脱ぎ方の新常識！
 - **【乾燥機NG？】SUZURIのTシャツ・パーカーをコインランドリーやドラム式乾燥機にかけると縮む？プリント割れ・熱ダメージを防ぐ洗濯乾燥の鉄則**: https://crazy-chill-official.vercel.app/ja/blog/tshirt-hoodie-dryer-shrinkage-print-damage-guide
   Summary: 「梅雨や冬場、SUZURIで買ったお気に入りのTシャツやパーカーをドラム式乾燥機やコインランドリーで乾かしても大丈夫？」綿100%繊維の熱収縮とDTFプリントの接着樹脂が受ける熱ダメージをアパレル視点で徹底検証！どうしても急ぎで乾燥させたい時の5大防衛策と、縮んでしまった時の緊急レスキュー法まで完全網羅。
+- **【脱・子供っぽさ＆オタク見え】半袖黒Tシャツ×ロンT・サーマル・ボーダーの「袖レイヤード」完全攻略！90sグランジ＆ダークストリートに昇華する着丈・袖丈の黄金比**: https://crazy-chill-official.vercel.app/ja/blog/tshirt-longsleeve-layering-grunge-street-guide
+  Summary: 「半袖Tシャツの下に長袖を着るとオタクっぽく見える？ダサい？」そんな悩みを一瞬で解決する大人の袖レイヤード黄金比！90sグランジやネオ・ダークストリートの文脈を交え、アームホールの太さ・手首の溜まり・着丈差（3〜5cm）のサイジング理論から、ワッフルサーマル・細ボーダー・メッシュ等の相性抜群インナー選びまで徹底解説。
 - **【オーバーサイズ Tシャツ タックイン】脱・おじさん見え！ストリート＆モードに決める黄金法則と前だけイン術**: https://crazy-chill-official.vercel.app/ja/blog/tshirt-tuck-in-street-mode-styling
   Summary: 「オーバーサイズTシャツをタックインするともたつく？お腹周りがダサく見える？」そんな悩みをアパレル視点で解決！オーバーサイズTシャツのフルイン・前だけイン（フロントハーフイン）の弛ませ方（ブラウジング）、ハイウエストパンツ＆ベルトの選び方まで徹底解説。
 - **カップルで楽しむダークパンク・シミラールック：ユニセックスブランドCRAZY CHILLの魅力**: https://crazy-chill-official.vercel.app/ja/blog/unisex-similar-look-styling
