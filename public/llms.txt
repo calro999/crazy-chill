@@ -41,6 +41,8 @@
   Summary: 黒カーゴパンツを履くと「作業着っぽく野暮ったくなる」「上下黒で重すぎる」と悩んでいませんか？ワイド・テーパード・ジョガーの3大シルエット解説から異素材MIX（ナイロン/コットン）、オーバーサイズ黒Tシャツ・パーカーとの黄金バランスをプロが完全指南！
 - **【プロ直伝】黒服・黒Tシャツ・黒パーカーの「ホコリ・ペットの毛（猫毛・犬毛）」を劇的に防ぐ洗濯＆お手入れ完全ガイド！静電気の科学と外出先のリセット術**: https://crazy-chill-official.vercel.app/ja/blog/black-clothes-dust-pet-hair-removal-prevention-guide
   Summary: 黒Tシャツや黒パーカー、ブラックデニムに付着する「白いホコリ・糸くず・ペットの毛」を根本から防ぐプロのお手入れ術！摩擦帯電列の科学に基づいた静電気対策、洗濯時の柔軟剤＆裏返しネット活用、コロコロによる生地ダメージを防ぐブラシ使い分け、外出先の応急リセット技までアパレル視点で完全解説。
+- **【脱・カジュアルすぎ】黒グラフィックTシャツ×スラックスで作る「大人のきれいめストリートMIX」黄金法則！ドレスとカジュアルの比率・シルエット・靴の合わせ方をプロが徹底解説**: https://crazy-chill-official.vercel.app/ja/blog/black-graphic-tshirt-slacks-street-mix-guide
+  Summary: グラフィックTシャツを着ると子供っぽく見えてしまう悩みを即座に解決！黒グラフィックTシャツ×スラックスを組み合わせた「大人のきれいめストリートMIX（ドレスダウン）」の黄金法則をアパレルプロが解説。ドレス7:カジュアル3の比率、ワイドスラックスの落ち感、足元選びまで徹底解説します。
 - **【黒グラフィックT×ベスト重ね着】タクティカル・フィッシング・ニットベストで作る大人の立体感ダークストリート＆サブカル着こなし黄金比**: https://crazy-chill-official.vercel.app/ja/blog/black-graphic-tshirt-vest-layering-street-guide
   Summary: 「夏〜秋の黒Tシャツ1枚コーデが単調でマンネリ化する…」「体型をカバーしながら一瞬で玄人ストリート感を出したい！」そんな悩みを一撃で解決するベストレイヤード術！タクティカル・フィッシング・ニット・メッシュベストとグラフィックTを合わせる黄金比と実践コーデを徹底解説。
 - **【プロ直伝】黒パーカーのフードを綺麗に立たせる裏ワザと、オーバーサイズで魅せる大人のダークストリート黄金比**: https://crazy-chill-official.vercel.app/ja/blog/black-hoodie-hood-stand-oversize-street-styling
@@ -171,6 +173,8 @@
   Summary: SUZURIでTシャツを注文する際、最も迷う『スタンダード(5.6oz)』『ヘビーウェイト(7.4oz)』『ビッグシルエット(5.6oz)』『オーバーサイズ(5.6oz)』の違いをアパレル視点で完全比較。身幅・肩幅の落ち感・透けにくさ・洗濯耐久性から失敗しない選び方を伝授します。
 - **【プロ徹底検証】SUZURIのバケットハット＆キャップってどう？刺繍クオリティ・生地の厚み・深さ・頭囲サイズ感・洗濯耐性と大人のダークストリート被り方完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-bucket-hat-cap-embroidery-quality-guide
   Summary: SUZURIのバケットハットやキャップの品質、Direct Embroidery（直接刺繍）の立体感・糸密度、頭囲サイズ感（56〜61cm）、クラウンの深さ、洗濯による型崩れ耐性をアパレル視点で徹底レビュー！「ネットで帽子を買って失敗したくない」「目深に被れる？」という疑問を解消し、ダークストリートに落とし込む被り方の黄金比まで完全解説。
+- **【出品者にバレる？】SUZURIの買い物で本名・住所・電話番号はクリエイターに知られる？匿名性・プライバシーの仕組みと安全な買い方をアパレル視点で完全解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-buyer-privacy-anonymous-shipping-guide
+  Summary: SUZURIで服やグッズを買うと、出品者（クリエイター）に本名や住所、電話番号はバレる？「推しに個人情報を知られたくない」「知人のショップでこっそり買いたい」という疑問をアパレル視点で徹底解剖。完全匿名配送の仕組み、管理画面の実態、他サービス（BOOTHやBASE）との違いを網羅解説します。
 - **【プロ解説】SUZURIのコーチジャケットってどう？生地の厚み・防風性・サイズ感とダークストリート着こなし完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-coach-jacket-quality-styling-guide
   Summary: SUZURIで展開されるコーチジャケットの質感、T/Cウェザー生地の防風性、サイズ選びのコツをアパレル視点で徹底レビュー！春・秋・初冬の着用温度感から、インナーにパーカーを重ねるレイヤード術、バックプリントが映える大人のダークストリートコーデまで完全網羅。
 - **【2026最新】SUZURIクーポンコード入手方法＆使えない時の原因と解決策！LINEクーポン・セール併用まで完全解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-coupon-discount-code-guide
@@ -215,6 +219,8 @@
   Summary: SUZURI（スズリ）で服やグッズを買う際の手順・買い方、全9種類の支払い方法と手数料、送料の仕組み、発送から手元に届くまでの日数（通常時・セール時）、WorldShoppingによる海外配送まで完全網羅解説します！
 - **【ガチ検証】SUZURI Tシャツの印刷クオリティ・発色・洗濯耐久性をプロが本音レビュー！**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-quality-review
   Summary: SUZURI（スズリ）で買えるTシャツの印刷品質や生地のクオリティを徹底レビュー。インクジェット印刷と最新DTFプリントの違い、黒ボディの発色表現、洗濯50回後のプリント耐久テスト結果まで、実際の着用・洗濯データを交えて徹底解説します。
+- **【2026最新】SUZURIで領収書・インボイスは発行できる？宛名変更・PDFダウンロード手順と経費精算・適格請求書の全知識を完全解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-receipt-invoice-qualified-billing-guide
+  Summary: SUZURIで服やグッズを買った時、領収書やインボイス（適格請求書）は発行できる？宛名変更のやり方、PDFのダウンロード手順、決済方法別の経費精算ルール、GMOペパボのインボイス登録番号まで、アパレル事業者の視点で分かりやすく完全解説します。
 - **【2026最新】SUZURI(スズリ)の評判・口コミ・印刷クオリティを徹底検証！Tシャツの質・届く日数・類似サイト比較まで完全網羅**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-reputation-reviews-guide
   Summary: SUZURI（スズリ）で服やグッズを買う前に必読！リアルな口コミ・評判の真相、Tシャツ生地や印刷クオリティの耐久性、発送から届くまでの日数、お金はかかるのか？さらに『SUZURIみたいなサイト（UTme!やBASE等）』との違いまでプロが徹底解説します。
 - **【2026最新】SUZURIは返品・交換・キャンセルできる？注文ミスや不備の神対応フローと失敗しない買い方**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-returns-exchange-cancellation-guide
