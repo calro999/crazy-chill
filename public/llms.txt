@@ -73,6 +73,8 @@
   Summary: お気に入りの黒Tシャツや黒パーカーの肩・首元が「赤茶色（赤焼け）」に変色してしまう原因をアパレル染色科学から徹底解明！紫外線と汗による染料破壊のメカニズムから、毎日の洗濯・陰干し予防法、自宅で漆黒に復活させるダイロン染め直し手順まで完全網羅。
 - **【黒服の白っぽさ・アタリ復活】黒Tシャツやパーカーが白く毛羽立つ原因と直し方！お酢・ブラッシング・黒染めスプレーで漆黒を取り戻すプロのお手入れ術**: https://crazy-chill-official.vercel.app/ja/blog/black-tshirt-whitening-fuzz-restoration-guide
   Summary: お気に入りの黒Tシャツや黒パーカーの襟元・縫い目・全体が白っぽく毛羽立って古着っぽくなっていませんか？摩擦による「フィブリル化（白化現象）」の科学的メカニズムと、自宅にあるお酢・洋服ブラシ・黒色復元剤を使って漆黒の深みを蘇らせるアパレル直伝のお手入れ術！
+- **【2026年最旬ブロークコア】サッカー・ゲームシャツ×ダークストリート着こなし完全ガイド！部活見えしない大人のモノトーン＆グランジMIX術**: https://crazy-chill-official.vercel.app/ja/blog/blokecore-game-shirt-dark-streetwear-styling-guide
+  Summary: 海外セレブやストリートヘッズを席巻する最旬トレンド「ブロークコア（Blokecore）」。サッカー・ゲームシャツが「部活帰りやスポーツ選手に見えてしまう」原因を解明し、ダークトーン、ワイドスラックス、シルバーアクセで大人モードに昇華する着こなし法則を完全解説します。
 - **【骨格タイプ別】オーバーサイズTシャツ＆黒服が劇的に似合う着こなし術！骨格ストレート・ウェーブ・ナチュラルのダークストリート黄金比**: https://crazy-chill-official.vercel.app/ja/blog/body-type-oversize-dark-streetwear-guide
   Summary: 「オーバーサイズを着ると着太りする」「黒Tシャツが服に着られているように見える」と悩んでいませんか？骨格診断（ストレート・ウェーブ・ナチュラル）に基づき、ダークストリート＆ビッグシルエットを最もスタイル良く魅せる生地選び・着丈・コーディネートの黄金比をアパレル視点で徹底解説します。
 - **夏のスケーターファッション！BONE RIDERのモノトーンTシャツ×ショーツで作る最旬ストリートコーデ**: https://crazy-chill-official.vercel.app/ja/blog/bone-rider-setup-styling
@@ -93,6 +95,8 @@
   Summary: 黒Tシャツやパーカー、オールブラックコーデを一気にプロ級へ引き上げるシルバーアクセサリー重ね付けの黄金律をアパレル視点で徹底解説！「中二病感・下品なガチャガチャ感」を防ぐ引き算のルール、左右の手のボリューム比率（6:4の法則）、指ごとのリング配置、大人のウォレットチェーン＆カラビナ活用術まで完全網羅。
 - **【秋冬・春】ダーク・サブカル系スウェット＆パーカー着こなしガイド｜オーバーサイズの重厚ストリートコーデ**: https://crazy-chill-official.vercel.app/ja/blog/dark-subculture-hoodie-sweatshirt-guide
   Summary: ストリート・サブカルファッションに欠かせないスウェット＆パーカー。フードを綺麗に立たせるコツ、ジップパーカーやアウターとのレイヤード（重ね着）術、ダボッと着こなすシルエットの作り方を徹底解説します。
+- **【脱・小汚さ＆子供っぽさ】ダメージデニム・クラッシュジーンズ×黒Tシャツ・パーカーの大人ダークストリート黄金比！90sグランジを今っぽく着こなす法則**: https://crazy-chill-official.vercel.app/ja/blog/distressed-denim-oversize-black-tshirt-styling-guide
+  Summary: ダメージデニムやクラッシュジーンズが「ボロ着・小汚い・子供っぽい」とお悩みの方へ。オーバーサイズ黒Tシャツやパーカーと合わせた時に、大人の色気と退廃的なグランジ感を両立させるシルエット黄金比、ダメージ面積の適正値、足元・小物の引き締め術を完全解説します。
 - **The Dark Romance of Japanese Gothic Lolita Fashion**: https://crazy-chill-official.vercel.app/en/blog/en-gothic-lolita-culture
   Summary: Explore the philosophy and aesthetic of Gothic Lolita, one of Japan's most intricate and elegant street fashion subcultures. Discover the balance of darkness, innocence, and rebellion.
 - **What is a Gyaru in Japan? Meaning, History, Culture, Style & Modern Japanese Streetwear Fusion**: https://crazy-chill-official.vercel.app/en/blog/en-gyaru-fashion-culture
@@ -235,6 +239,8 @@
   Summary: SUZURI（スズリ）で服やグッズを購入する際の『買い方』『お金がかかるタイミング・利用料』『セールの開催時期・頻度』『送料と発送日数』を完全解説！失敗しないための購入ガイド。
 - **【2026最新】SUZURIセールはいつ？頻度・年間時期・セールいつまでか完全網羅！1000円引き攻略カレンダー**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-sale-schedule-discount
   Summary: 2026年最新のSUZURI（スズリ）セールはいつ開催？開催頻度、年間スケジュール（6月Tシャツセール、10〜11月秋冬セール等）、セール期間はいつからいつまでか、割引額、LINEクーポン併用テクニックまで完全解説！
+- **【実機レビュー】SUZURIの「サンダル＆ソックス」のサイズ感・履き心地・耐久性を徹底検証！ストリート・サブカル足元コーデの合わせ方**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-sandals-socks-size-quality-review
+  Summary: SUZURIのシャワーサンダルとクルーソックス（靴下）の品質、履き心地、サイズ感、プリントの耐久性をアパレル視点で徹底検証！履いた時に絵柄が伸びて白化しないか、ソールのクッション性や街履き耐性、ストリート・サブカル系に映える足元コーデ術まで完全網羅します。
 - **【2026最新】SUZURIは何日で届く？発送から届くまで・発送予定日より早いケース・受注生産の納期を徹底解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-shipping-days-delivery-guide
   Summary: 「SUZURIの商品は注文から何日で届く？」「発送予定日より早く届くことはある？」「発送から何日で手元に届く？」という疑問をプロのアパレル視点で完全解説。オンデマンド受注生産の仕組み、通常期・セール期の到着目安、送料、早めるための逆算購入スケジュールまで網羅。
 - **【2026最新】SUZURIの送料はいくら？おまとめ配送（同梱）の仕組み・送料無料の有無と安く買う裏技ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-shipping-fee-guide
