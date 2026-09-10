@@ -27,6 +27,8 @@
 - **sandal**: https://crazy-chill-official.vercel.app/ja/category/sandal
 
 ## All Blog Articles & Knowledge Guides
+- **【脱・地味＆真っ黒】オールブラックコーデに効く「差し色（アクセントカラー）」の黄金比！ネオン・パープル・赤を取り入れる大人のダークストリート着こなし術**: https://crazy-chill-official.vercel.app/ja/blog/all-black-accent-color-pop-styling-guide
+  Summary: 全身黒なのにどこか垢抜けない、地味に見える、喪服っぽくなってしまう……そんな悩みを一瞬で解決するのが「5%の差し色」！ダークストリートやサブカルモードを極めるための配色の黄金比、相性抜群の4大アクセントカラー（赤・紫・ネオン・青）、失敗しない配置スポットをアパレル視点で徹底解説します。
 - **【脱・ダサい】上下黒・全身黒コーデがダサいと言われる原因と解決法！男女別オールブラックストリート術**: https://crazy-chill-official.vercel.app/ja/blog/all-black-fashion-street-styling
   Summary: 「上下黒 ダサい」「全身黒 女 ダサい」「黒コーデ メンズ ダサい」と感じる原因をアパレルプロが徹底解明！喪服見え・オタク見えを脱出し、異素材MIX・グラフィックTシャツ・白チラ見せレイヤード・シルバーアクセで劇的におしゃれに垢抜けさせるスタイリング術を伝授。
 - **【脱・喪服感】全身黒コーデが重い・地味に見える原因と解決策！異素材MIXとグラフィックで作る最旬ダークストリート術**: https://crazy-chill-official.vercel.app/ja/blog/all-black-outfit-not-heavy-avoid-mourning-look
@@ -223,6 +225,8 @@
   Summary: 古着好きやダークストリート界隈で絶大な支持を集めるSUZURIの「ウォッシュTシャツ（ピグメントダイ加工）」。通常Tシャツ（5.6oz）やUSAコットン（8.1oz）との決定的な違い、顔料染め特有のアタリ・退廃的な風合い、初回洗濯での色移り防止ルール、サイズ選びまでアパレルディレクターがガチ検証！
 - **【裏パイル vs 裏起毛】SUZURIのスウェット・パーカーはどっちを選ぶべき？気温別（10℃〜25℃）着用目安と季節の変わり目を快適に過ごすアパレル生地選びの黄金律**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-pile-vs-brushed-fleece-temperature-guide
   Summary: 「SUZURIのスウェットやパーカーを買うとき、裏パイル（裏毛）と裏起毛のどちらを選ぶべき？」「春や秋、真冬の気温に合うのはどっち？」そんな疑問をアパレル視点で徹底解説！生地構造の違いから気温10℃〜25℃別の着用マトリクス、着膨れを防ぐレイヤード術、洗濯耐久性まで完全網羅。
+- **【毛玉を防ぐ】SUZURIのパーカー・スウェット・Tシャツは毛玉（ピリング）ができる？綿100%とポリエステル混の毛玉耐性比較＆お気に入りの服を長持ちさせるプロのお手入れ完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-pilling-fuzz-care-hoodie-sweatshirt-guide
+  Summary: SUZURIのパーカーやスウェットは毛玉（ピリング）ができやすい？脇下や袖口、裾のリブにできる毛玉の原因を繊維科学から徹底解明！綿100%（裏パイル）と綿ポリ混（裏起毛）の耐性比較、毛玉を寄せ付けない洗濯テクニック、生地を傷めないプロの除去法までアパレルブランドが本音で完全解説します。
 - **【プロ徹底比較】SUZURIのプリントTシャツは洗濯何回で剥がれる？DTF・インクジェットの耐久性と長持ちさせるアパレル裏技**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-print-durability-comparison
   Summary: SUZURIで買ったプリントTシャツの耐久性が気になる方へ。アパレルブランド視点で、インクジェットやDTFプリントの剥がれ・色あせの原因を科学的・プロ目線で徹底解説。100回洗ってもへたらない洗濯と保管のプロ技を紹介します。
 - **【届いて臭い？】SUZURIの服が酸っぱい匂い・酢のような薬品臭がする原因と1回で完全に消す洗濯＆お手入れ裏技【アパレル解説】**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-print-smell-acid-odor-removal-guide
@@ -247,6 +251,8 @@
   Summary: 2026年最新のSUZURI（スズリ）セールはいつ開催？開催頻度、年間スケジュール（6月Tシャツセール、10〜11月秋冬セール等）、セール期間はいつからいつまでか、割引額、LINEクーポン併用テクニックまで完全解説！
 - **【実機レビュー】SUZURIの「サンダル＆ソックス」のサイズ感・履き心地・耐久性を徹底検証！ストリート・サブカル足元コーデの合わせ方**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-sandals-socks-size-quality-review
   Summary: SUZURIのシャワーサンダルとクルーソックス（靴下）の品質、履き心地、サイズ感、プリントの耐久性をアパレル視点で徹底検証！履いた時に絵柄が伸びて白化しないか、ソールのクッション性や街履き耐性、ストリート・サブカル系に映える足元コーデ術まで完全網羅します。
+- **【なぜ？】SUZURIで複数買うと別々に届く理由とおまとめ配送（同梱）の仕組み！荷物がバラバラに届く原因・送料・追跡番号の確認手順完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-separate-delivery-split-shipping-guide
+  Summary: SUZURIでTシャツとグッズをまとめて買ったのに、荷物が1つしか届かない！？「入れ忘れ？」「詐欺？」「送料は別にかかる？」と不安になった方へ。SUZURIの完全受注生産・工場直送（スプリット配送）の仕組み、追加送料ゼロの真実、複数のお問い合わせ番号の追跡方法と賢い受け取り術をアパレル運営者が徹底解説します。
 - **【2026最新】SUZURIは何日で届く？発送から届くまで・発送予定日より早いケース・受注生産の納期を徹底解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-shipping-days-delivery-guide
   Summary: 「SUZURIの商品は注文から何日で届く？」「発送予定日より早く届くことはある？」「発送から何日で手元に届く？」という疑問をプロのアパレル視点で完全解説。オンデマンド受注生産の仕組み、通常期・セール期の到着目安、送料、早めるための逆算購入スケジュールまで網羅。
 - **【2026最新】SUZURIの送料はいくら？おまとめ配送（同梱）の仕組み・送料無料の有無と安く買う裏技ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-shipping-fee-guide
