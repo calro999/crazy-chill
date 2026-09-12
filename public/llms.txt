@@ -151,6 +151,8 @@
   Summary: 検索クエリでも話題の『肋骨 長い』デザイン！CRAZY CHILLの代表作『ムダに肋骨が長いうさぎ』の誕生背景、骨格・長い肋骨モチーフが持つダークパンクの魅力、サイバーストリートファッションでのオーバーサイズTシャツ・パーカー着こなし術を徹底解説！
 - **【雨の日のダークストリートコーデ】濡れても透けない・泥跳ねが目立たない黒服スタイリング術！撥水ナイロン×タフなグラフィックTで作るテック・パンク雨天攻略論**: https://crazy-chill-official.vercel.app/ja/blog/rainy-day-dark-streetwear-styling-guide
   Summary: 雨や梅雨・台風の日に服が濡れて透ける・泥跳ねで汚れる悩みを解決！撥水ナイロン、タフなヘビーウェイト黒Tシャツ（5.6oz〜7.4oz）、防水シューズで作る大人のダークストリート＆テックパンク雨天着こなし術をアパレル視点で徹底解説します。
+- **【ライダース×黒T・パーカー】レザージャケットをダサく見せないストリート＆ダークパンク着こなし黄金比！着丈レイヤード・本革vs合皮の選び方完全攻略**: https://crazy-chill-official.vercel.app/ja/blog/riders-leather-jacket-black-tshirt-hoodie-street-styling-guide
+  Summary: 黒Tシャツや黒パーカーにライダースジャケット（レザー）を合わせると短丈でインナーがはみ出してしまう…？シングル・ダブル別の着丈差レイヤード黄金比（3〜5cm）、ワイドパンツ・カーゴ・デニムとのAラインシルエット構築、本革vsヴィーガンレザーの選び方までアパレル目線で徹底解説！
 - **【気温別】季節の変わり目（春・秋）のダークストリートコーデ｜半袖グラフィックTを生かす重ね着（レイヤード）攻略**: https://crazy-chill-official.vercel.app/ja/blog/seasonal-transition-street-layering-guide
   Summary: 春から夏、夏から秋への気温差（寒暖差）が激しい時期に大活躍！お気に入りの半袖グラフィックTシャツを季節の変わり目でも主役にして着回す「ダークストリート＆パンク重ね着（レイヤード）テクニック」を気温別（25℃/20℃/15℃）に徹底解説。
 - **【低身長・小柄な方向け】オーバーサイズ黒Tシャツ＆パーカーを好バランスに着こなす！服に着られないダークストリート黄金比**: https://crazy-chill-official.vercel.app/ja/blog/short-height-oversize-dark-streetwear-styling
@@ -221,6 +223,8 @@
   Summary: SUZURIで服やグッズを買ったのに『製造中からステータスが変わらない』『発送予定日を過ぎても届かない』とお困りの方へ。受注生産（オンデマンドプリント）の製造工程、日数がかかる理由、ステータス確認と問い合わせ方法をアパレル視点で徹底解説します。
 - **【実機レビュー】SUZURIのナイロンジャケット（ウィンドブレーカー）のサイズ感・撥水性・防風性を徹底検証！コーチジャケットとの違いと春秋テックストリート着こなし術**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-nylon-jacket-windbreaker-quality-styling-guide
   Summary: SUZURIのナイロンジャケット（ウィンドブレーカー）の品質やサイズ感、撥水・防風性をアパレルのプロが実機検証！テカリを抑えたタスラン生地の質感、コーチジャケットとの違い、中に厚手パーカーを着込めるサイズ選び、春秋のテックストリート・ダークパンク着こなし術まで完全解説。
+- **【解決】SUZURIで買えない・決済エラーが出る原因と対処法！クレジットカード使えない・3Dセキュア・PayPay弾かれ・注文できない時の緊急チェックリスト**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-payment-error-cannot-order-troubleshooting-guide
+  Summary: SUZURIでカートに入れた服やグッズが買えない・「決済に失敗しました」エラーが出る原因は？クレジットカードの3Dセキュア2.0本人認証失敗、カード会社の不正検知ブロック、PayPayやAmazon Payの連携タイムアウト、SNSアプリ内ブラウザのCookie制限など、注文を確実に完了させるための緊急対処法をアパレル視点で徹底解説！
 - **【2026最新】SUZURIの支払い方法・決済手段全種類まとめ！クレカなしで買う方法・手数料・注意点を徹底解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-payment-methods-guide
   Summary: SUZURI（スズリ）で服やオリジナルグッズを買いたいけれど「どんな支払い方法が使える？」「クレジットカードがなくても買える？」「手数料が一番安い決済はどれ？」とお困りの方へ。PayPay、あと払い（ペイディ）、コンビニ決済、クレカなど全決済手段を徹底比較・解説します。
 - **SUZURIのスマホケースって実際どう？クリア・ハードケースの耐衝撃性やプリント黄ばみ・劣化対策を徹底レビュー**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-phone-case-quality-review
@@ -313,6 +317,8 @@
   Summary: ストリートファッション好きのカップル・友人同士に大人気の「シミラールック」。あからさまなお揃いではなく、雰囲気やテーマを合わせる洗練されたペアルックの作り方をご提案します。
 - **【古着MIX×ダークストリート】90sヴィンテージ・退廃グランジと現代グラフィックTシャツを融合させる大人のネオ・ストリート着こなし完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/vintage-mix-dark-streetwear-grunge-styling
   Summary: 90年代グランジ・ヴィンテージ古着と現代ダークストリートを融合！褪色スミクロ古着やダメージデニムに新品の漆黒グラフィックTシャツ・パーカーを合わせる『質感コントラスト理論』と大人のレイヤード術をアパレル視点で徹底解説します。
+- **【腰回りで圧倒的な差がつく】ウォレットチェーン・カラビナ・キーリングの最旬ダークストリート着こなし術！ダサい・中二病見えを回避する長さ・位置・太さの黄金ルール**: https://crazy-chill-official.vercel.app/ja/blog/wallet-chain-carabiner-keyring-dark-streetwear-styling-guide
+  Summary: ウォレットチェーンやカラビナを付けると平成オタクっぽくダサく見える…？ダークストリートやモードパンクに格上げする「チェーン長さ（40〜50cm）」「ベルトループ位置」「カラビナ・キーホルダーのジャラ付けバランス」と、オーバーサイズ黒服に効かせるプロの腰回りスタイリングを徹底解説！
 - **CRAZY CHILL（クレチル）とは？「狂気的なまでに脱力」するダークパンクブランドの哲学**: https://crazy-chill-official.vercel.app/ja/blog/what-is-crazy-chill
   Summary: CRAZY CHILL（クレチル）が目指すファッションの哲学とは何か。ダークなのに力が抜けている（looks chill）、そんな矛盾した美学とブランドの誕生秘話、そしてSUZURIでの活動について詳しく語ります。
 - **【脱・着膨れ＆だらしなさ】ワイドパンツ×オーバーサイズ黒Tシャツ・パーカーの「Aライン・Hライン・Oライン」黄金シルエット構築術！大人のダークストリート着こなし論**: https://crazy-chill-official.vercel.app/ja/blog/wide-pants-oversize-black-tshirt-silhouette-guide
