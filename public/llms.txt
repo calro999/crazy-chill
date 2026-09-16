@@ -145,6 +145,8 @@
   Summary: CRAZY CHILLが得意とする「モノトーン」「ダークパンク」「ストリート」なファッション。夏の暑い時期でも、Tシャツ1枚で世界観をバッチリ決めるスタイリングのコツを解説します。
 - **【2026夏】メンズの黒Tシャツ・モノトーンコーデ完全攻略！重たく見せない夏のダークストリート＆オーバーサイズ着こなし術**: https://crazy-chill-official.vercel.app/ja/blog/monotone-mens-summer-streetwear-styling
   Summary: 夏に黒Tシャツやモノトーンを着ると「暑苦しい」「重く見える」と悩んでいませんか？アパレル視点で明かす重さを回避する5つの黄金法則と、大人のモード＆ダークパンクストリート夏コーデの実例を徹底解説！
+- **【2026最旬】オピウム系ファッション（Opium Core）とは？ダークゴシック×ストリートの着こなし方・メンズ＆レディースコーデと必須アイテム完全解説**: https://crazy-chill-official.vercel.app/ja/blog/opium-core-dark-gothic-streetwear-guide
+  Summary: 海外のユースカルチャーから火がつき、日本でもZ世代を中心に熱狂的な支持を集める「オピウム系ファッション（Opium Core）」。Playboi Carti発祥のダークゴシック×ストリートの真髄、カラス族や中二病に見せない着こなしの黄金比、必須アイテム（ヘビーオンス黒T、ワイドフレア、重厚ブーツ）までアパレル視点で徹底解説します。
 - **【アウター×黒T・パーカー】MA-1・レザージャケット・コートに合わせるダークストリート重ね着完全攻略！秋冬〜春のインナーグラフィック魅せ技**: https://crazy-chill-official.vercel.app/ja/blog/outerwear-black-tshirt-hoodie-layering-guide
   Summary: お気に入りのグラフィックTシャツやパーカーを秋冬〜春も主役にするアウター重ね着（レイヤード）術！MA-1、ライダース、テーラードジャケット、チェスターコート、ダウンとの組み合わせ方、フード立ち上がりの黄金比、インナーの見せ方をアパレル視点で徹底解説。
 - **海外からの購入方法（WorldShoppingのご案内） / How to purchase from overseas**: https://crazy-chill-official.vercel.app/ja/blog/overseas-shipping-guide
@@ -263,6 +265,8 @@
   Summary: SUZURI（スズリ）で服やグッズを買う前に必読！リアルな口コミ・評判の真相、Tシャツ生地や印刷クオリティの耐久性、発送から届くまでの日数、お金はかかるのか？さらに『SUZURIみたいなサイト（UTme!やBASE等）』との違いまでプロが徹底解説します。
 - **【2026最新】SUZURIは返品・交換・キャンセルできる？注文ミスや不備の神対応フローと失敗しない買い方**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-returns-exchange-cancellation-guide
   Summary: SUZURIで買った商品の「返品」「サイズ交換」「注文キャンセル」はできる？受注生産（POD）ならではのシステムルールと、万が一初期不良や印刷ズレがあった際の問い合わせ神対応手順、失敗しないサイズ選びのプロ技まで徹底解説！
+- **【プロ解説】SUZURIのリンガーTシャツ＆ラグランTシャツのサイズ感・生地・透け感！90sレトロストリート＆グランジに着こなす配色コーデ完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-ringer-raglan-tshirt-styling-size-guide
+  Summary: SUZURIで選べる「リンガーTシャツ」と「ラグランTシャツ」のサイズ感、生地の厚み（オンス）、透けにくさ、そして体操服見えしない大人のストリート着こなし術をアパレル視点で徹底検証！90sスケーターやグランジに落とし込むバイカラー配色の活用法まで完全網羅します。
 - **【実機レビュー】SUZURIのサコッシュ＆エコバッグって実際どう？生地の厚み・撥水性・容量・耐久性とライブ・フェス・普段使いのダークストリートコーデ術**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-sacoche-eco-bag-quality-review-guide
   Summary: SUZURIで大人気の「サコッシュ」と「エコバッグ」の使い勝手・生地オンス・収納力・印刷耐久性をアパレル目線で徹底実機レビュー！長財布やスマホ、500mlペットボトルは入る？雨やフェスでの耐水性は？黒グラフィックアイテムと合わせた大人のダークストリート小物コーデ術まで完全網羅。
 - **【2026最新】SUZURIのセールはいつ？買い方・お金がかかるタイミング・送料と安く買う攻略ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-comprehensive-guide
@@ -307,6 +311,8 @@
   Summary: 「SUZURIのTシャツやパーカーのサイズ感はユニクロやGUと比べてどう違う？」「生地の厚みやプリントの耐久性の差は？」そんな疑問に答える徹底比較！実寸寸法表（着丈・身幅・肩幅）、オンス（oz）比較、プリント方式の違い、失敗しないサイズ選びまでアパレルのプロが解説。
 - **【透け感完全攻略】SUZURIの白Tシャツ・淡色ボディは透ける？オンス（oz）別透けにくさ検証とダークストリート好きのためのインナー選び＆重ね着術**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-white-tshirt-transparency-inner-guide
   Summary: SUZURI（スズリ）で白Tシャツや淡色アパレルを購入する際の『透け感』『乳首やインナーの透け防止』『ボディ生地のオンス（oz）別比較』をアパレル視点で徹底検証！透けないインナーカラーの選び方から、CRAZY CHILLグラフィックTシャツを透けずに1枚で主役にするスタイリング術まで完全解説。
+- **【白Tの黄ばみ・汗染み完全攻略】SUZURIの白Tシャツ・淡色服を蘇らせる！プリントを傷めない「酸素系漂白剤・オキシ漬け・重曹」のプロ洗濯術**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-white-tshirt-yellow-stain-removal-guide
+  Summary: SUZURIで買ったお気に入りの白Tシャツ、首元や脇の黄ばみ・汗染みに悩んでいませんか？「漂白剤でプリントが剥がれないか心配…」という方へ。塩素系NGの理由、プリントを傷めない「酸素系漂白剤（オキシクリーン等）×40℃〜50℃ぬるま湯」の漬け置き術、重曹ペーストでの部分洗いまでアパレルのプロが科学的に徹底解説します。
 - **【白vs黒ボディ】SUZURIのプリント発色・白引き（ホワイトインク）・生地感の違いをアパレル視点で徹底比較！**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-white-vs-black-body-print-color-guide
   Summary: 「SUZURIでTシャツを買うとき、白と黒でプリントの発色や手触りはどう違う？」「黒Tシャツに印刷すると白インクでゴワつく？」そんな疑問をアパレルのプロが解剖！淡色インクジェットと濃色（白引き/DTF）プリントの仕組み、発色の鮮やかさ、通気性、洗濯耐久性の違いを比較表付きで分かりやすく解説します。
 - **【プロ直伝】SUZURIで届いた服のたたみジワを伸ばす方法！プリントを傷めないアイロン掛け・衣類スチーマーの当て方＆クッキングシート裏技完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-wrinkles-iron-steamer-print-care-guide
