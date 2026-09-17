@@ -27,6 +27,8 @@
 - **sandal**: https://crazy-chill-official.vercel.app/ja/category/sandal
 
 ## All Blog Articles & Knowledge Guides
+- **【30代・40代のための大人のダークストリート着こなし論】黒グラフィックTシャツが「痛い・若作り・中二病」に見えない！清潔感と色気を両立する黄金ルール**: https://crazy-chill-official.vercel.app/ja/blog/adult-30s-40s-dark-streetwear-graphic-tshirt-guide
+  Summary: 20代からロック・パンク・黒服が好きだったけれど、30代・40代になって「若作り」「痛い」「中二病」と思われないか不安…そんな大人世代へ。アパレルブランドが教える、清潔感と大人の色気を宿した大人のダークストリート＆黒グラフィックTシャツ着こなしの黄金律を徹底解説！
 - **【脱・地味＆真っ黒】オールブラックコーデに効く「差し色（アクセントカラー）」の黄金比！ネオン・パープル・赤を取り入れる大人のダークストリート着こなし術**: https://crazy-chill-official.vercel.app/ja/blog/all-black-accent-color-pop-styling-guide
   Summary: 全身黒なのにどこか垢抜けない、地味に見える、喪服っぽくなってしまう……そんな悩みを一瞬で解決するのが「5%の差し色」！ダークストリートやサブカルモードを極めるための配色の黄金比、相性抜群の4大アクセントカラー（赤・紫・ネオン・青）、失敗しない配置スポットをアパレル視点で徹底解説します。
 - **【脱・ダサい】上下黒・全身黒コーデがダサいと言われる原因と解決法！男女別オールブラックストリート術**: https://crazy-chill-official.vercel.app/ja/blog/all-black-fashion-street-styling
@@ -119,6 +121,8 @@
   Summary: ダークストリートやモード界隈で絶大な支持を集める「スミクロ（炭黒 / フェードブラック）」の着こなし術をアパレルプロが徹底解説！「だらしない色あせ古着」に見せない境界線、漆黒（ソリッドブラック）×スミクロ×グレーのトーンオントーン黄金比、異素材ボトムスとの調和、色落ち黒Tシャツの救済活用法まで完全網羅。
 - **【前プリント vs バックプリント】黒Tシャツ・パーカーはどっちを選ぶべき？アウター着用時の見え方・体型カバー・ストリート映えをアパレル視点で徹底比較！**: https://crazy-chill-official.vercel.app/ja/blog/front-print-vs-back-print-tshirt-hoodie-styling-guide
   Summary: Tシャツやパーカーを買うとき「前面（フロント）プリント」と「背面（バック）プリント」のどっちを選ぶべき？アウターを羽織ったときの見え方、体型カバー効果（細見え・背中見え）、ストリート映えする黄金バランスをアパレルデザイナーが徹底比較解説！
+- **【ゴープコア×ダークストリート着こなし完全攻略】アークテリクスやサロモンに黒グラフィックTシャツを合わせる！登山客見えゼロの最旬モードMIX黄金比**: https://crazy-chill-official.vercel.app/ja/blog/gorpcore-dark-streetwear-black-tshirt-styling-guide
+  Summary: 世界中を席巻する『ゴープコア（Gorpcore）』スタイル。Arc'teryxやSalomon等の高機能ギアを街着に着ると『ただの登山客』『ガチのアウトドアおじさん』に見えてしまう悩みを、アパレルブランドが徹底解決！黒グラフィックTシャツを差し込んで洗練されたダークストリート・モードへ昇華させる着こなし黄金律を公開。
 - **大人のダークストリート＆ゴシックコーデ入門｜グラフィックT・スウェットを着こなすスタイリング極意**: https://crazy-chill-official.vercel.app/ja/blog/gothic-dark-streetwear-guide
   Summary: コスプレっぽくなりがちなゴシックやダークファンタジーの要素を、現代のストリートウェアに落とし込む「ダークストリートファッション」。痛くならず大人っぽく洗練された印象に仕上げるための黄金バランスとスタイリング術を徹底解説します。
 - **グラフィックロンT（長袖Tシャツ）を極めるストリート＆ダークモード着こなし術！春秋冬3シーズンのメンズ・レディースコーデ**: https://crazy-chill-official.vercel.app/ja/blog/graphic-longsleeve-tshirt-street-styling
@@ -191,6 +195,8 @@
   Summary: SUZURIのアクリルキーホルダー（アクキー）やアクリルスタンド（アクスタ）の印刷解像度、ホワイト裏打ちインクの発色、3mm厚アクリルの透明度、金具の耐久性をアパレル視点で徹底レビュー！「印刷面は削れない？」「痛バやリュックに付けて傷つかない？」という疑問を解消し、100均カバー活用やマニキュア裏技、アルコールNGの注意点まで完全網羅。
 - **【注文後でも間に合う？】SUZURIの配送先・住所変更の完全手順！番地忘れ・引っ越し・誤入力時の対処法＆発送後のヤマト転送有料化ルール解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-address-change-delivery-mistake-guide
   Summary: 「SUZURIで注文した後に番地やマンション部屋番号の書き忘れに気づいた！」「引っ越し前の旧住所宛てに確定してしまった…」とお困りの方へ。注文直後の変更猶予、マイページや公式サポートでの修正手順、発送後のヤマト運輸・佐川急便での転送依頼（受取人払いルール）と、宛先不明による返送防止策をアパレル視点で完全解説します。
+- **【SUZURIで友達に匿名プレゼントを贈る方法】住所や本名を知らない相手にTwitter・LINEで贈れる？ソーシャルギフト裏ワザとサプライズ配送完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-anonymous-social-gift-line-twitter-guide
+  Summary: Twitter（X）やDiscordのネッ友、推しの配信者・クリエイターへSUZURIの服やグッズをプレゼントしたいけれど、相手の住所や本名を知らない…そんな時に役立つ「住所バレなしで安全にSUZURIアイテムを届ける実践テクニック」を徹底解説！公式仕様の確認から現代のソーシャルギフト活用術まで網羅。
 - **【2026最新】SUZURI公式アプリ vs WEBブラウザ版どっちで買うべき？「ズッキュン」通知・セール割引・限定クーポン・決済方法の違いを徹底比較＆一番お得な買い方**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-app-vs-web-browser-comparison-guide
   Summary: SUZURIで服やグッズを買う際、公式アプリとWEBブラウザ版のどちらを使うべきかを徹底検証！アプリの「ズッキュン（お気に入り）通知」を使ったセール最安値キャッチ術から、WEB版の複数タブ比較や決済方法の利便性まで、アパレル視点で最もお得かつ失敗しない買い分け方を完全解説します。
 - **【2026最新】スズリ(SUZURI)服の種類と違いを完全比較！Tシャツ・パーカー・スウェットの生地・オンス・選び方**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-apparel-clothing-guide
