@@ -129,6 +129,8 @@
   Summary: 袖プリントやインパクトあるバックプリントが映える「グラフィックロンT」のストリート・ダークモードな着こなし術を徹底解説。ビッグシルエットの選び方から、Tシャツ重ね着・ベスト合わせなどの高度なレイヤードテクニックまでプロがレクチャー。
 - **【脱・子供っぽさ】グラフィックTシャツがダサく見える3つの原因と、大人が着こなすダークパンク・ストリート黄金律**: https://crazy-chill-official.vercel.app/ja/blog/graphic-tshirt-not-tacky-styling
   Summary: グラフィックTシャツやプリントTを着ると「なんだか子供っぽい」「オタクっぽく見える」と悩んでいませんか？アパレルスタイリスト視点でダサく見える3大原因を解剖し、洗練されたダークストリートに昇華させる3つの着こなし黄金律を解説します。
+- **【2026年最新】グランジファッション×ダークストリート完全攻略！カート・コバーンからネオグランジへ｜ボロボロすぎない大人の退廃美コーデと必須アイテム黄金比**: https://crazy-chill-official.vercel.app/ja/blog/grunge-fashion-dark-streetwear-styling-guide
+  Summary: 90年代シアトルから始まったグランジファッションが、現代のサブカル・ダークストリート界隈で「ネオグランジ」として完全再燃！「ただの汚い人・ボロ着」に見せないための大人の引き算3原則、オンブレチェック×スカルT×ダメージデニムの黄金比率、必須5大アイテムをアパレルブランドが徹底解説！
 - **【生乾き臭・汗の蓄積臭を完全リセット】厚手黒Tシャツ・ヘビーウェイトパーカーの部屋干し臭を根本から消すプロの熱湯＆酸素系漂白剤つけ置き術**: https://crazy-chill-official.vercel.app/ja/blog/heavyweight-tshirt-hoodie-musty-odor-sweat-removal-guide
   Summary: 「洗濯したはずなのに、着て汗をかいた瞬間ツンと嫌な臭いがぶり返す…」厚手のヘビーウェイトTシャツや10ozパーカーに潜むモラクセラ菌と酸化皮脂を根こそぎ撃退！黒服を色落ちさせずに漆黒を守り抜く「50〜60℃熱湯×酸素系漂白剤」のプロ消臭法と最速部屋干し術を徹底解説。
 - **【着丈差3〜5cmの黄金比】黒パーカー・黒スウェットの「白T裾チラ見せレイヤード」完全攻略！だらしなく見えないインナーの選び方と大人のダークストリート重ね着術**: https://crazy-chill-official.vercel.app/ja/blog/hoodie-sweatshirt-white-tshirt-layering-guide
@@ -207,6 +209,8 @@
   Summary: SUZURIで服やグッズを買う前に必読！「画面で見た色と実物が違う」「サイズが大きすぎた・小さすぎた」「生地が薄かった」等の通販トラブルをゼロにする5大チェックリストをアパレル視点で徹底解説。RGBとCMYK印刷の仕組みやオンス選びの正解を網羅。
 - **【プロ徹底比較】SUZURIのビッグシルエットT vs オーバーサイズT vs ヘビーウェイトT！シルエット・オンス（oz）・身幅・肩落ち感をアパレル視点でガチ検証**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-big-silhouette-vs-oversize-heavyweight-tshirt
   Summary: SUZURIでTシャツを注文する際、最も迷う『スタンダード(5.6oz)』『ヘビーウェイト(7.4oz)』『ビッグシルエット(5.6oz)』『オーバーサイズ(5.6oz)』の違いをアパレル視点で完全比較。身幅・肩幅の落ち感・透けにくさ・洗濯耐久性から失敗しない選び方を伝授します。
+- **【ブラック vs スミクロ vs チャコール】SUZURIの黒系ボディカラーの違いを徹底比較！色味・色あせ・グラフィック映えと大人のモノトーン選び完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-black-vs-sumikuro-charcoal-body-color-guide
+  Summary: SUZURIでTシャツやパーカーを買う時、「ブラック」「スミ」「チャコール」のどれを選ぶべき？色味の深さ、顔料染め（ピグメント）と反応染料の染色の違い、洗濯による色あせやすさ、グラフィックとのコントラスト、大人ストリート・モノトーンでの最適な選び方をアパレル視点で徹底比較！
 - **【プロ徹底検証】SUZURIのバケットハット＆キャップってどう？刺繍クオリティ・生地の厚み・深さ・頭囲サイズ感・洗濯耐性と大人のダークストリート被り方完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-bucket-hat-cap-embroidery-quality-guide
   Summary: SUZURIのバケットハットやキャップの品質、Direct Embroidery（直接刺繍）の立体感・糸密度、頭囲サイズ感（56〜61cm）、クラウンの深さ、洗濯による型崩れ耐性をアパレル視点で徹底レビュー！「ネットで帽子を買って失敗したくない」「目深に被れる？」という疑問を解消し、ダークストリートに落とし込む被り方の黄金比まで完全解説。
 - **【出品者にバレる？】SUZURIの買い物で本名・住所・電話番号はクリエイターに知られる？匿名性・プライバシーの仕組みと安全な買い方をアパレル視点で完全解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-buyer-privacy-anonymous-shipping-guide
@@ -223,6 +227,8 @@
   Summary: SUZURIで展開されるドライTシャツ（吸水速乾・ポリエステル）の機能性、United Athle 4.1ozやglimmer 4.4ozの生地質感、サイズ選び、透け感、プリント耐久性をアパレル視点で徹底レビュー！「スポーツウェア・体操服っぽく見えないか？」という不安を解消し、真夏の猛暑や野外フェスでカッコよく決めるダークストリート着こなし術まで完全解説。
 - **SUZURIの小物雑貨まとめ！靴下・帽子・サンダル・バッグの魅力とコーディネート活用法**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-fashion-accessories-goods
   Summary: SUZURIのファッション小物雑貨（くるぶしソックス、キャップ、バケットハット、サンダル、バンダナ、ポケッタブルトート、サコッシュ等）の画像Alt属性データから、日常コーデにプラスしたいアクセントアイテムの特徴を徹底解剖します。
+- **【裏起毛の毛が抜ける・インナーに付く問題】SUZURIのパーカー・スウェットの抜け毛対策！最初の洗濯・コロコロ・柔軟剤NGの理由とインナーに毛をつけない裏技完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-fleece-lining-fuzz-shedding-prevention-guide
+  Summary: SUZURIで買った裏起毛パーカーやスウェットを脱いだら「中の黒Tシャツが白やグレーの毛羽だらけになった！」とお困りの方へ。なぜ裏起毛は毛が抜けるのか？製造構造の秘密から、新品購入時にやるべき初期リセット洗濯術、柔軟剤を絶対に使ってはいけない理由、インナーへの毛移り防止テクニックまでアパレル視点で完全解説。
 - **【プロ徹底検証】SUZURIのフルグラフィックTシャツって実際どう？昇華転写プリントの画質・ポリエステル生地の通気性・サイズ感・耐久性とダークストリート着こなし術**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-full-graphic-tshirt-quality-review
   Summary: SUZURIのフルグラフィックTシャツ（全面プリント）の品質・着心地・サイズ感をアパレル視点で徹底レビュー！昇華転写による発色や洗濯耐久性、縫い目の白残り・透け感の真相から、派手見え・オタク見えしない大人のダークストリート＆サイバーパンク着こなし術まで完全解説。
 - **【2026年最新】SUZURIの商品はプレゼントに直送できる？ギフトラッピング・納品書（金額バレ）の仕様と失敗しない贈り方完全解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-gift-present-guide
