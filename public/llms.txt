@@ -81,6 +81,8 @@
   Summary: 黒Tシャツや黒パーカーを着ると顔周りが地味・重たく見えてしまう悩みを一撃解消！ダークストリートやモノトーンに最も映えるサングラス・黒縁メガネの選び方をアパレルプロが伝授。顔型別（丸顔・面長・ベース型）のフレーム診断から、怪しく見せないレンズ濃度、外した時の首元掛けテクまで徹底解説。
 - **【1枚着はNG？】黒Tシャツのインナー問題完全解決！汗染み・乳首浮き・首元チラ見えを防ぐメンズ・レディース下着選びと生地オンスの科学**: https://crazy-chill-official.vercel.app/ja/blog/black-tshirt-innerwear-sweat-nipple-styling-guide
   Summary: 「黒Tシャツは透けないからノーインナーで1枚で着ていい？」「汗染みや塩吹き、乳首浮きはどう防ぐ？」という疑問をプロのアパレル視点で完全解明！生地オンス（oz）による透け・浮きの境界線、隠すインナー vs 魅せる白タンク裾チラ見せ、夏の機能性下着の選び方まで徹底解説！
+- **【脱・単調＆部屋着見え】黒Tシャツ×「ロングタンクトップ」裾出しレイヤード完全攻略！丈感3〜4cm差・スリット・素材選びで作る大人のダークストリート重ね着術**: https://crazy-chill-official.vercel.app/ja/blog/black-tshirt-long-tank-top-layering-guide
+  Summary: 黒Tシャツ1枚のコーデが「なんだか地味」「部屋着っぽい」と悩んでいませんか？裾からインナーを覗かせるロングタンクトップのレイヤード術をプロが徹底解説。裾出しの黄金比（3〜4cm差）、ラウンドヘムとスリットの選び方、涼しさと体型カバーを両立する着こなしを網羅。
 - **【なぜ？】黒T似合わない・上下黒や全身黒コーデがダサいと感じる理由と解決法！ストリートが似合わない顔の克服術**: https://crazy-chill-official.vercel.app/ja/blog/black-tshirt-not-suiting-fix-guide
   Summary: 「黒Tシャツを着ると顔がくすんで似合わない」「全身黒コーデや上下黒がダサい・喪服っぽく見える」「ストリート系が似合わない顔立ちかも…」と悩むメンズ・レディースへ。パーソナルカラーや顔立ちに関係なく、抜け感・グラフィック視線誘導・異素材レイヤードで劇的におしゃれに着こなすプロの技を完全解説！
 - **【メンズ・レディース】黒Tシャツのモード＆ストリートな着こなし術｜重く見せないレイヤードとシルエット黄金比**: https://crazy-chill-official.vercel.app/ja/blog/black-tshirt-street-mode-styling
@@ -231,6 +233,8 @@
   Summary: SUZURIで大人気のサーモタンブラー、陶器マグカップ、ロンググラスの機能・サイズ感・保温保冷効果・印刷クオリティを徹底解説。デスクワークでの結露防止やプレゼント用途まで、失敗しないドリンクウェア選びを網羅します。
 - **【プロ徹底検証】SUZURIのドライTシャツってどう？吸水速乾・生地感（4.1oz/4.4oz）・透け感・耐久性と夏のフェス＆ダークストリート着こなし完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-dry-athletic-tshirt-review-guide
   Summary: SUZURIで展開されるドライTシャツ（吸水速乾・ポリエステル）の機能性、United Athle 4.1ozやglimmer 4.4ozの生地質感、サイズ選び、透け感、プリント耐久性をアパレル視点で徹底レビュー！「スポーツウェア・体操服っぽく見えないか？」という不安を解消し、真夏の猛暑や野外フェスでカッコよく決めるダークストリート着こなし術まで完全解説。
+- **【刺繍って実際どう？】SUZURIの刺繍スウェット・パーカー・Tシャツのクオリティをアパレルが徹底検証！立体感・ほつれ・裏面の着心地・洗濯法とプリントとの違い**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-embroidery-sweatshirt-hoodie-quality-guide
+  Summary: SUZURIで注目の「刺繍アイテム（スウェット・パーカー・Tシャツ）」の仕上がりクオリティをアパレルブランドが本気レビュー！高密度ステッチの立体感、洗濯での糸引き・ほつれ耐性、裏地の芯地によるチクチク感の有無、プリントとの使い分けを徹底解説します。
 - **SUZURIの小物雑貨まとめ！靴下・帽子・サンダル・バッグの魅力とコーディネート活用法**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-fashion-accessories-goods
   Summary: SUZURIのファッション小物雑貨（くるぶしソックス、キャップ、バケットハット、サンダル、バンダナ、ポケッタブルトート、サコッシュ等）の画像Alt属性データから、日常コーデにプラスしたいアクセントアイテムの特徴を徹底解剖します。
 - **【裏起毛の毛が抜ける・インナーに付く問題】SUZURIのパーカー・スウェットの抜け毛対策！最初の洗濯・コロコロ・柔軟剤NGの理由とインナーに毛をつけない裏技完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-fleece-lining-fuzz-shedding-prevention-guide
@@ -319,6 +323,8 @@
   Summary: お気に入りの黒Tシャツや黒パーカーが洗濯するたびに白っぽく色あせたり、毛玉・首元のヨレに悩んでいませんか？アパレル視点で黒さを何年もキープする正しい洗剤・洗い方・干し方と、褪せた黒服の復活裏技を解説！
 - **SUZURIのキャンバストートバッグのサイズ感・生地の厚み（12oz）を徹底レビュー！通学・通勤やサブカル・ストリートコーデでの選び方**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-tote-bag-size-quality-review
   Summary: SUZURIのキャンバストートバッグのサイズ（S/M/L）、12.0オンス厚手生地の耐久性、印刷クオリティをアパレル視点で徹底レビュー。通勤・通学・イベントでの使い勝手から、ダークパンク・ストリートコーデのアクセントとしての活用法まで解説します。
+- **【追跡反映されない？】SUZURI発送メール後に「伝票番号未登録」が出る原因とタイムラグ・土日祝の到着目安完全マニュアル**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-tracking-number-not-found-guide
+  Summary: SUZURIから発送完了メールが届いたのに、追跡画面で「伝票番号未登録」と表示されて焦っていませんか？工場集荷からヤマト・佐川のベース店スキャンまでのタイムラグの仕組み、反映までの待ち時間、土日祝の挙動、24時間経っても動かない場合の対処法をアパレルEC視点で徹底解説します。
 - **【プロ徹底比較】SUZURIのTシャツボディ・生地全種類を完全比較！違い・素材オンス・透け感・印刷クオリティと失敗しない選び方**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-tshirt-fabric-body-comparison
   Summary: SUZURIで選べる「スタンダード・ヘビーウェイト・ビッグシルエット・USAコットン・ドライ」等のTシャツボディ・生地素材をアパレル視点で徹底比較！生地の厚み（オンス）、素材の違い、首リブの耐久性、印刷クオリティや透け感の違いを完全マトリクスで解説します。
 - **【お気に入りを10年着る】SUZURIのTシャツ・パーカーの正しい「長期保管＆衣替え」完全マニュアル！黄ばみ・カビ・プリント貼り付き（ブロッキング）をゼロにするたたみ方・衣装ケース・防虫剤のプロ知識**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-tshirt-hoodie-seasonal-storage-preservation-guide
