@@ -115,6 +115,8 @@
   Summary: ストリート・サブカルファッションに欠かせないスウェット＆パーカー。フードを綺麗に立たせるコツ、ジップパーカーやアウターとのレイヤード（重ね着）術、ダボッと着こなすシルエットの作り方を徹底解説します。
 - **【脱・小汚さ＆子供っぽさ】ダメージデニム・クラッシュジーンズ×黒Tシャツ・パーカーの大人ダークストリート黄金比！90sグランジを今っぽく着こなす法則**: https://crazy-chill-official.vercel.app/ja/blog/distressed-denim-oversize-black-tshirt-styling-guide
   Summary: ダメージデニムやクラッシュジーンズが「ボロ着・小汚い・子供っぽい」とお悩みの方へ。オーバーサイズ黒Tシャツやパーカーと合わせた時に、大人の色気と退廃的なグランジ感を両立させるシルエット黄金比、ダメージ面積の適正値、足元・小物の引き締め術を完全解説します。
+- **【脱・オタク見え】オンブレチェックシャツ×黒Tシャツ・黒パーカーのストリート＆グランジ着こなし完全攻略！柄ピッチ・着丈差・退廃美を生む羽織り方黄金比**: https://crazy-chill-official.vercel.app/ja/blog/distressed-ombre-check-shirt-black-tshirt-hoodie-styling-guide
+  Summary: 「チェックシャツを着るとアキバ系・オタクっぽく見える…」「ストリートでおしゃれに着こなすコツは？」そんな悩みをアパレル視点で解決！オンブレ（陰影・ぼかし）チェックが選ばれる理由、黒グラフィックT・黒パーカーとのレイヤード黄金比、腰巻きテクまで徹底解説。
 - **The Dark Romance of Japanese Gothic Lolita Fashion**: https://crazy-chill-official.vercel.app/en/blog/en-gothic-lolita-culture
   Summary: Explore the philosophy and aesthetic of Gothic Lolita, one of Japan's most intricate and elegant street fashion subcultures. Discover the balance of darkness, innocence, and rebellion.
 - **What is a Gyaru in Japan? Meaning, History, Culture, Style & Modern Japanese Streetwear Fusion**: https://crazy-chill-official.vercel.app/en/blog/en-gyaru-fashion-culture
@@ -259,6 +261,8 @@
   Summary: SUZURIで服やグッズを買ったのに『製造中からステータスが変わらない』『発送予定日を過ぎても届かない』とお困りの方へ。受注生産（オンデマンドプリント）の製造工程、日数がかかる理由、ステータス確認と問い合わせ方法をアパレル視点で徹底解説します。
 - **【実機レビュー】SUZURIのナイロンジャケット（ウィンドブレーカー）のサイズ感・撥水性・防風性を徹底検証！コーチジャケットとの違いと春秋テックストリート着こなし術**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-nylon-jacket-windbreaker-quality-styling-guide
   Summary: SUZURIのナイロンジャケット（ウィンドブレーカー）の品質やサイズ感、撥水・防風性をアパレルのプロが実機検証！テカリを抑えたタスラン生地の質感、コーチジャケットとの違い、中に厚手パーカーを着込めるサイズ選び、春秋のテックストリート・ダークパンク着こなし術まで完全解説。
+- **【届かない？】SUZURIの注文完了メールが来ない原因5選と確認手順！二重注文を防ぐマイページ・決済履歴チェック＆問い合わせ完全マニュアル**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-order-confirmation-email-not-received-guide
+  Summary: 「SUZURIで買ったのに注文完了メールが届かない！本当に注文できてる？」「もう一度買い直したら二重注文になる？」と不安な方へ。メール不達の5大原因（迷惑メール・キャリアブロック・アドレス入力ミス等）、会員＆ゲスト購入別の注文確認手順、二重注文防止策と公式問い合わせ方法を徹底解説。
 - **【なぜ買えない？】SUZURIで「在庫切れ・入荷待ち」が起きる理由と再入荷の時期目安！受注生産なのに売り切れる仕組みと再販を見逃さない裏技ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-out-of-stock-sold-out-restock-guide
   Summary: 「SUZURIは注文後に刷る受注生産のはずなのに、なぜ在庫切れ・SOLD OUTになるの？」と疑問に思う方へ。無地ボディ供給の仕組み、欠品しやすい時期（セール期・季節の変わり目）、再入荷までの日数目安、そして再販を見逃さない裏技やお気に入り（ズッキュン）活用術をアパレル視点で完全解説！
 - **【実物確認】SUZURIの荷物はどんな梱包・パッケージで届く？中身の透け感・品名表記・同居人バレ防止と安心の配送形態をアパレル目線で徹底解説！**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-packaging-delivery-box-privacy-guide
@@ -267,6 +271,8 @@
   Summary: SUZURIでカートに入れた服やグッズが買えない・「決済に失敗しました」エラーが出る原因は？クレジットカードの3Dセキュア2.0本人認証失敗、カード会社の不正検知ブロック、PayPayやAmazon Payの連携タイムアウト、SNSアプリ内ブラウザのCookie制限など、注文を確実に完了させるための緊急対処法をアパレル視点で徹底解説！
 - **【2026最新】SUZURIの支払い方法・決済手段全種類まとめ！クレカなしで買う方法・手数料・注意点を徹底解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-payment-methods-guide
   Summary: SUZURI（スズリ）で服やオリジナルグッズを買いたいけれど「どんな支払い方法が使える？」「クレジットカードがなくても買える？」「手数料が一番安い決済はどれ？」とお困りの方へ。PayPay、あと払い（ペイディ）、コンビニ決済、クレカなど全決済手段を徹底比較・解説します。
+- **【2026最新】SUZURIでPayPay（ペイペイ）決済を使う方法！支払い手順・ポイント還元・残高不足エラー時の対処法＆クレカなしで即買いする完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-paypay-payment-guide
+  Summary: 「SUZURIでPayPay（ペイペイ）は使える？どうやって払う？」「クレジットカードなしで買いたい」「残高不足や決済エラーが起きたら？」そんな疑問を完全攻略！スマホ・PC別の支払い手順、手数料0円のメリット、超PayPay祭での還元術、トラブル対処法までアパレル目線で徹底解説。
 - **SUZURIのスマホケースって実際どう？クリア・ハードケースの耐衝撃性やプリント黄ばみ・劣化対策を徹底レビュー**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-phone-case-quality-review
   Summary: SUZURIでスマホケースを買おうか悩んでいる方必見！ポリカーボネートやTPU素材の耐衝撃性、UVプリントの擦れ・剥がれ耐性、気になる黄ばみ対策まで、アパレルデザイナーの視点から本音で解説します。
 - **【プロ徹底検証】SUZURIの「ウォッシュTシャツ（ピグメントダイ）」って実際どう？ヴィンテージな色落ち感・サイズ感・洗濯時の色移り対策とダークストリート着こなし完全レビュー**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-pigment-wash-tshirt-review-guide
