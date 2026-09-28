@@ -245,6 +245,8 @@
   Summary: 「クレジットカードを持っていないけれどSUZURIで服を買いたい」「コンビニ支払いはどうやるの？手数料や期限は？」とお悩みの方へ。ローソン・ファミマ・ミニストップ等での端末操作手順、支払い番号メールが届かない時の確認方法、セブンイレブン非対応の落とし穴、入金後の製造開始タイミングまで、アパレルショップ目線で分かりやすく徹底解説！
 - **【2026最新】SUZURIクーポンコード入手方法＆使えない時の原因と解決策！LINEクーポン・セール併用まで完全解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-coupon-discount-code-guide
   Summary: SUZURI（スズリ）で使えるクーポンコードの入手方法（LINE公式・アプリ通知・Xキャンペーン）から、「クーポンが使えない原因と対処法」、1,000円引きセールとの併用ルール、プレゼント用購入の最安値裏ワザまで徹底解説！
+- **【日時指定できる？】SUZURIのお届け日・配達時間帯指定の真実！注文後にヤマト運輸・クロネコメンバーズ・PUDOロッカーで受取変更する神裏ワザ＆アイテム別配送種別をアパレル視点で完全解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-delivery-date-time-slot-change-guide
+  Summary: SUZURIで服やグッズを買う際「お届け日時や配達時間を指定できないの？」とお困りの方へ。注文時に日時指定ができない受注生産ならではの理由と、発送完了後の追跡番号からヤマト運輸（クロネコメンバーズ・LINE連携）や佐川・日本郵便で受取日時・時間帯・PUDO受取へ変更する完全手順をアパレル視点で徹底解説します。
 - **【不在・家族バレ回避】SUZURIは置き配・コンビニ受け取り・日時指定できる？クロネコヤマト＆佐川急便で確実に受け取る裏技手順**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-delivery-options-convenience-store-pickup-guide
   Summary: SUZURIで買った服やグッズを『置き配』『コンビニ受け取り（セブン・ファミマ・ローソン）』『日時指定』『PUDOロッカー』で受け取る方法を完全解説！注文画面で指定できない理由と、発送通知後の伝票番号を使って家族や同居人に内緒で確実に受け取るプロの裏技ステップ。
 - **【徹底レビュー】SUZURIのタンブラー・マグカップ・グラスまとめ！保温保冷性能・サイズ感・印刷耐久性を解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-drinkware-mug-tumbler-guide
@@ -263,6 +265,8 @@
   Summary: 「SUZURIで買った服やグッズを友達や恋人に直接プレゼントしたい！」「相手に金額がバレたりしない？ラッピングはできる？」と悩む方へ。SUZURIのギフト直送の仕組み、納品書・領収書の同梱ルール、ラッピングの有無とおしゃれに贈るプロの裏技を徹底解説します。
 - **【2026最新】SUZURIは会員登録なし（ゲスト購入）で買える？Amazon Pay・PayPayで住所・カード入力不要の最短購入手順とソーシャルログイン注意点を完全解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-guest-checkout-without-account-guide
   Summary: SUZURIで欲しい服やグッズを見つけたけれど、「会員登録が面倒」「住所やカード情報を入力せず今すぐ買いたい」と思っていませんか？実はAmazon Payを使えば面倒な登録作業を丸ごとスキップして最短1分で購入可能！ゲスト的購入の手順、注文追跡方法、Apple IDやX連携の注意点までアパレル視点で徹底解説。
+- **【極厚Tシャツ対決】SUZURIの「ヘビーウェイトTシャツ(7.4oz)」vs「USAコットンTシャツ(8.1oz)」をアパレル目線で徹底比較！透け感・生地の硬さ・縮み・耐久性と失敗しないサイズ選び**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-heavyweight-7-4oz-vs-usa-cotton-8-1oz-comparison
+  Summary: SUZURIで買える超肉厚タフTシャツの2大巨頭「7.4ozヘビーウェイトTシャツ」と「8.1oz USAコットンTシャツ」はどちらを選ぶべき？オンスの違いだけでなく、オープンエンド糸によるザラ感、首リブの耐久性、透けにくさ、洗濯後の縮み率、シルエットの違いをアパレル視点で徹底比較！
 - **【超肉厚12.0oz〜12.7oz】SUZURIのヘビーウェイトスウェット＆パーカーを徹底レビュー！サイドパネル（リバースウィーブ仕様）・フードの自立度・重厚なサイズ感をプロがガチ検証**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-heavyweight-sweatshirt-hoodie-review-guide
   Summary: 「ペラペラのスウェットは嫌だ」「フードが綺麗に自立する極厚パーカーが欲しい」というストリートヘッズ必見！SUZURIの最上位ボディ「ヘビーウェイトスウェット＆パーカー（12.0oz〜12.7oz裏起毛）」をアパレル視点で徹底レビュー。リバースウィーブ仕様のサイドパネル、10.0ozレギュラー品との決定的な違い、防寒性、サイズ選びまで完全網羅。
 - **【型崩れ・肩ポコゼロ】SUZURIのヘビーウェイトTシャツ＆厚手パーカーの「正しい干し方・ハンガー選び」完全ガイド！重みで伸びるのを防ぐプロの部屋干し＆平干しメソッド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-heavyweight-tshirt-hoodie-hanging-drying-guide
@@ -403,6 +407,8 @@
   Summary: 「オーバーサイズTシャツをタックインするともたつく？お腹周りがダサく見える？」そんな悩みをアパレル視点で解決！オーバーサイズTシャツのフルイン・前だけイン（フロントハーフイン）の弛ませ方（ブラウジング）、ハイウエストパンツ＆ベルトの選び方まで徹底解説。
 - **カップルで楽しむダークパンク・シミラールック：ユニセックスブランドCRAZY CHILLの魅力**: https://crazy-chill-official.vercel.app/ja/blog/unisex-similar-look-styling
   Summary: ストリートファッション好きのカップル・友人同士に大人気の「シミラールック」。あからさまなお揃いではなく、雰囲気やテーマを合わせる洗練されたペアルックの作り方をご提案します。
+- **【脱・学生見え＆子供っぽさ】スタジャン（バーシティジャケット）×オーバーサイズ黒Tシャツ・黒パーカーの最旬ダークストリート着こなし術！野暮ったくならない大人の配色・シルエット黄金比**: https://crazy-chill-official.vercel.app/ja/blog/varsity-jacket-black-graphic-tshirt-hoodie-street-guide
+  Summary: ストリートの王道アウター「スタジャン（バーシティジャケット）」が高校生の部活帰りや子供っぽく見えてしまう原因とは？インナーに黒グラフィックTシャツや肉厚黒パーカーを仕込み、ワイドスラックスやシルバーアクセで都会的・ダークモードに昇華させる大人の着こなし黄金法則をプロが徹底解説！
 - **【古着MIX×ダークストリート】90sヴィンテージ・退廃グランジと現代グラフィックTシャツを融合させる大人のネオ・ストリート着こなし完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/vintage-mix-dark-streetwear-grunge-styling
   Summary: 90年代グランジ・ヴィンテージ古着と現代ダークストリートを融合！褪色スミクロ古着やダメージデニムに新品の漆黒グラフィックTシャツ・パーカーを合わせる『質感コントラスト理論』と大人のレイヤード術をアパレル視点で徹底解説します。
 - **【腰回りで圧倒的な差がつく】ウォレットチェーン・カラビナ・キーリングの最旬ダークストリート着こなし術！ダサい・中二病見えを回避する長さ・位置・太さの黄金ルール**: https://crazy-chill-official.vercel.app/ja/blog/wallet-chain-carabiner-keyring-dark-streetwear-styling-guide
