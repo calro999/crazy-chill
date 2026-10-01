@@ -33,6 +33,8 @@
   Summary: 全身黒なのにどこか垢抜けない、地味に見える、喪服っぽくなってしまう……そんな悩みを一瞬で解決するのが「5%の差し色」！ダークストリートやサブカルモードを極めるための配色の黄金比、相性抜群の4大アクセントカラー（赤・紫・ネオン・青）、失敗しない配置スポットをアパレル視点で徹底解説します。
 - **【脱・ダサい】上下黒・全身黒コーデがダサいと言われる原因と解決法！男女別オールブラックストリート術**: https://crazy-chill-official.vercel.app/ja/blog/all-black-fashion-street-styling
   Summary: 「上下黒 ダサい」「全身黒 女 ダサい」「黒コーデ メンズ ダサい」と感じる原因をアパレルプロが徹底解明！喪服見え・オタク見えを脱出し、異素材MIX・グラフィックTシャツ・白チラ見せレイヤード・シルバーアクセで劇的におしゃれに垢抜けさせるスタイリング術を伝授。
+- **【全身黒でも地味・カラス見えしない】オールブラックコーデを劇的に垢抜けさせる「異素材MIX×立体シルエット」黄金法則！**: https://crazy-chill-official.vercel.app/ja/blog/all-black-outfit-different-materials-silhouette-styling-guide
+  Summary: 「黒ずくめが好きだけど、喪服やカラスみたいに見える…」そんな悩みをプロが完全解決！コットン、ナイロン、レザー、シルバーなど光の反射率が異なる「5つの黒」を操る異素材レイヤード理論と、大人の退廃美を引き出すAライン・Oラインのシルエット黄金律を徹底解説します。
 - **【脱・喪服感】全身黒コーデが重い・地味に見える原因と解決策！異素材MIXとグラフィックで作る最旬ダークストリート術**: https://crazy-chill-official.vercel.app/ja/blog/all-black-outfit-not-heavy-avoid-mourning-look
   Summary: 「全身黒で揃えたのに、なぜか喪服っぽくなる・地味に見える…」「黒Tシャツに黒パンツを合わせるとのっぺりしてしまう」そんな悩みをアパレル視点で完全解決！素材のテクスチャMIX、抜け感を作る3首の法則、グラフィックによる視線誘導で、圧倒的に垢抜けるオールブラック着こなし術を徹底解説します。
 - **【プロ直伝】オールブラックコーデがのっぺり・地味に見えない「異素材MIX」の黄金律！コットン×ナイロン×デニム×レザーで魅せる立体ダークストリート構築論**: https://crazy-chill-official.vercel.app/ja/blog/all-black-outfit-texture-mix-styling-guide
@@ -279,6 +281,8 @@
   Summary: 「ペラペラのスウェットは嫌だ」「フードが綺麗に自立する極厚パーカーが欲しい」というストリートヘッズ必見！SUZURIの最上位ボディ「ヘビーウェイトスウェット＆パーカー（12.0oz〜12.7oz裏起毛）」をアパレル視点で徹底レビュー。リバースウィーブ仕様のサイドパネル、10.0ozレギュラー品との決定的な違い、防寒性、サイズ選びまで完全網羅。
 - **【型崩れ・肩ポコゼロ】SUZURIのヘビーウェイトTシャツ＆厚手パーカーの「正しい干し方・ハンガー選び」完全ガイド！重みで伸びるのを防ぐプロの部屋干し＆平干しメソッド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-heavyweight-tshirt-hoodie-hanging-drying-guide
   Summary: SUZURIのUSAコットンTシャツ（8.1oz）やヘビーウェイトパーカー（12.7oz）を洗った後、「肩がボコッと出っ張る」「服の重みで着丈が伸びてしまった」「フードが乾かない」と悩んでいませんか？服の寿命を何倍も延ばすプロ直伝の干し方・ハンガー選び・肩ポコ修復術を完全解説！
+- **【フードが立つ？】SUZURIパーカーのフード立ち具合・生地オンス・重量をアパレル目線で徹底比較！ペタンコ見えを防ぐ神シルエットの選び方**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-hoodie-hood-standing-silhouette-thickness-weight-guide
+  Summary: SUZURIでパーカーを買う前に知っておきたい「フードの立ち具合」と「生地オンス・重量感」をアパレルブランドCRAZY CHILLが徹底解剖！スタンダード（10.0oz）、ヘビーウェイト（12.4oz/12.7oz）、ビッグシルエットのフード自立度や肩こりリスク、首元の開き具合を実測視点で比較解説します。
 - **SUZURIのパーカー（フーディー）サイズ感・生地感を徹底比較！裏起毛・裏パイルの違いや厚み（oz）をアパレル視点で解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-hoodie-size-fabric-guide
   Summary: SUZURIでパーカーやスウェットを購入する前に知っておきたいサイズ感、裏起毛と裏パイルの違い、生地の厚み（オンス）をアパレルブランドの視点で徹底解説。失敗しない選び方とダークパンク系オーバーサイズコーデ術をご紹介します。
 - **【大人があえて着る？】SUZURIのキッズTシャツ（150・160cm）は大人の女性や細身メンズも着られる？大人Sサイズとの実寸比較・シルエット差と「Y2KチビT・クロップド着こなし」完全攻略**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-kids-size-150-160-adult-wearing-guide
@@ -317,6 +321,8 @@
   Summary: 「SUZURIのスウェットやパーカーを買うとき、裏パイル（裏毛）と裏起毛のどちらを選ぶべき？」「春や秋、真冬の気温に合うのはどっち？」そんな疑問をアパレル視点で徹底解説！生地構造の違いから気温10℃〜25℃別の着用マトリクス、着膨れを防ぐレイヤード術、洗濯耐久性まで完全網羅。
 - **【毛玉を防ぐ】SUZURIのパーカー・スウェット・Tシャツは毛玉（ピリング）ができる？綿100%とポリエステル混の毛玉耐性比較＆お気に入りの服を長持ちさせるプロのお手入れ完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-pilling-fuzz-care-hoodie-sweatshirt-guide
   Summary: SUZURIのパーカーやスウェットは毛玉（ピリング）ができやすい？脇下や袖口、裾のリブにできる毛玉の原因を繊維科学から徹底解明！綿100%（裏パイル）と綿ポリ混（裏起毛）の耐性比較、毛玉を寄せ付けない洗濯テクニック、生地を傷めないプロの除去法までアパレルブランドが本音で完全解説します。
+- **【2026年最新】SUZURIでポイントは貯まる？使える？楽天ペイ・PayPay・クレカ還元＆ポイ活で一番安く買う裏ワザ完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-points-rakuten-paypay-discount-saving-guide
+  Summary: SUZURIでオリジナルTシャツやパーカーをお得に買いたい人必見！「SUZURI公式ポイントはあるのか？」の真相から、楽天ペイ・PayPayのポイント還元、クレジットカードの二重取り、ポイントサイト（ポイ活）経由の可否、ビッグセールと組み合わせた実質最安値ルートを徹底解説します。
 - **【プロ徹底比較】SUZURIのプリントTシャツは洗濯何回で剥がれる？DTF・インクジェットの耐久性と長持ちさせるアパレル裏技**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-print-durability-comparison
   Summary: SUZURIで買ったプリントTシャツの耐久性が気になる方へ。アパレルブランド視点で、インクジェットやDTFプリントの剥がれ・色あせの原因を科学的・プロ目線で徹底解説。100回洗ってもへたらない洗濯と保管のプロ技を紹介します。
 - **【サイズ別の罠】SUZURIのTシャツ・パーカーはサイズが大きくなるとプリントが小さく見える？S〜XXLの実寸比率と失敗しないオーバーサイズ選び完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-print-size-body-ratio-guide
