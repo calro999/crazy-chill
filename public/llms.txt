@@ -169,6 +169,8 @@
   Summary: メンズやユニセックスのビッグシルエット黒服を女性がおしゃれに着こなすテクニックをプロが伝授！着太りや「服に着られている感」をゼロにし、肩落ち感と手首・首元の抜け感で圧倒的な華奢見えと無機質なクールさを両立するスタイリング黄金比を徹底解説。
 - **【脱・透け感の違和感】黒メッシュ・シースルーインナー×黒グラフィックTシャツの最旬レイヤード術！ダークパンク・グランジ・サブカルに決める重ね着黄金比**: https://crazy-chill-official.vercel.app/ja/blog/mesh-sheer-layering-black-graphic-tshirt-street-guide
   Summary: 半袖黒Tシャツの下にメッシュやシアー（透け素材）を仕込む最旬ストリートレイヤード！「露出感がいやましく見えないか」「オタクっぽくならないか」という不安をアパレル視点で完全払拭。ダークパンク、90sグランジ、サブカル地雷系に昇華する着こなし黄金比や網目ピッチの選び方、首・袖・裾のチラ見せテクニックを徹底解説します。
+- **【脱・野暮ったさ＆ミリタリーオタク見え】モッズコート（M-51/M-65）×黒グラフィックTシャツ・黒パーカーの最旬ダークストリート着こなし黄金法則！春・秋・冬のシルエット構築と配色術**: https://crazy-chill-official.vercel.app/ja/blog/mods-coat-black-graphic-tshirt-hoodie-street-guide
+  Summary: M-51やM-65フィッシュテールパーカー（モッズコート）に黒グラフィックTシャツや黒パーカーを合わせる最旬ダークストリート着こなし術！野暮ったさやサバゲーオタク見えを徹底排除する『9:1の漆黒配色』『フィッシュテールの裾処理』『立体フード出しの黄金比』をアパレルプロが完全解説。
 - **【9:1の黄金比】黒コーデ・モノトーンを格上げする「差し色」テクニック！ネオン・赤・紫・青を失敗せず取り入れるストリート配色論**: https://crazy-chill-official.vercel.app/ja/blog/monotone-black-accent-color-styling
   Summary: 全身黒コーデやモノトーンのマンネリを打破する「差し色（アクセントカラー）」の取り入れ方をアパレル視点で解説。黒90%：差し色10%の黄金比率、ソックス・小物・スニーカーでの失敗しない色使いを徹底レクチャーします。
 - **【脱・モノトーンのマンネリ】黒Tシャツ・黒パーカーに「シルバーアクセサリー＆異素材アイテム」を合わせるダークストリートの立体感演出術**: https://crazy-chill-official.vercel.app/ja/blog/monotone-black-outfit-accessories-styling
@@ -239,6 +241,8 @@
   Summary: SUZURIで展開されるアパレル服の種類（スタンダード、ヘビーウェイト、USAコットン、ビッグシルエット、スウェット、パーカー、ショーツ等）の違いとスペック、オンス（生地の厚み）、着用シーン別の失敗しない選び方を徹底解説！
 - **【SUZURIで失敗しない買い方】「イメージと違う」「色味が違う」を防ぐ5大チェックリスト！画面（RGB）と印刷（CMYK）の差・サイズ選び・オンス確認の完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-avoid-buying-mistakes-checklist-guide
   Summary: SUZURIで服やグッズを買う前に必読！「画面で見た色と実物が違う」「サイズが大きすぎた・小さすぎた」「生地が薄かった」等の通販トラブルをゼロにする5大チェックリストをアパレル視点で徹底解説。RGBとCMYK印刷の仕組みやオンス選びの正解を網羅。
+- **【プロ徹底比較】SUZURIのビッグシルエットパーカー vs 定番ヘビーウェイトパーカー！肩落ち（ドロップショルダー）・フードの立ち・サイズ感の違いと失敗しない選び方**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-big-silhouette-vs-heavyweight-hoodie-guide
+  Summary: SUZURIでパーカーを買うなら「ビッグシルエットパーカー」と「定番ヘビーウェイトパーカー」のどちらを選ぶべき？身幅・肩幅の実寸スペック比較から、ドロップショルダーの落ち感、フードの自立度、だらしなく見えない男女別の推奨サイズ選びまでアパレルのプロが徹底解説します。
 - **【プロ徹底比較】SUZURIのビッグシルエットT vs オーバーサイズT vs ヘビーウェイトT！シルエット・オンス（oz）・身幅・肩落ち感をアパレル視点でガチ検証**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-big-silhouette-vs-oversize-heavyweight-tshirt
   Summary: SUZURIでTシャツを注文する際、最も迷う『スタンダード(5.6oz)』『ヘビーウェイト(7.4oz)』『ビッグシルエット(5.6oz)』『オーバーサイズ(5.6oz)』の違いをアパレル視点で完全比較。身幅・肩幅の落ち感・透けにくさ・洗濯耐久性から失敗しない選び方を伝授します。
 - **【プロ直伝】SUZURIの黒Tシャツ・パーカーに付く「ホコリ・糸くず・ペットの毛」完全防止ガイド！コロコロ（粘着テープ）NGの理由と静電気を遮断する漆黒メンテ術**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-black-tshirt-hoodie-dust-lint-pet-hair-prevention-guide
@@ -423,6 +427,8 @@
   Summary: 「半袖Tシャツの下に長袖を着るとオタクっぽく見える？ダサい？」そんな悩みを一瞬で解決する大人の袖レイヤード黄金比！90sグランジやネオ・ダークストリートの文脈を交え、アームホールの太さ・手首の溜まり・着丈差（3〜5cm）のサイジング理論から、ワッフルサーマル・細ボーダー・メッシュ等の相性抜群インナー選びまで徹底解説。
 - **【オーバーサイズ Tシャツ タックイン】脱・おじさん見え！ストリート＆モードに決める黄金法則と前だけイン術**: https://crazy-chill-official.vercel.app/ja/blog/tshirt-tuck-in-street-mode-styling
   Summary: 「オーバーサイズTシャツをタックインするともたつく？お腹周りがダサく見える？」そんな悩みをアパレル視点で解決！オーバーサイズTシャツのフルイン・前だけイン（フロントハーフイン）の弛ませ方（ブラウジング）、ハイウエストパンツ＆ベルトの選び方まで徹底解説。
+- **【脱・おじさん見え＆防寒レイヤード】タートルネック・ハイネック×オーバーサイズ黒グラフィックTシャツ・スウェットの最旬ストリートモード着こなし術！首元・着丈・配色の黄金バランス**: https://crazy-chill-official.vercel.app/ja/blog/turtleneck-highneck-black-tshirt-sweatshirt-layering-guide
+  Summary: お気に入りの半袖黒Tシャツを秋・冬・春も一年中着こなす『タートルネック・ハイネック重ね着術』！おじさん見え・野暮ったさを徹底排除する首元3〜4cmの立ち上がり幅、リブ厚、黒×白・黒×黒の配色コントラスト、モードストリートに昇華するサイズバランスをアパレルプロが完全解説。
 - **カップルで楽しむダークパンク・シミラールック：ユニセックスブランドCRAZY CHILLの魅力**: https://crazy-chill-official.vercel.app/ja/blog/unisex-similar-look-styling
   Summary: ストリートファッション好きのカップル・友人同士に大人気の「シミラールック」。あからさまなお揃いではなく、雰囲気やテーマを合わせる洗練されたペアルックの作り方をご提案します。
 - **【脱・学生見え＆子供っぽさ】スタジャン（バーシティジャケット）×オーバーサイズ黒Tシャツ・黒パーカーの最旬ダークストリート着こなし術！野暮ったくならない大人の配色・シルエット黄金比**: https://crazy-chill-official.vercel.app/ja/blog/varsity-jacket-black-graphic-tshirt-hoodie-street-guide
