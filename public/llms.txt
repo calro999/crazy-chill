@@ -105,6 +105,8 @@
   Summary: 海外セレブやストリートヘッズを席巻する最旬トレンド「ブロークコア（Blokecore）」。サッカー・ゲームシャツが「部活帰りやスポーツ選手に見えてしまう」原因を解明し、ダークトーン、ワイドスラックス、シルバーアクセで大人モードに昇華する着こなし法則を完全解説します。
 - **【骨格タイプ別】オーバーサイズTシャツ＆黒服が劇的に似合う着こなし術！骨格ストレート・ウェーブ・ナチュラルのダークストリート黄金比**: https://crazy-chill-official.vercel.app/ja/blog/body-type-oversize-dark-streetwear-guide
   Summary: 「オーバーサイズを着ると着太りする」「黒Tシャツが服に着られているように見える」と悩んでいませんか？骨格診断（ストレート・ウェーブ・ナチュラル）に基づき、ダークストリート＆ビッグシルエットを最もスタイル良く魅せる生地選び・着丈・コーディネートの黄金比をアパレル視点で徹底解説します。
+- **【ボンテージパンツ着こなし論】ジップ・ストラップ・金具を現代ストリートに昇華！オーバーサイズ黒Tシャツ・パーカーで作る洗練ダークパンク・ネオモードコーデ完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/bondage-pants-oversize-black-tshirt-dark-punk-street-guide
+  Summary: 70年代ロンドンパンクの反骨精神を宿し、現代のOpium（オピウム）・地雷系・ダークストリートで熱狂的な支持を集める「ボンテージパンツ（ジップ・ストラップ付きパンツ）」。一歩間違えると「昔のV系」や「コスプレ」に見えてしまう難関アイテムを、オーバーサイズ黒グラフィックTシャツや肉厚パーカーで大人のリアルクローズへ落とし込むサイジング黄金比とジップ開閉ギミックを徹底解説。
 - **夏のスケーターファッション！BONE RIDERのモノトーンTシャツ×ショーツで作る最旬ストリートコーデ**: https://crazy-chill-official.vercel.app/ja/blog/bone-rider-setup-styling
   Summary: 夏のストリートコーデに迷っていませんか？CRAZY CHILLの新作「BONE RIDER」Tシャツとドライショーツのセットアップ着用レビュー！モノトーンで決める最高にチルなスタイルをご紹介します。
 - **「狂気的なまでに脱力」というコンセプトが生まれた理由とダークパンクデザインの裏話**: https://crazy-chill-official.vercel.app/ja/blog/crazy-chill-design-roots
@@ -167,6 +169,8 @@
   Summary: 甘すぎる王道地雷系は苦手…という方へ。CRAZY CHILLが提案する「地雷系×ストリート」のダークパンクな黒Tシャツコーデのコツや、合わせるべき必須アイテムを徹底解説します。退廃的でクールなスタイルを手に入れましょう。
 - **【2026年最旬トレンド】ジョーツ（Jorts・デニムバギーショーツ）×オーバーサイズ黒Tシャツのダークストリート着こなし完全攻略！野暮ったく見せない丈感・シルエット・足元黄金比**: https://crazy-chill-official.vercel.app/ja/blog/jorts-denim-baggy-shorts-black-tshirt-dark-streetwear-styling-guide
   Summary: 世界中のストリートやSNSで爆発的トレンドとなっている「ジョーツ（Jorts・膝下デニムバギーショーツ）」。子供っぽくならず、大人のダークパンク＆スケータースタイルに昇華するオーバーサイズ黒Tシャツとの組み合わせ黄金比と足元選びをアパレル視点で徹底解説！
+- **【脱・難解コーデ】パンツ×巻きスカート（ラップスカート・エプロン）のボトムスレイヤード着こなし論！オーバーサイズ黒Tシャツ・パーカーで作る最旬ダークモードストリート完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/layered-wrap-skirt-pants-dark-street-mode-guide
+  Summary: 原宿・表参道のストリートスナップやモード界隈、ジェンダーレスファッションで圧倒的な存在感を放つ「パンツ×巻きスカート（ラップスカート・エプロン）」のボトムスレイヤード術！「奇抜すぎて浮かないか？」「メンズが着てもおかしくない？」という疑問をアパレルプロがロジカルに解消。ワイドパンツや黒Tシャツ・パーカーと調和させるサイジング黄金比を完全解説。
 - **【脱・ヤンキー＆ロッカー見え】レザーパンツ×オーバーサイズ黒Tシャツ・パーカーの最旬ダークストリート着こなし術！マット×光沢の異素材MIXとシルエット黄金比**: https://crazy-chill-official.vercel.app/ja/blog/leather-pants-oversize-black-tshirt-hoodie-styling-guide
   Summary: 「レザーパンツはハードすぎてダサい？」「ヤンキーや昔のV系・ロッカーっぽく見えないか不安……」そんな悩みをアパレル視点で完全解決！フェイクレザー（エコレザー）のワイドパンツやフレアパンツに、オーバーサイズの黒グラフィックTシャツやパーカーを合わせる最旬ダークストリート＆オピウムモード着こなし術を徹底解説。失敗しないマット×光沢の異素材コントラストと足元の黄金バランスを伝授します。
 - **【サブカル地雷＆Y2Kストリート】レッグウォーマー×厚底スニーカー・黒パーカーの『足元ボリューム黄金比』完全攻略！だらしなく見えないズレ落ち防止とメンズ・レディース着こなし術**: https://crazy-chill-official.vercel.app/ja/blog/leg-warmers-oversize-hoodie-subculture-street-guide
@@ -345,6 +349,8 @@
   Summary: SUZURIのパーカーやスウェットは毛玉（ピリング）ができやすい？脇下や袖口、裾のリブにできる毛玉の原因を繊維科学から徹底解明！綿100%（裏パイル）と綿ポリ混（裏起毛）の耐性比較、毛玉を寄せ付けない洗濯テクニック、生地を傷めないプロの除去法までアパレルブランドが本音で完全解説します。
 - **【2026年最新】SUZURIでポイントは貯まる？使える？楽天ペイ・PayPay・クレカ還元＆ポイ活で一番安く買う裏ワザ完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-points-rakuten-paypay-discount-saving-guide
   Summary: SUZURIでオリジナルTシャツやパーカーをお得に買いたい人必見！「SUZURI公式ポイントはあるのか？」の真相から、楽天ペイ・PayPayのポイント還元、クレジットカードの二重取り、ポイントサイト（ポイ活）経由の可否、ビッグセールと組み合わせた実質最安値ルートを徹底解説します。
+- **【画面と実物が違う？】SUZURIの「色味・発色の罠」をアパレルプロが徹底解説！スマホ画面（RGB）と布地プリント（CMYK）のギャップ原因・くすみ回避と失敗しないカラー選び完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-print-color-difference-rgb-cmyk-guide
+  Summary: 「SUZURIで買ったTシャツ、スマホの画面で見た色と実物の発色が微妙に違う…？」そんな疑問や購入前の不安をアパレルブランドのディレクターが科学的・工学的に解き明かします。自発光するRGBと反射光のCMYKによる色域（ガマット）の壁、コットン生地の吸光特性、白引きインクの有無による見え方の違いから、失敗しない色選びのコツまで完全網羅。
 - **【プロ徹底比較】SUZURIのプリントTシャツは洗濯何回で剥がれる？DTF・インクジェットの耐久性と長持ちさせるアパレル裏技**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-print-durability-comparison
   Summary: SUZURIで買ったプリントTシャツの耐久性が気になる方へ。アパレルブランド視点で、インクジェットやDTFプリントの剥がれ・色あせの原因を科学的・プロ目線で徹底解説。100回洗ってもへたらない洗濯と保管のプロ技を紹介します。
 - **【サイズ別の罠】SUZURIのTシャツ・パーカーはサイズが大きくなるとプリントが小さく見える？S〜XXLの実寸比率と失敗しないオーバーサイズ選び完全ガイド**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-print-size-body-ratio-guide
