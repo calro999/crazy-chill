@@ -169,6 +169,8 @@
   Summary: 「大流行のハーフジップスウェットを買ったけれど、体操服や部屋着っぽくなってしまう…」「インナーには何を着るのが正解？」とお悩みの方へ。首元のジップ開閉深度（鎖骨下3〜5cmの黄金Vゾーン）、インナー黒グラフィックTシャツのチラ見せテクニック、脱おじさん化するストリートコーデをアパレル目線で徹底解説！
 - **【生乾き臭・汗の蓄積臭を完全リセット】厚手黒Tシャツ・ヘビーウェイトパーカーの部屋干し臭を根本から消すプロの熱湯＆酸素系漂白剤つけ置き術**: https://crazy-chill-official.vercel.app/ja/blog/heavyweight-tshirt-hoodie-musty-odor-sweat-removal-guide
   Summary: 「洗濯したはずなのに、着て汗をかいた瞬間ツンと嫌な臭いがぶり返す…」厚手のヘビーウェイトTシャツや10ozパーカーに潜むモラクセラ菌と酸化皮脂を根こそぎ撃退！黒服を色落ちさせずに漆黒を守り抜く「50〜60℃熱湯×酸素系漂白剤」のプロ消臭法と最速部屋干し術を徹底解説。
+- **パーカーの紐（ドローコード）は抜く？結ぶ？黒オーバーサイズフーディーを垢抜けさせる結び方と先端処理**: https://crazy-chill-official.vercel.app/ja/blog/hoodie-drawstring-remove-tie-dark-streetwear-guide
+  Summary: 黒パーカーやオーバーサイズフーディーの紐（ドローコード）を抜くべきか、結んで垂らすべきかの判断基準をアパレル視点で解説。部屋着見えを防ぐ先端ノットや輪結びアレンジ、アウターやマフラーと干渉しない内側収納、洗濯時のパーツ保護まで整理します。
 - **【着丈差3〜5cmの黄金比】黒パーカー・黒スウェットの「白T裾チラ見せレイヤード」完全攻略！だらしなく見えないインナーの選び方と大人のダークストリート重ね着術**: https://crazy-chill-official.vercel.app/ja/blog/hoodie-sweatshirt-white-tshirt-layering-guide
   Summary: 黒パーカーや黒スウェットの裾から白Tシャツを何センチ出すのが正解？着丈差3〜5cmの黄金比ルール、だらしなく見えないインナーの首元・裾カットの選び方、リブ巻き上がり防止策、最旬ダークストリート重ね着術をアパレルのプロが完全解説します。
 - **地雷系×ストリート系ファッションの作り方！黒Tシャツで決める最新コーデと必須アイテム**: https://crazy-chill-official.vercel.app/ja/blog/jiraikei-street-fashion
@@ -325,8 +327,12 @@
   Summary: SUZURIでパーカーを買う前に知っておきたい「フードの立ち具合」と「生地オンス・重量感」をアパレルブランドCRAZY CHILLが徹底解剖！スタンダード（10.0oz）、ヘビーウェイト（12.4oz/12.7oz）、ビッグシルエットのフード自立度や肩こりリスク、首元の開き具合を実測視点で比較解説します。
 - **SUZURIのパーカー（フーディー）サイズ感・生地感を徹底比較！裏起毛・裏パイルの違いや厚み（oz）をアパレル視点で解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-hoodie-size-fabric-guide
   Summary: SUZURIでパーカーやスウェットを購入する前に知っておきたいサイズ感、裏起毛と裏パイルの違い、生地の厚み（オンス）をアパレルブランドの視点で徹底解説。失敗しない選び方とダークパンク系オーバーサイズコーデ術をご紹介します。
+- **SUZURIのジェットキャップとクラブキャップ徹底比較｜5パネルの浅さ・転写プリント仕様・失敗しない被り方**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-jet-cap-vs-club-cap-size-print-guide
+  Summary: SUZURIで展開されている「ジェットキャップ（5パネル）」と「クラブキャップ（6パネル）」の深さ・頭囲実寸・生地感の違いをアパレル視点で比較。オンデマンド転写プリントの質感や洗濯の注意点、浅めクラウンが似合いにくい顔型の攻略法まで詳しく解説します。
 - **【大人があえて着る？】SUZURIのキッズTシャツ（150・160cm）は大人の女性や細身メンズも着られる？大人Sサイズとの実寸比較・シルエット差と「Y2KチビT・クロップド着こなし」完全攻略**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-kids-size-150-160-adult-wearing-guide
   Summary: SUZURIのキッズ150・160サイズは大人が着ても大丈夫？小柄な女性や細身メンズ必見！大人用Sサイズとの身丈・身幅・天幅の実寸比較から、価格差、今季大流行のY2KチビT＆クロップド風ダークストリート着こなし術までアパレル視点で徹底検証！
+- **SUZURIのライトウェイトTシャツ(4.0oz)とスタンダード(5.6oz)の違い｜透け感・耐久性・重ね着適性を検証**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-lightweight-tshirt-4oz-vs-standard-5-6oz-guide
+  Summary: SUZURIで最も軽量かつ価格を抑えやすい「ライトウェイトTシャツ（Printstar 00083-BBT 4.0oz）」と定番「スタンダードTシャツ（5.6oz）」を比較。白の透け感や首リブの強度、あえて4.0ozを選ぶインナー・レイヤード活用法までアパレル目線で検証します。
 - **SUZURIのロンT・スウェットのサイズ感と品質は？裏パイル・裏起毛の違いと選び方を徹底解説**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-longsleeve-sweatshirt-guide
   Summary: SUZURIのロングスリーブTシャツ（ロンT）やスウェット・パーカーの購入で迷っていませんか？生地の厚み（オンス）、裏パイルと裏起毛の着心地の違い、サイズ感の選び方をアパレル視点で徹底レビューします。
 - **【プロ解説】SUZURIのロンT（ロングスリーブTシャツ）全種類を徹底比較！サイズ感・袖リブの有無・生地の厚みと失敗しない選び方**: https://crazy-chill-official.vercel.app/ja/blog/suzuri-longsleeve-tshirt-types-size-guide
